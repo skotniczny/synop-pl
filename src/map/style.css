@@ -1,0 +1,28 @@
+.maplibregl-popup-content .head {
+  margin-bottom: 0.5rem;
+}
+
+.maplibregl-popup-content time {
+  font-size: 0.75rem;
+}
+
+.maplibregl-popup-content strong {
+  font-size: 1rem;
+}
+
+.maplibregl-popup-content table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.maplibregl-popup-content ul {
+  padding-left: 0.75rem;
+}
+
+.maplibregl-popup-content td {
+  border-bottom: 1px solid var(--border);
+}
+
+.maplibregl-popup-content tr:last-child td {
+  border-bottom-color: transparent;
+}

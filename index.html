@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Aktualne dane ze stacji synoptycznych IMGW</title>
+  </head>
+  <body>
+    <div class="app">
+      <div id="map" class="map"></div>
+      <div class="control"></div>
+    </div>
+    <div class="data">
+      <div class="tabs">Dane tabelaryczne <span class="tabs_icon">▲</span></div>
+      <table id="imgwData" class="stripe hover"></table>
+    </div>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>

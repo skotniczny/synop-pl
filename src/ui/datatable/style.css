@@ -1,0 +1,10 @@
+.dt-search,
+.dt-info {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+
+.dt-column-title {
+  white-space: nowrap;
+  font-weight: 600;
+}
