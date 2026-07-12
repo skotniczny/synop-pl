@@ -1,7 +1,6 @@
 import maplibregl from "maplibre-gl"
 import "maplibre-gl/dist/maplibre-gl.css"
 import "./style.css"
-import { temperatureColors } from "./palettes/temperature"
 import { regionsPl } from "../data/regionsPl"
 import { stationsNameLayer } from "./layers/stations-name"
 import { stationsTextLayer } from "./layers/stations-text"
@@ -24,7 +23,6 @@ export function initMap(elementId: string, sourceSpec: maplibregl.GeoJSONSourceS
     map.addLayer(regionsPlLayer)
     map.addSource("stations", sourceSpec)
     map.addLayer(stationsCircleLayer)
-    map.setPaintProperty("stations-circle", "circle-color", temperatureColors)
     map.addLayer(stationsTextLayer)
     map.addLayer(stationsNameLayer)
     map.setLayoutProperty("stations-name", "visibility", state.labelsVisible ? "visible" : "none")
