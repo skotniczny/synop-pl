@@ -9,6 +9,7 @@ import { regionsPlLayer } from "./layers/regions-pl"
 import { state } from "../state/appState"
 import { setParameter } from "./layerSwitcher"
 import { createStationPopup } from "./popupTemplate"
+import { stationsTriangleLayer } from "./layers/stations-triangle"
 
 export function initMap(elementId: string, sourceSpec: maplibregl.GeoJSONSourceSpecification) {
   const map = new maplibregl.Map({
@@ -22,6 +23,7 @@ export function initMap(elementId: string, sourceSpec: maplibregl.GeoJSONSourceS
     map.addSource("regions", regionsPl)
     map.addLayer(regionsPlLayer)
     map.addSource("stations", sourceSpec)
+    map.addLayer(stationsTriangleLayer)
     map.addLayer(stationsCircleLayer)
     map.addLayer(stationsTextLayer)
     map.addLayer(stationsNameLayer)

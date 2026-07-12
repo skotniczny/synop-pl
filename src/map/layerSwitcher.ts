@@ -31,7 +31,7 @@ const configs: { [Key in LayerKey]: Config } = {
     color: humidityColors,
   },
   predkosc_wiatru: {
-    label: "Prędkość wiatru [m/s]",
+    label: "Kierunek i prędkość wiatru [m/s]",
     filter: null,
     color: windSpeedColors,
   },
@@ -51,5 +51,6 @@ export function setParameter(map: maplibregl.Map, param: LayerKey) {
   map.setFilter("stations-circle", cfg.filter)
   map.setFilter("stations-text", cfg.filter)
   map.setPaintProperty("stations-circle", "circle-color", cfg.color)
+  map.setLayoutProperty("stations-triangle", "visibility", param === "predkosc_wiatru" ? "visible" : "none")
   state.selectedLayer = param
 }
