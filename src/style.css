@@ -143,6 +143,10 @@ p {
   display: block;
 }
 
+.d-inline-block {
+  display: inline-block;
+}
+
 .display-1 {
   font-size: 2rem;
   font-weight: 600;

@@ -14,7 +14,13 @@ export function createStationPopup(feature: maplibregl.GeoJSONFeature): string {
     <table>
       <tr><td>data</td><td class="text-right"><time>${dateTimeFormat.format(date)}</time></td></tr>
       <tr><td>temperatura</td><td class="text-right"><strong>${p.temperatura ?? "—"}</strong> °C</td></tr>
-      <tr><td>wiatr</td><td class="text-right"><strong>${p.predkosc_wiatru ?? "—"}</strong> m/s</td></tr>
+      <tr>
+        <td>wiatr</td>
+        <td class="text-right">
+          <span class="d-inline-block" title="${p.kierunek_wiatru}°" style="transform: rotate(${p.kierunek_wiatru}deg)">⮟</span>
+          <strong>${p.predkosc_wiatru ?? "—"}</strong> m/s
+        </td>
+      </tr>
       <tr><td>ciśnienie</td><td class="text-right"><strong>${p.cisnienie ?? "—"}</strong> hPa</td></tr>
       <tr><td>wilgotność</td><td class="text-right"><strong>${p.wilgotnosc_wzgledna ?? "—"}</strong> %</td></tr>
       <tr><td>suma opadu</td><td class="text-right"><strong>${p.suma_opadu ?? "—"}</strong> mm</td></tr>
