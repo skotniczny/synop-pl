@@ -15,7 +15,7 @@ const map = initMap("map", toGeoJSON(data))
 initDataTable("#imgwData", data)
 initDateTime(document.body, data)
 initControls(".control", layerKeys, map)
-initHighlightWidget(".feature-l-b", data)
+initHighlightWidget(".featured-l-b", data)
 
 document.querySelector<HTMLDivElement>(".tabs")?.addEventListener("click", (e: PointerEvent) => {
   const target = e.currentTarget
