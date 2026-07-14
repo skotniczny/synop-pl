@@ -57,7 +57,7 @@ const configs: { [Key in LayerKey]: Config } = {
   },
 }
 
-export const layerKeys = Object.entries(configs).map(([key, val]) => [key as LayerKey, val.label])
+export const layerKeys = Object.entries(configs).map(([key, val]) => [key as LayerKey, val.label, val.unit])
 
 export function setParameter(map: maplibregl.Map, param: LayerKey) {
   map.setLayoutProperty("stations-text", "text-field", ["to-string", ["get", param]])
