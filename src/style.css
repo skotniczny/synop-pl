@@ -174,3 +174,9 @@ p {
 :where(.show) .tabs_icon {
   transform: rotate(180deg);
 }
+
+.featured-l-b {
+  position: absolute;
+  left: 1rem;
+  bottom: 1rem;
+}

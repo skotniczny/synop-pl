@@ -1,0 +1,36 @@
+.highlight_item {
+  position: relative;
+}
+
+:where(.highlight_container-min) .highlight_item::after,
+:where(.highlight_container-max) .highlight_item::after {
+  position: absolute;
+  top: 3px;
+  right: -1.5rem;
+}
+
+:where(.highlight_container-min) .highlight_item::after {
+  content: "▼";
+  color: rgb(43, 112, 185);
+}
+
+:where(.highlight_container-max) .highlight_item::after {
+  content: "▲";
+  color: rgb(190, 30, 30);
+}
+
+.highlight_list {
+  display: flex;
+  column-gap: 0.25rem;
+  list-style-type: none;
+  padding-left: 0;
+  margin: 0;
+}
+
+.highlight_list li:after {
+  content: ",";
+}
+
+.highlight_list li:last-child::after {
+  content: "";
+}
