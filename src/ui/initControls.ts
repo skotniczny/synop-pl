@@ -5,7 +5,7 @@ import { type LayerKey } from "../map/layerSwitcher"
 
 export function initControls(selector: string, layersKey: string[][], map: maplibregl.Map) {
   const el = document.querySelector<HTMLDivElement>(selector)
-  if (!el) throw Error()
+  if (!el) throw new Error(`Element not found for selector: ${selector}`)
   const buttons = layersKey.map(([key, label]) => {
     const btn = elt("button", { className: "btn", type: "button" }, label)
     btn.dataset.parameter = key
