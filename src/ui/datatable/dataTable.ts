@@ -2,7 +2,7 @@ import DataTable from "datatables.net-dt"
 import type { SynopRecord } from "../../api/fetch"
 import { state } from "../../state/appState"
 import "datatables.net-dt/css/dataTables.dataTables.min.css"
-import "./style.css"
+import "./dataTable.css"
 
 export function initDataTable(selector: string, data: SynopRecord[]) {
   new DataTable(selector, {
