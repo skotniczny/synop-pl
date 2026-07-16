@@ -1,4 +1,4 @@
-import maplibregl from "maplibre-gl"
+import maplibregl, { AttributionControl } from "maplibre-gl"
 import "maplibre-gl/dist/maplibre-gl.css"
 import "./style.css"
 import { regionsPl } from "../data/regionsPl"
@@ -17,7 +17,15 @@ export function initMap(elementId: string, sourceSpec: maplibregl.GeoJSONSourceS
     style: "https://demotiles.maplibre.org/globe.json",
     center: [19, 52],
     zoom: 5.7,
+    attributionControl: false,
   })
+
+  map.addControl(
+    new AttributionControl({
+      customAttribution:
+        "Źródłem pochodzenia danych jest Instytut Meteorologii i Gospodarki Wodnej – Państwowy Instytut Badawczy",
+    }),
+  )
 
   map.on("load", () => {
     map.addSource("regions", regionsPl)
