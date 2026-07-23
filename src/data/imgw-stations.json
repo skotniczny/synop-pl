@@ -1,6 +1,7 @@
 [
   {
     "id": "12295",
+    "station": "Białystok",
     "name": "Białystok",
     "longitude": 23.16222222,
     "latitude": 53.1072222,
@@ -8,20 +9,15 @@
   },
   {
     "id": "12600",
+    "station": "Bielsko Biała",
     "name": "Bielsko-Biała",
     "longitude": 19.00222222,
     "latitude": 49.8066667,
     "altitude": 396
   },
   {
-    "id": "12240",
-    "name": "Bydgoszcz",
-    "longitude": 17.96666667,
-    "latitude": 53.1,
-    "altitude": 72
-  },
-  {
     "id": "12235",
+    "station": "Chojnice",
     "name": "Chojnice",
     "longitude": 17.5325,
     "latitude": 53.7152778,
@@ -29,6 +25,7 @@
   },
   {
     "id": "12550",
+    "station": "Częstochowa",
     "name": "Częstochowa",
     "longitude": 19.09166667,
     "latitude": 50.8119444,
@@ -36,41 +33,15 @@
   },
   {
     "id": "12160",
-    "name": "Elbląg",
-    "longitude": 19.43138889,
-    "latitude": 54.1619444,
-    "altitude": 40
-  },
-  {
-    "id": "12160",
+    "station": "Elbląg",
     "name": "Elbląg-Milejewo",
     "longitude": 19.54361111,
     "latitude": 54.2233333,
     "altitude": 189
   },
   {
-    "id": "12140",
-    "name": "Gdańsk Port-Północny",
-    "longitude": 18.69777778,
-    "latitude": 54.3997222,
-    "altitude": 2
-  },
-  {
-    "id": "12150",
-    "name": "Gdańsk-Wrzeszcz",
-    "longitude": 18.6,
-    "latitude": 54.3833333,
-    "altitude": 13
-  },
-  {
-    "id": "121407",
-    "name": "Gdańsk-Rębiechowo",
-    "longitude": 18.48666667,
-    "latitude": 54.3711111,
-    "altitude": 146
-  },
-  {
     "id": "12155",
+    "station": "Gdańsk",
     "name": "Gdańsk-Świbno",
     "longitude": 18.93444444,
     "latitude": 54.3336111,
@@ -78,20 +49,15 @@
   },
   {
     "id": "12300",
+    "station": "Gorzów",
     "name": "Gorzów Wielkopolski",
     "longitude": 15.27722222,
     "latitude": 52.7411111,
     "altitude": 71
   },
   {
-    "id": "12628",
-    "name": "Hala Gąsienicowa",
-    "longitude": 20.00583333,
-    "latitude": 49.2438889,
-    "altitude": 1523
-  },
-  {
     "id": "12135",
+    "station": "Hel",
     "name": "Hel",
     "longitude": 18.81194444,
     "latitude": 54.6036111,
@@ -99,6 +65,7 @@
   },
   {
     "id": "12500",
+    "station": "Jelenia Góra",
     "name": "Jelenia Góra",
     "longitude": 15.78888889,
     "latitude": 50.9002778,
@@ -106,6 +73,7 @@
   },
   {
     "id": "12435",
+    "station": "Kalisz",
     "name": "Kalisz",
     "longitude": 18.08083333,
     "latitude": 51.7811111,
@@ -113,6 +81,7 @@
   },
   {
     "id": "12650",
+    "station": "Kasprowy Wierch",
     "name": "Kasprowy Wierch",
     "longitude": 19.98194444,
     "latitude": 49.2325,
@@ -120,6 +89,7 @@
   },
   {
     "id": "12560",
+    "station": "Katowice",
     "name": "Katowice",
     "longitude": 19.03277778,
     "latitude": 50.2405556,
@@ -127,6 +97,7 @@
   },
   {
     "id": "12185",
+    "station": "Kętrzyn",
     "name": "Kętrzyn",
     "longitude": 21.36666667,
     "latitude": 54.0672222,
@@ -134,13 +105,7 @@
   },
   {
     "id": "12570",
-    "name": "Kielce",
-    "longitude": 20.61666667,
-    "latitude": 50.85,
-    "altitude": 268
-  },
-  {
-    "id": "12570",
+    "station": "Kielce",
     "name": "Kielce-Suków",
     "longitude": 20.69222222,
     "latitude": 50.8105556,
@@ -148,6 +113,7 @@
   },
   {
     "id": "12520",
+    "station": "Kłodzko",
     "name": "Kłodzko",
     "longitude": 16.61416667,
     "latitude": 50.4369444,
@@ -155,13 +121,7 @@
   },
   {
     "id": "12345",
-    "name": "Koło",
-    "longitude": 18.66027778,
-    "latitude": 52.1997222,
-    "altitude": 115
-  },
-  {
-    "id": "12345",
+    "station": "Koło",
     "name": "Koło-Radoszewice",
     "longitude": 18.70611111,
     "latitude": 52.3619444,
@@ -169,27 +129,15 @@
   },
   {
     "id": "12100",
-    "name": "Kołobrzeg",
-    "longitude": 15.57972222,
-    "latitude": 54.1825,
-    "altitude": 3
-  },
-  {
-    "id": "12100",
+    "station": "Kołobrzeg",
     "name": "Kołobrzeg-Dźwirzyno",
     "longitude": 15.38888889,
     "latitude": 54.1586111,
     "altitude": 4
   },
   {
-    "id": "12106",
-    "name": "Zegrze Pomorskie",
-    "longitude": 16.3,
-    "latitude": 54.0333333,
-    "altitude": 33
-  },
-  {
     "id": "12105",
+    "station": "Koszalin",
     "name": "Koszalin",
     "longitude": 16.15527778,
     "latitude": 54.2044444,
@@ -197,13 +145,7 @@
   },
   {
     "id": "12488",
-    "name": "Świerże Górne",
-    "longitude": 21.46666667,
-    "latitude": 51.6666667,
-    "altitude": 110
-  },
-  {
-    "id": "12488",
+    "station": "Kozienice",
     "name": "Kozienice",
     "longitude": 21.54361111,
     "latitude": 51.5647222,
@@ -211,34 +153,15 @@
   },
   {
     "id": "12566",
-    "name": "Kraków-Rakowice",
-    "longitude": 19.98333333,
-    "latitude": 50.0833333,
-    "altitude": 215
-  },
-  {
-    "id": "12566",
-    "name": "Kraków-Czyżyny",
-    "longitude": 20.01666667,
-    "latitude": 50.0833333,
-    "altitude": 213
-  },
-  {
-    "id": "12566",
+    "station": "Kraków",
     "name": "Kraków-Balice",
     "longitude": 19.795,
     "latitude": 50.0777778,
     "altitude": 236
   },
   {
-    "id": "126704",
-    "name": "Krosno",
-    "longitude": 21.75,
-    "latitude": 49.6833333,
-    "altitude": 282
-  },
-  {
     "id": "12670",
+    "station": "Krosno",
     "name": "Krosno",
     "longitude": 21.76916667,
     "latitude": 49.7066667,
@@ -246,6 +169,7 @@
   },
   {
     "id": "12415",
+    "station": "Legnica",
     "name": "Legnica",
     "longitude": 16.20777778,
     "latitude": 51.1925,
@@ -253,6 +177,7 @@
   },
   {
     "id": "12690",
+    "station": "Lesko",
     "name": "Lesko",
     "longitude": 22.34166667,
     "latitude": 49.4663889,
@@ -260,6 +185,7 @@
   },
   {
     "id": "12418",
+    "station": "Leszno",
     "name": "Leszno",
     "longitude": 16.53472222,
     "latitude": 51.8355556,
@@ -267,6 +193,7 @@
   },
   {
     "id": "12125",
+    "station": "Lębork",
     "name": "Lębork",
     "longitude": 17.75694444,
     "latitude": 54.5530556,
@@ -274,13 +201,7 @@
   },
   {
     "id": "12495",
-    "name": "Lublin",
-    "longitude": 22.56666667,
-    "latitude": 51.2333333,
-    "altitude": 171
-  },
-  {
-    "id": "12495",
+    "station": "Lublin",
     "name": "Lublin-Radawiec",
     "longitude": 22.39305556,
     "latitude": 51.2166667,
@@ -288,6 +209,7 @@
   },
   {
     "id": "12120",
+    "station": "Łeba",
     "name": "Łeba",
     "longitude": 17.53472222,
     "latitude": 54.7536111,
@@ -295,6 +217,7 @@
   },
   {
     "id": "12465",
+    "station": "Łódź",
     "name": "Łódź",
     "longitude": 19.38722222,
     "latitude": 51.7183333,
@@ -302,6 +225,7 @@
   },
   {
     "id": "12280",
+    "station": "Mikołajki",
     "name": "Mikołajki",
     "longitude": 21.58972222,
     "latitude": 53.7891667,
@@ -309,6 +233,7 @@
   },
   {
     "id": "12270",
+    "station": "Mława",
     "name": "Mława",
     "longitude": 20.36111111,
     "latitude": 53.1041667,
@@ -316,6 +241,7 @@
   },
   {
     "id": "12660",
+    "station": "Nowy Sącz",
     "name": "Nowy Sącz",
     "longitude": 20.68861111,
     "latitude": 49.6272222,
@@ -323,6 +249,7 @@
   },
   {
     "id": "12272",
+    "station": "Olsztyn",
     "name": "Olsztyn",
     "longitude": 20.42138889,
     "latitude": 53.7686111,
@@ -330,6 +257,7 @@
   },
   {
     "id": "12530",
+    "station": "Opole",
     "name": "Opole",
     "longitude": 17.96888889,
     "latitude": 50.6269444,
@@ -337,6 +265,7 @@
   },
   {
     "id": "12285",
+    "station": "Ostrołęka",
     "name": "Ostrołęka",
     "longitude": 21.53388889,
     "latitude": 53.0658333,
@@ -344,6 +273,7 @@
   },
   {
     "id": "12230",
+    "station": "Piła",
     "name": "Piła",
     "longitude": 16.74722222,
     "latitude": 53.1305556,
@@ -351,6 +281,7 @@
   },
   {
     "id": "12360",
+    "station": "Płock",
     "name": "Płock",
     "longitude": 19.72583333,
     "latitude": 52.5883333,
@@ -358,6 +289,7 @@
   },
   {
     "id": "12330",
+    "station": "Poznań",
     "name": "Poznań",
     "longitude": 16.83472222,
     "latitude": 52.4166667,
@@ -365,6 +297,7 @@
   },
   {
     "id": "12695",
+    "station": "Przemyśl",
     "name": "Przemyśl",
     "longitude": 22.77194444,
     "latitude": 49.8041667,
@@ -372,6 +305,7 @@
   },
   {
     "id": "12540",
+    "station": "Racibórz",
     "name": "Racibórz",
     "longitude": 18.19083333,
     "latitude": 50.0611111,
@@ -379,13 +313,7 @@
   },
   {
     "id": "12210",
-    "name": "Resko",
-    "longitude": 15.41472222,
-    "latitude": 53.7716667,
-    "altitude": 52
-  },
-  {
-    "id": "12210",
+    "station": "Resko",
     "name": "Resko-Smólsko",
     "longitude": 15.39333333,
     "latitude": 53.7636111,
@@ -393,6 +321,7 @@
   },
   {
     "id": "12580",
+    "station": "Rzeszów",
     "name": "Rzeszów-Jasionka",
     "longitude": 22.04222222,
     "latitude": 50.1108333,
@@ -400,6 +329,7 @@
   },
   {
     "id": "12585",
+    "station": "Sandomierz",
     "name": "Sandomierz",
     "longitude": 21.71583333,
     "latitude": 50.6966667,
@@ -407,6 +337,7 @@
   },
   {
     "id": "12385",
+    "station": "Siedlce",
     "name": "Siedlce",
     "longitude": 22.24472222,
     "latitude": 52.1811111,
@@ -414,6 +345,7 @@
   },
   {
     "id": "12310",
+    "station": "Słubice",
     "name": "Słubice",
     "longitude": 14.61972222,
     "latitude": 52.3486111,
@@ -421,6 +353,7 @@
   },
   {
     "id": "12469",
+    "station": "Sulejów",
     "name": "Sulejów",
     "longitude": 19.86638889,
     "latitude": 51.3533333,
@@ -428,6 +361,7 @@
   },
   {
     "id": "12195",
+    "station": "Suwałki",
     "name": "Suwałki",
     "longitude": 22.94888889,
     "latitude": 54.1308333,
@@ -435,6 +369,7 @@
   },
   {
     "id": "12205",
+    "station": "Szczecin",
     "name": "Szczecin",
     "longitude": 14.62277778,
     "latitude": 53.3952778,
@@ -442,6 +377,7 @@
   },
   {
     "id": "12215",
+    "station": "Szczecinek",
     "name": "Szczecinek",
     "longitude": 16.74666667,
     "latitude": 53.7177778,
@@ -449,6 +385,7 @@
   },
   {
     "id": "12510",
+    "station": "Śnieżka",
     "name": "Śnieżka",
     "longitude": 15.73972222,
     "latitude": 50.7363889,
@@ -456,6 +393,7 @@
   },
   {
     "id": "12200",
+    "station": "Świnoujście",
     "name": "Świnoujście",
     "longitude": 14.24222222,
     "latitude": 53.9233333,
@@ -463,6 +401,7 @@
   },
   {
     "id": "12575",
+    "station": "Tarnów",
     "name": "Tarnów",
     "longitude": 20.98388889,
     "latitude": 50.03,
@@ -470,6 +409,7 @@
   },
   {
     "id": "12399",
+    "station": "Terespol",
     "name": "Terespol",
     "longitude": 23.62194444,
     "latitude": 52.0786111,
@@ -477,6 +417,7 @@
   },
   {
     "id": "12250",
+    "station": "Toruń",
     "name": "Toruń",
     "longitude": 18.59555556,
     "latitude": 53.0419444,
@@ -484,6 +425,7 @@
   },
   {
     "id": "12115",
+    "station": "Ustka",
     "name": "Ustka",
     "longitude": 16.85416667,
     "latitude": 54.5883333,
@@ -491,6 +433,7 @@
   },
   {
     "id": "12375",
+    "station": "Warszawa",
     "name": "Warszawa",
     "longitude": 20.96111111,
     "latitude": 52.1627778,
@@ -498,6 +441,7 @@
   },
   {
     "id": "12455",
+    "station": "Wieluń",
     "name": "Wieluń",
     "longitude": 18.55666667,
     "latitude": 51.2102778,
@@ -505,6 +449,7 @@
   },
   {
     "id": "12497",
+    "station": "Włodawa",
     "name": "Włodawa",
     "longitude": 23.52944444,
     "latitude": 51.5533333,
@@ -512,13 +457,7 @@
   },
   {
     "id": "12424",
-    "name": "Wrocław",
-    "longitude": 16.98333333,
-    "latitude": 51.1333333,
-    "altitude": 116
-  },
-  {
-    "id": "12424",
+    "station": "Wrocław",
     "name": "Wrocław-Strachowice",
     "longitude": 16.9,
     "latitude": 51.1033333,
@@ -526,6 +465,7 @@
   },
   {
     "id": "12625",
+    "station": "Zakopane",
     "name": "Zakopane",
     "longitude": 19.96027778,
     "latitude": 49.2938889,
@@ -533,30 +473,18 @@
   },
   {
     "id": "12595",
+    "station": "Zamość",
     "name": "Zamość",
     "longitude": 23.20555556,
     "latitude": 50.6983333,
     "altitude": 223
   },
   {
-    "id": "12405",
-    "name": "Zgorzelec",
-    "longitude": 15.02527778,
-    "latitude": 51.1361111,
-    "altitude": 203
-  },
-  {
     "id": "12400",
+    "station": "Zielona Góra",
     "name": "Zielona Góra",
     "longitude": 15.52472222,
     "latitude": 51.93,
     "altitude": 192
-  },
-  {
-    "id": "12131",
-    "name": "Żarnowiec",
-    "longitude": 18.08333333,
-    "latitude": 54.7166667,
-    "altitude": 5
   }
 ]
