@@ -1,0 +1,45 @@
+.toasts {
+  position: fixed;
+  top: 1rem;
+  right: 1rem;
+  display: flex;
+  flex-direction: column;
+  row-gap: 0.25rem;
+  z-index: 3;
+}
+
+.toast {
+  padding: 1rem;
+  width: 20rem;
+  position: relative;
+  color: #fff;
+  box-shadow: var(--shadow);
+}
+
+.toast_close {
+  position: absolute;
+  top: 0.25rem;
+  right: 0.25rem;
+  appearance: none;
+  color: inherit;
+  background: transparent;
+  border: 1px solid transparent;
+  line-height: 1;
+  border-radius: 3px;
+}
+
+.toast_close:hover, .toast_close:focus-visible {
+  border-color: currentColor;
+}
+
+.toast-danger {
+  background-color: rgb(220, 53, 86);
+}
+
+.toast-warning {
+  background-color: rgb(203, 165, 25);
+}
+
+.toast-info {
+  background-color: rgb(24, 111, 165);
+}
