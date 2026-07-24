@@ -23,6 +23,7 @@ export function initDataTable(selector: string, data: SynopRecord[]) {
     language: {
       info: "Wyświetlanie wierszy od _START_ do _END_ z _TOTAL_",
       infoEmpty: "Brak dostępnych wierszy",
+      emptyTable: "Brak danych",
       infoFiltered: "(filtrowano z _MAX_ wszystkich wierszy)",
       lengthMenu: "Pokaż _MENU_ wierszy na stronę",
       search: "Przeszukaj: ",
