@@ -1,9 +1,36 @@
 import { dateTimeFormat } from "../utils/formats"
 import { createDate, makeDateISOString } from "../utils/date"
+import { layerKeys } from "./layerSwitcher"
+
+function row(label: string, value: string | number | null, unit: string) {
+  return `<tr><td>${label}</td><td class="text-right"><strong>${value ?? "—"}</strong>${unit}</td></tr>`
+}
+
+function windRow(label: string, value: string | number | null, unit: string, windDirection: string) {
+  return `<tr>
+    <td>${label}</td>
+      <td class="text-right">
+        ${windDirection ? `<span class="d-inline-block" title="${windDirection}°" style="transform: rotate(${windDirection}deg)">⮟</span>` : ""}
+      <strong>${value ?? "—"}</strong>${unit}
+    </td>
+  </tr>`
+}
 
 export function createStationPopup(feature: maplibregl.GeoJSONFeature): string {
   const p = feature.properties
-  const date = createDate(makeDateISOString(p.data_pomiaru, p.godzina_pomiaru))
+  let date = new Date()
+  if (p.data_pomiaru && p.godzina_pomiaru) {
+    date = createDate(makeDateISOString(p.data_pomiaru, p.godzina_pomiaru))
+  }
+  const rows = layerKeys
+    .map(([key, label, unit]) => {
+      const labelFormat = label.toLocaleLowerCase()
+      return key === "predkosc_wiatru"
+        ? windRow(labelFormat, p[key], unit, p.kierunek_wiatru)
+        : row(labelFormat, p[key], unit)
+    })
+    .join("\n")
+
   const alternative_name = p.stacja.toLowerCase() !== p.nazwa_stacji.toLowerCase() ? p.nazwa_stacji : null
   return `
     <div class="head">
@@ -13,16 +40,6 @@ export function createStationPopup(feature: maplibregl.GeoJSONFeature): string {
     </div>
     <table>
       <tr><td>data</td><td class="text-right"><time>${dateTimeFormat.format(date)}</time></td></tr>
-      <tr><td>temperatura</td><td class="text-right"><strong>${p.temperatura ?? "—"}</strong> °C</td></tr>
-      <tr>
-        <td>wiatr</td>
-        <td class="text-right">
-          <span class="d-inline-block" title="${p.kierunek_wiatru}°" style="transform: rotate(${p.kierunek_wiatru}deg)">⮟</span>
-          <strong>${p.predkosc_wiatru ?? "—"}</strong> m/s
-        </td>
-      </tr>
-      <tr><td>ciśnienie</td><td class="text-right"><strong>${p.cisnienie ?? "—"}</strong> hPa</td></tr>
-      <tr><td>wilgotność</td><td class="text-right"><strong>${p.wilgotnosc_wzgledna ?? "—"}</strong> %</td></tr>
-      <tr><td>suma opadu</td><td class="text-right"><strong>${p.suma_opadu ?? "—"}</strong> mm</td></tr>
+      ${rows}
     </table>`
 }
