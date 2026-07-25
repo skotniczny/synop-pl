@@ -6,7 +6,7 @@ import { initDataTable } from "./ui/datatable/dataTable.ts"
 import { initDateTime } from "./ui/datetime/initDateTime.ts"
 import { initControls } from "./ui/initControls.ts"
 import { initHighlightWidget } from "./ui/highlightwidget/highlightWidget.ts"
-import { layerKeys } from "./map/layerSwitcher.ts"
+import { layerKeys } from "./map/config.ts"
 import { state } from "./state/appState.ts"
 import { toastDanger } from "./ui/toast/toast.ts"
 

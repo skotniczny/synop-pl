@@ -1,6 +1,6 @@
 import { dateTimeFormat } from "../utils/formats"
 import { createDate, makeDateISOString } from "../utils/date"
-import { layerKeys } from "./layerSwitcher"
+import { layerKeys } from "./config"
 
 function row(label: string, value: string | number | null, unit: string) {
   return `<tr><td>${label}</td><td class="text-right"><strong>${value ?? "—"}</strong>${unit}</td></tr>`
