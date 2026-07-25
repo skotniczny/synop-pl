@@ -1,12 +1,12 @@
 import { state } from "../state/appState"
 import { elt } from "./dom"
 import { setParameter } from "../map/layerSwitcher"
-import { type LayerKey } from "../map/layerSwitcher"
+import { configs, type LayerKey } from "../map/config"
 
-export function initControls(selector: string, layersKey: string[][], map: maplibregl.Map) {
+export function initControls(selector: string, map: maplibregl.Map) {
   const el = document.querySelector<HTMLDivElement>(selector)
   if (!el) throw new Error(`Element not found for selector: ${selector}`)
-  const buttons = layersKey.map(([key, label, unit]) => {
+  const buttons = Object.entries(configs).map(([key, { label, unit }]) => {
     const btnLabel = `${label} [${unit.trim()}]`
     const btn = elt("button", { className: "btn", type: "button" }, btnLabel)
     btn.dataset.parameter = key

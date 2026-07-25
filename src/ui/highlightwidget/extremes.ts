@@ -1,5 +1,5 @@
 import { type SynopRecord } from "../../api/fetch"
-import { type SynopKey } from "../../map/layerSwitcher"
+import { type SynopKey } from "../../map/config"
 
 type Extremes = {
   min: SynopRecord[]

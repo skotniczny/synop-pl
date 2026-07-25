@@ -1,7 +1,7 @@
 import { elt } from "../dom"
 import type { SynopRecord } from "../../api/fetch"
 import type { ExtremesResult } from "./extremes"
-import type { SynopKey } from "../../map/layerSwitcher"
+import type { SynopKey } from "../../map/config"
 import { computeExtremes } from "./extremes"
 import "./highlightWidget.css"
 

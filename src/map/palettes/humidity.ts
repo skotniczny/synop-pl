@@ -1,4 +1,4 @@
-import { type LayerKey } from "../layerSwitcher"
+import { type LayerKey } from "../config"
 
 const key: LayerKey = "wilgotnosc_wzgledna"
 

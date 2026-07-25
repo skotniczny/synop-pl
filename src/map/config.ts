@@ -54,5 +54,3 @@ export const configs: { [Key in LayerKey]: Config } = {
     unit: " mm",
   },
 }
-
-export const layerKeys = Object.entries(configs).map(([key, val]) => [key as LayerKey, val.label, val.unit])

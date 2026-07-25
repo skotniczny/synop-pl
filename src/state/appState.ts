@@ -1,4 +1,4 @@
-import { type LayerKey } from "../map/layerSwitcher"
+import { type LayerKey } from "../map/config"
 
 type AppState = {
   selectedLayer: LayerKey

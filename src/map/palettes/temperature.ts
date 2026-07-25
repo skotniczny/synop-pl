@@ -1,4 +1,4 @@
-import type { LayerKey } from "../layerSwitcher"
+import type { LayerKey } from "../config"
 
 const colors = {
   "-40": "#4A004A",

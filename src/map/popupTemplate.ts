@@ -1,6 +1,6 @@
 import { dateTimeFormat } from "../utils/formats"
 import { createDate, makeDateISOString } from "../utils/date"
-import { layerKeys } from "./config"
+import { configs } from "./config"
 
 function row(label: string, value: string | number | null, unit: string) {
   return `<tr><td>${label}</td><td class="text-right"><strong>${value ?? "—"}</strong>${unit}</td></tr>`
@@ -22,8 +22,8 @@ export function createStationPopup(feature: maplibregl.GeoJSONFeature): string {
   if (p.data_pomiaru && p.godzina_pomiaru) {
     date = createDate(makeDateISOString(p.data_pomiaru, p.godzina_pomiaru))
   }
-  const rows = layerKeys
-    .map(([key, label, unit]) => {
+  const rows = Object.entries(configs)
+    .map(([key, { label, unit }]) => {
       const labelFormat = label.toLocaleLowerCase()
       return key === "predkosc_wiatru"
         ? windRow(labelFormat, p[key], unit, p.kierunek_wiatru)
