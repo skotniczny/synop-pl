@@ -10,7 +10,7 @@ function windRow(label: string, value: string | number | null, unit: string, win
   return `<tr>
     <td>${label}</td>
       <td class="text-right">
-        ${windDirection ? `<span class="d-inline-block" title="${windDirection}°" style="transform: rotate(${windDirection}deg)">⮟</span>` : ""}
+        ${windDirection && windDirection != "0" ? `<span class="d-inline-block" title="${windDirection}°" style="transform: rotate(${windDirection}deg)">⮟</span>` : ""}
       <strong>${value ?? "—"}</strong>${unit}
     </td>
   </tr>`
