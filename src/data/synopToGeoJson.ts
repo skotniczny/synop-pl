@@ -1,12 +1,11 @@
 import { type SynopRecord } from "../api/fetch"
-import { stations } from "./imgw-stations"
+import { synopStations } from "./imgw-stations"
 
-export function toGeoJSON(data: SynopRecord[]): maplibregl.GeoJSONSourceSpecification {
+export function synopToGeoJSON(data: SynopRecord[]): maplibregl.GeoJSONSourceSpecification {
   const synopMap = new Map(data.map((item) => [item.id_stacji, item]))
-  const features = stations.map((station) => {
-    const synopRecord = synopMap.get(station.id)
+  const features = synopStations.map((station) => {
+    const synopRecord = synopMap.get(station.wmoCode)
     const baseProps = {
-      stacja: station.station,
       nazwa_stacji: station.name,
       altitude: station.altitude,
     }

@@ -1,6 +1,6 @@
 import "./style.css"
 import { fetchImgwSynopData } from "./api/fetch.ts"
-import { toGeoJSON } from "./data/toGeoJson.ts"
+import { synopToGeoJSON } from "./data/synopToGeoJson.ts"
 import { initMap } from "./map/initMap.ts"
 import { initDataTable } from "./ui/datatable/dataTable.ts"
 import { initDateTime } from "./ui/datetime/initDateTime.ts"
@@ -17,7 +17,7 @@ const data = await fetchImgwSynopData().catch((e) => {
   toastDanger(message)
   return []
 })
-const map = initMap("map", toGeoJSON(data))
+const map = initMap("map", synopToGeoJSON(data))
 initDataTable("#imgwData", data)
 initDateTime(document.body, data)
 initControls(".control", map)

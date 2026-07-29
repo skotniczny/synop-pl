@@ -1,490 +1,7067 @@
 [
   {
-    "id": "12295",
-    "station": "Białystok",
-    "name": "Białystok",
-    "longitude": 23.16222222,
-    "latitude": 53.1072222,
+    "id": "252210290",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "RYBIENKO",
+    "longitude": 21.429167,
+    "latitude": 52.577778,
+    "altitude": 93
+  },
+  {
+    "id": "351230497",
+    "wmoCode": "12497",
+    "isSynop": true,
+    "name": "WŁODAWA",
+    "longitude": 23.529444,
+    "latitude": 51.553333,
+    "altitude": 177
+  },
+  {
+    "id": "352220385",
+    "wmoCode": "12385",
+    "isSynop": true,
+    "name": "SIEDLCE",
+    "longitude": 22.244722,
+    "latitude": 52.181111,
+    "altitude": 152
+  },
+  {
+    "id": "250240010",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "STRZYŻÓW",
+    "longitude": 24.035556,
+    "latitude": 50.84,
+    "altitude": 181
+  },
+  {
+    "id": "352230399",
+    "wmoCode": "12399",
+    "isSynop": true,
+    "name": "TERESPOL",
+    "longitude": 23.621944,
+    "latitude": 52.078611,
+    "altitude": 133
+  },
+  {
+    "id": "250230070",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "TOMASZÓW LUBELSKI",
+    "longitude": 23.398889,
+    "latitude": 50.458056,
+    "altitude": 270
+  },
+  {
+    "id": "252230190",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "CICIBÓR",
+    "longitude": 23.109444,
+    "latitude": 52.076944,
+    "altitude": 144
+  },
+  {
+    "id": "252190120",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "ŻYCHLIN",
+    "longitude": 19.623056,
+    "latitude": 52.242778,
+    "altitude": 97
+  },
+  {
+    "id": "253190030",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "DOBROCIN",
+    "longitude": 19.828056,
+    "latitude": 53.908333,
+    "altitude": 118
+  },
+  {
+    "id": "253190220",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "LIDZBARK",
+    "longitude": 19.824167,
+    "latitude": 53.254444,
+    "altitude": 140
+  },
+  {
+    "id": "352190360",
+    "wmoCode": "12360",
+    "isSynop": true,
+    "name": "PŁOCK",
+    "longitude": 19.725833,
+    "latitude": 52.588333,
+    "altitude": 106
+  },
+  {
+    "id": "251200030",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "SKIERNIEWICE",
+    "longitude": 20.160278,
+    "latitude": 51.965278,
+    "altitude": 128
+  },
+  {
+    "id": "252190160",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "WALEWICE",
+    "longitude": 19.665556,
+    "latitude": 52.102778,
+    "altitude": 95
+  },
+  {
+    "id": "253190310",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "KULIGI",
+    "longitude": 19.691111,
+    "latitude": 53.430833,
+    "altitude": 96
+  },
+  {
+    "id": "252190030",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "GŁODOWO",
+    "longitude": 19.235556,
+    "latitude": 52.830556,
+    "altitude": 104
+  },
+  {
+    "id": "252200080",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "BORKOWO",
+    "longitude": 20.660278,
+    "latitude": 52.561944,
+    "altitude": 85
+  },
+  {
+    "id": "252210050",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "PUŁTUSK",
+    "longitude": 21.090278,
+    "latitude": 52.7275,
+    "altitude": 95
+  },
+  {
+    "id": "252230010",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "NOWOSADY",
+    "longitude": 23.878889,
+    "latitude": 52.9725,
+    "altitude": 160
+  },
+  {
+    "id": "252230030",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "BONDARY",
+    "longitude": 23.754444,
+    "latitude": 52.9375,
+    "altitude": 147
+  },
+  {
+    "id": "252230090",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "CHRABOŁY",
+    "longitude": 23.195556,
+    "latitude": 52.862222,
+    "altitude": 127
+  },
+  {
+    "id": "252230120",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "BIAŁOWIEŻA",
+    "longitude": 23.847778,
+    "latitude": 52.707222,
+    "altitude": 163
+  },
+  {
+    "id": "353210280",
+    "wmoCode": "12280",
+    "isSynop": true,
+    "name": "MIKOŁAJKI",
+    "longitude": 21.589722,
+    "latitude": 53.789167,
+    "altitude": 127
+  },
+  {
+    "id": "354220195",
+    "wmoCode": "12195",
+    "isSynop": true,
+    "name": "SUWAŁKI",
+    "longitude": 22.948889,
+    "latitude": 54.130833,
+    "altitude": 184
+  },
+  {
+    "id": "253210170",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "ROZOGI",
+    "longitude": 21.379444,
+    "latitude": 53.491389,
+    "altitude": 130
+  },
+  {
+    "id": "253210210",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "MYSZYNIEC",
+    "longitude": 21.350278,
+    "latitude": 53.384444,
+    "altitude": 120
+  },
+  {
+    "id": "253210260",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "ZARUZIE",
+    "longitude": 21.8025,
+    "latitude": 53.1475,
+    "altitude": 87
+  },
+  {
+    "id": "253220080",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "DĘBOWO",
+    "longitude": 22.930556,
+    "latitude": 53.610556,
+    "altitude": 115
+  },
+  {
+    "id": "253220130",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "RADZIŁÓW",
+    "longitude": 22.405278,
+    "latitude": 53.413889,
+    "altitude": 115
+  },
+  {
+    "id": "253220160",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "BURZYN",
+    "longitude": 22.454167,
+    "latitude": 53.278611,
+    "altitude": 120
+  },
+  {
+    "id": "353230295",
+    "wmoCode": "12295",
+    "isSynop": true,
+    "name": "BIAŁYSTOK",
+    "longitude": 23.162222,
+    "latitude": 53.107222,
     "altitude": 148
   },
   {
-    "id": "12600",
-    "station": "Bielsko Biała",
-    "name": "Bielsko-Biała",
-    "longitude": 19.00222222,
-    "latitude": 49.8066667,
-    "altitude": 396
+    "id": "253220120",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "OSOWIEC",
+    "longitude": 22.645833,
+    "latitude": 53.4825,
+    "altitude": 110
   },
   {
-    "id": "12235",
-    "station": "Chojnice",
-    "name": "Chojnice",
-    "longitude": 17.5325,
-    "latitude": 53.7152778,
-    "altitude": 164
+    "id": "252210020",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "CZARNOWO",
+    "longitude": 21.535,
+    "latitude": 52.881944,
+    "altitude": 94
   },
   {
-    "id": "12550",
-    "station": "Częstochowa",
-    "name": "Częstochowa",
-    "longitude": 19.09166667,
-    "latitude": 50.8119444,
-    "altitude": 293
+    "id": "253220310",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "MOŃKI",
+    "longitude": 22.796389,
+    "latitude": 53.400278,
+    "altitude": 175
   },
   {
-    "id": "12160",
-    "station": "Elbląg",
-    "name": "Elbląg-Milejewo",
-    "longitude": 19.54361111,
-    "latitude": 54.2233333,
-    "altitude": 189
+    "id": "254220090",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "OLECKO",
+    "longitude": 22.486944,
+    "latitude": 54.0475,
+    "altitude": 182
   },
   {
-    "id": "12155",
-    "station": "Gdańsk",
-    "name": "Gdańsk-Świbno",
-    "longitude": 18.93444444,
-    "latitude": 54.3336111,
-    "altitude": 7
+    "id": "253230180",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "DRAHLE",
+    "longitude": 23.555,
+    "latitude": 53.385556,
+    "altitude": 162
   },
   {
-    "id": "12300",
-    "station": "Gorzów",
-    "name": "Gorzów Wielkopolski",
-    "longitude": 15.27722222,
-    "latitude": 52.7411111,
-    "altitude": 71
+    "id": "253210370",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "ŚWIĘTAJNO",
+    "longitude": 21.228056,
+    "latitude": 53.563611,
+    "altitude": 142
   },
   {
-    "id": "12135",
-    "station": "Hel",
-    "name": "Hel",
-    "longitude": 18.81194444,
-    "latitude": 54.6036111,
-    "altitude": 1
+    "id": "353160230",
+    "wmoCode": "12230",
+    "isSynop": true,
+    "name": "PIŁA",
+    "longitude": 16.747222,
+    "latitude": 53.130556,
+    "altitude": 72
   },
   {
-    "id": "12500",
-    "station": "Jelenia Góra",
-    "name": "Jelenia Góra",
-    "longitude": 15.78888889,
-    "latitude": 50.9002778,
+    "id": "353160215",
+    "wmoCode": "12215",
+    "isSynop": true,
+    "name": "SZCZECINEK",
+    "longitude": 16.746667,
+    "latitude": 53.717778,
+    "altitude": 139
+  },
+  {
+    "id": "253160010",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "SĘPOLNO WIELKIE",
+    "longitude": 16.773611,
+    "latitude": 53.9475,
+    "altitude": 165
+  },
+  {
+    "id": "253160110",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "JASTROWIE",
+    "longitude": 16.813889,
+    "latitude": 53.425556,
+    "altitude": 111
+  },
+  {
+    "id": "253170160",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "SYPNIEWO",
+    "longitude": 17.330278,
+    "latitude": 53.364444,
+    "altitude": 128
+  },
+  {
+    "id": "252180080",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "KOŁUDA WIELKA",
+    "longitude": 18.148889,
+    "latitude": 52.735833,
+    "altitude": 88
+  },
+  {
+    "id": "252150050",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "KRZYŻ",
+    "longitude": 15.983611,
+    "latitude": 52.881111,
+    "altitude": 34
+  },
+  {
+    "id": "253170210",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "CHRZĄSTOWO",
+    "longitude": 17.583611,
+    "latitude": 53.161111,
+    "altitude": 105
+  },
+  {
+    "id": "253150250",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "DRAWNO",
+    "longitude": 15.77,
+    "latitude": 53.213056,
+    "altitude": 76
+  },
+  {
+    "id": "253160090",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "WIERZCHOWO",
+    "longitude": 16.104444,
+    "latitude": 53.46,
+    "altitude": 137
+  },
+  {
+    "id": "250180590",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "RYBNIK-STODOŁY",
+    "longitude": 18.483056,
+    "latitude": 50.154444,
+    "altitude": 216
+  },
+  {
+    "id": "250160650",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "MIĘDZYLESIE",
+    "longitude": 16.670833,
+    "latitude": 50.153333,
+    "altitude": 453
+  },
+  {
+    "id": "250170110",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "DOBROGOSZCZ",
+    "longitude": 17.017222,
+    "latitude": 50.758611,
+    "altitude": 175
+  },
+  {
+    "id": "250170290",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "DZIEWIĘTLICE",
+    "longitude": 17.084167,
+    "latitude": 50.411389,
+    "altitude": 241
+  },
+  {
+    "id": "250170330",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "GŁUCHOŁAZY",
+    "longitude": 17.387222,
+    "latitude": 50.302222,
+    "altitude": 348
+  },
+  {
+    "id": "250170340",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "JARNOŁTÓWEK",
+    "longitude": 17.438056,
+    "latitude": 50.288056,
+    "altitude": 346
+  },
+  {
+    "id": "250170390",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "GŁUBCZYCE",
+    "longitude": 17.794722,
+    "latitude": 50.181944,
+    "altitude": 290
+  },
+  {
+    "id": "250180190",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "KRUPSKI MŁYN",
+    "longitude": 18.623333,
+    "latitude": 50.569167,
+    "altitude": 225
+  },
+  {
+    "id": "249180260",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "ISTEBNA-KUBALONKA",
+    "longitude": 18.901111,
+    "latitude": 49.603611,
+    "altitude": 780
+  },
+  {
+    "id": "250180690",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "PILCHOWICE",
+    "longitude": 18.591944,
+    "latitude": 50.224167,
+    "altitude": 221
+  },
+  {
+    "id": "249210350",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "MOSZCZANIEC",
+    "longitude": 21.912778,
+    "latitude": 49.422222,
+    "altitude": 467
+  },
+  {
+    "id": "249180580",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "GOCZAŁKOWICE-ZDRÓJ",
+    "longitude": 18.933889,
+    "latitude": 49.938333,
+    "altitude": 259
+  },
+  {
+    "id": "249201050",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "KRÓLÓWKA",
+    "longitude": 20.433333,
+    "latitude": 49.887222,
+    "altitude": 291
+  },
+  {
+    "id": "249180570",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "MIĘDZYRZECZE GÓRNE",
+    "longitude": 18.928333,
+    "latitude": 49.839444,
+    "altitude": 312
+  },
+  {
+    "id": "250160950",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "KWIETNIKI",
+    "longitude": 16.142778,
+    "latitude": 50.966944,
+    "altitude": 256
+  },
+  {
+    "id": "250190260",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "GOLCZOWICE",
+    "longitude": 19.595833,
+    "latitude": 50.36,
+    "altitude": 325
+  },
+  {
+    "id": "249180270",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "ISTEBNA-MŁODA GÓRA",
+    "longitude": 18.861944,
+    "latitude": 49.580556,
+    "altitude": 786
+  },
+  {
+    "id": "250160580",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "SPALONA",
+    "longitude": 16.538333,
+    "latitude": 50.276667,
+    "altitude": 815
+  },
+  {
+    "id": "252210330",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "RZĄŚNIK WŁOŚCIAŃSKI",
+    "longitude": 21.720556,
+    "latitude": 52.849722,
+    "altitude": 120
+  },
+  {
+    "id": "252230280",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "JAGODNIKI",
+    "longitude": 23.489167,
+    "latitude": 52.697222,
+    "altitude": 156
+  },
+  {
+    "id": "250180640",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "ZABRZE",
+    "longitude": 18.753611,
+    "latitude": 50.365,
+    "altitude": 270
+  },
+  {
+    "id": "250180710",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "BOGUSZYCE",
+    "longitude": 18.510278,
+    "latitude": 50.436944,
+    "altitude": 211
+  },
+  {
+    "id": "253190360",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "NAJMOWO",
+    "longitude": 19.326667,
+    "latitude": 53.308333,
+    "altitude": 104
+  },
+  {
+    "id": "250160920",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "PIŁAWA GÓRNA",
+    "longitude": 16.7325,
+    "latitude": 50.689444,
+    "altitude": 296
+  },
+  {
+    "id": "251150130",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "ŁOZY",
+    "longitude": 15.366944,
+    "latitude": 51.489444,
+    "altitude": 128
+  },
+  {
+    "id": "249191030",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "KOPYTÓWKA",
+    "longitude": 19.636111,
+    "latitude": 49.933611,
+    "altitude": 309
+  },
+  {
+    "id": "250180530",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "KIETRZ",
+    "longitude": 18.010278,
+    "latitude": 50.082222,
+    "altitude": 220
+  },
+  {
+    "id": "249190960",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "BUDZÓW",
+    "longitude": 19.659444,
+    "latitude": 49.773889,
     "altitude": 342
   },
   {
-    "id": "12435",
-    "station": "Kalisz",
-    "name": "Kalisz",
-    "longitude": 18.08083333,
-    "latitude": 51.7811111,
-    "altitude": 138
+    "id": "254180070",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "TĘPCZ",
+    "longitude": 18.038889,
+    "latitude": 54.5075,
+    "altitude": 178
   },
   {
-    "id": "12650",
-    "station": "Kasprowy Wierch",
-    "name": "Kasprowy Wierch",
-    "longitude": 19.98194444,
+    "id": "249180280",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "ISTEBNA-STECÓWKA",
+    "longitude": 18.940278,
+    "latitude": 49.585278,
+    "altitude": 735
+  },
+  {
+    "id": "250150190",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "KOWARY",
+    "longitude": 15.824167,
+    "latitude": 50.803611,
+    "altitude": 430
+  },
+  {
+    "id": "250150220",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "KARPACZ",
+    "longitude": 15.769444,
+    "latitude": 50.778889,
+    "altitude": 567
+  },
+  {
+    "id": "250150240",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "PACZYN",
+    "longitude": 15.911389,
+    "latitude": 50.739722,
+    "altitude": 643
+  },
+  {
+    "id": "250150250",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "PAPROTKI",
+    "longitude": 15.948056,
+    "latitude": 50.726667,
+    "altitude": 543
+  },
+  {
+    "id": "250150260",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "BUKÓWKA",
+    "longitude": 15.957222,
+    "latitude": 50.712778,
+    "altitude": 511
+  },
+  {
+    "id": "250160070",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "BORÓW",
+    "longitude": 16.99,
+    "latitude": 50.882222,
+    "altitude": 145
+  },
+  {
+    "id": "250160090",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "PSZENNO",
+    "longitude": 16.528611,
+    "latitude": 50.861389,
+    "altitude": 223
+  },
+  {
+    "id": "250160120",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "LUBOMIN",
+    "longitude": 16.195833,
+    "latitude": 50.803611,
+    "altitude": 464
+  },
+  {
+    "id": "250150110",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "KACZORÓW",
+    "longitude": 15.935833,
+    "latitude": 50.908889,
+    "altitude": 491
+  },
+  {
+    "id": "250160620",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "KAMIENICA",
+    "longitude": 16.884167,
+    "latitude": 50.227222,
+    "altitude": 682
+  },
+  {
+    "id": "251150280",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "TWARDOCICE",
+    "longitude": 15.7475,
+    "latitude": 51.090556,
+    "altitude": 253
+  },
+  {
+    "id": "251150360",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "ŚWIERZAWA",
+    "longitude": 15.888889,
+    "latitude": 51.016944,
+    "altitude": 299
+  },
+  {
+    "id": "251160110",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "OSETNO",
+    "longitude": 16.464167,
+    "latitude": 51.631944,
+    "altitude": 87
+  },
+  {
+    "id": "251160150",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "POLKOWICE DOLNE",
+    "longitude": 16.056111,
+    "latitude": 51.500556,
+    "altitude": 160
+  },
+  {
+    "id": "251160220",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "OBORNIKI ŚLĄSKIE",
+    "longitude": 16.930556,
+    "latitude": 51.289444,
+    "altitude": 160
+  },
+  {
+    "id": "251160290",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "JAWOR",
+    "longitude": 16.183611,
+    "latitude": 51.063333,
+    "altitude": 188
+  },
+  {
+    "id": "251170140",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "MILICZ",
+    "longitude": 17.277222,
+    "latitude": 51.511111,
+    "altitude": 118
+  },
+  {
+    "id": "251170210",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "TRZEBNICA",
+    "longitude": 17.068056,
+    "latitude": 51.322778,
+    "altitude": 155
+  },
+  {
+    "id": "251170270",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "BIERUTÓW",
+    "longitude": 17.544722,
+    "latitude": 51.118889,
+    "altitude": 141
+  },
+  {
+    "id": "250150210",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "PRZESIEKA",
+    "longitude": 15.667222,
+    "latitude": 50.798889,
+    "altitude": 646
+  },
+  {
+    "id": "250160520",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "LĄDEK-ZDRÓJ",
+    "longitude": 16.8575,
+    "latitude": 50.339167,
+    "altitude": 450
+  },
+  {
+    "id": "250150170",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "JAKUSZYCE",
+    "longitude": 15.441944,
+    "latitude": 50.823056,
+    "altitude": 855
+  },
+  {
+    "id": "250180030",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "STARE OLESNO",
+    "longitude": 18.363889,
+    "latitude": 50.904722,
+    "altitude": null
+  },
+  {
+    "id": "250150150",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "SZKLARSKA PORĘBA",
+    "longitude": 15.529167,
+    "latitude": 50.834444,
+    "altitude": 648
+  },
+  {
+    "id": "250160410",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "BARDO",
+    "longitude": 16.744167,
+    "latitude": 50.509167,
+    "altitude": 321
+  },
+  {
+    "id": "350180540",
+    "wmoCode": "12540",
+    "isSynop": true,
+    "name": "RACIBÓRZ",
+    "longitude": 18.190833,
+    "latitude": 50.061111,
+    "altitude": 206
+  },
+  {
+    "id": "351150400",
+    "wmoCode": "12400",
+    "isSynop": true,
+    "name": "ZIELONA GÓRA",
+    "longitude": 15.524722,
+    "latitude": 51.93,
+    "altitude": 192
+  },
+  {
+    "id": "250160220",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "JEDLINA-ZDRÓJ",
+    "longitude": 16.349167,
+    "latitude": 50.718611,
+    "altitude": 436
+  },
+  {
+    "id": "354160105",
+    "wmoCode": "12105",
+    "isSynop": true,
+    "name": "KOSZALIN",
+    "longitude": 16.155278,
+    "latitude": 54.204444,
+    "altitude": 33
+  },
+  {
+    "id": "354180135",
+    "wmoCode": "12135",
+    "isSynop": true,
+    "name": "HEL",
+    "longitude": 18.811944,
+    "latitude": 54.603611,
+    "altitude": 1
+  },
+  {
+    "id": "254180010",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "ROZEWIE",
+    "longitude": 18.335556,
+    "latitude": 54.829444,
+    "altitude": 54
+  },
+  {
+    "id": "254180050",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "WEJHEROWO",
+    "longitude": 18.270278,
+    "latitude": 54.598333,
+    "altitude": 22
+  },
+  {
+    "id": "254180060",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "GDYNIA",
+    "longitude": 18.559444,
+    "latitude": 54.518889,
+    "altitude": 2
+  },
+  {
+    "id": "254180140",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "OSTRZYCE-BRODNICA GÓRNA",
+    "longitude": 18.091389,
+    "latitude": 54.274444,
+    "altitude": 213
+  },
+  {
+    "id": "354170120",
+    "wmoCode": "12120",
+    "isSynop": true,
+    "name": "ŁEBA",
+    "longitude": 17.534722,
+    "latitude": 54.753611,
+    "altitude": 1
+  },
+  {
+    "id": "250170790",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "WOJNOWICE",
+    "longitude": 17.868333,
+    "latitude": 50.133611,
+    "altitude": 283
+  },
+  {
+    "id": "250170810",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "BRANICE",
+    "longitude": 17.775833,
+    "latitude": 50.051111,
+    "altitude": 290
+  },
+  {
+    "id": "251200290",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "TEOFILÓW",
+    "longitude": 20.182778,
+    "latitude": 51.528056,
+    "altitude": 150
+  },
+  {
+    "id": "249180020",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "WARSZOWICE",
+    "longitude": 18.705556,
+    "latitude": 49.991944,
+    "altitude": 270
+  },
+  {
+    "id": "250150350",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "PODGÓRZYN",
+    "longitude": 15.6875,
+    "latitude": 50.825556,
+    "altitude": 385
+  },
+  {
+    "id": "250160590",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "DŁUGOPOLE-ZDRÓJ",
+    "longitude": 16.633333,
+    "latitude": 50.249722,
+    "altitude": 364
+  },
+  {
+    "id": "250180380",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "SUKOWICE",
+    "longitude": 18.169722,
+    "latitude": 50.262778,
+    "altitude": 180
+  },
+  {
+    "id": "251160360",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "GŁOGÓW",
+    "longitude": 16.06,
+    "latitude": 51.6725,
+    "altitude": 75
+  },
+  {
+    "id": "250160320",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "OSTROSZOWICE",
+    "longitude": 16.6325,
+    "latitude": 50.646111,
+    "altitude": 373
+  },
+  {
+    "id": "250160840",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "SZALEJÓW GÓRNY",
+    "longitude": 16.5525,
+    "latitude": 50.430556,
+    "altitude": 335
+  },
+  {
+    "id": "252150180",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "LUBINICKO-ŚWIEBODZIN",
+    "longitude": 15.545278,
+    "latitude": 52.242778,
+    "altitude": 88
+  },
+  {
+    "id": "250150510",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "MIRSK",
+    "longitude": 15.383333,
+    "latitude": 50.986944,
+    "altitude": 338
+  },
+  {
+    "id": "249180530",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "ISTEBNA-STECÓWKA",
+    "longitude": 18.937778,
+    "latitude": 49.584722,
+    "altitude": 725
+  },
+  {
+    "id": "250160360",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "TARNÓW",
+    "longitude": 16.792778,
+    "latitude": 50.575278,
+    "altitude": 296
+  },
+  {
+    "id": "251160320",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "RADZYŃ",
+    "longitude": 16.037778,
+    "latitude": 51.8725,
+    "altitude": 60
+  },
+  {
+    "id": "249180410",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "ISTEBNA-WIEŚ",
+    "longitude": 18.892222,
+    "latitude": 49.568889,
+    "altitude": 578
+  },
+  {
+    "id": "250180330",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "ŁABĘDY",
+    "longitude": 18.615278,
+    "latitude": 50.341944,
+    "altitude": 208
+  },
+  {
+    "id": "252160050",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "RYCZYWÓŁ",
+    "longitude": 16.838889,
+    "latitude": 52.815833,
+    "altitude": 70
+  },
+  {
+    "id": "252170060",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "JANOWIEC WIELKOPOLSKI",
+    "longitude": 17.462222,
+    "latitude": 52.754722,
+    "altitude": 95
+  },
+  {
+    "id": "352150300",
+    "wmoCode": "12300",
+    "isSynop": true,
+    "name": "GORZÓW WIELKOPOLSKI",
+    "longitude": 15.277222,
+    "latitude": 52.741111,
+    "altitude": 71
+  },
+  {
+    "id": "352140310",
+    "wmoCode": "12310",
+    "isSynop": true,
+    "name": "SŁUBICE",
+    "longitude": 14.619722,
+    "latitude": 52.348611,
+    "altitude": 53
+  },
+  {
+    "id": "251150290",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "SULIKÓW",
+    "longitude": 15.065,
+    "latitude": 51.076944,
+    "altitude": 214
+  },
+  {
+    "id": "251150320",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "BIERNA",
+    "longitude": 15.116389,
+    "latitude": 51.038889,
+    "altitude": 265
+  },
+  {
+    "id": "250140030",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "BOGATYNIA",
+    "longitude": 14.980556,
+    "latitude": 50.899722,
+    "altitude": 290
+  },
+  {
+    "id": "252160160",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "PAPROĆ",
+    "longitude": 16.183056,
+    "latitude": 52.304444,
+    "altitude": 77
+  },
+  {
+    "id": "252160230",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "WIELICHOWO",
+    "longitude": 16.356389,
+    "latitude": 52.113889,
+    "altitude": 65
+  },
+  {
+    "id": "252160110",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "SZAMOTUŁY-BABORÓWKO",
+    "longitude": 16.638056,
+    "latitude": 52.584444,
+    "altitude": 74
+  },
+  {
+    "id": "251140110",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "SANICE",
+    "longitude": 14.975833,
+    "latitude": 51.406111,
+    "altitude": 150
+  },
+  {
+    "id": "253150070",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "ŁABĘDZIE",
+    "longitude": 15.809167,
+    "latitude": 53.650556,
+    "altitude": 100
+  },
+  {
+    "id": "253160020",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "OSÓWKO",
+    "longitude": 16.068056,
+    "latitude": 53.905556,
+    "altitude": 55
+  },
+  {
+    "id": "353150210",
+    "wmoCode": "12210",
+    "isSynop": true,
+    "name": "RESKO-SMÓLSKO",
+    "longitude": 15.393333,
+    "latitude": 53.763611,
+    "altitude": 52
+  },
+  {
+    "id": "354150100",
+    "wmoCode": "12100",
+    "isSynop": true,
+    "name": "KOŁOBRZEG-DŹWIRZYNO",
+    "longitude": 15.388889,
+    "latitude": 54.158333,
+    "altitude": 4
+  },
+  {
+    "id": "354160115",
+    "wmoCode": "12115",
+    "isSynop": true,
+    "name": "USTKA",
+    "longitude": 16.854167,
+    "latitude": 54.588333,
+    "altitude": 3
+  },
+  {
+    "id": "354170125",
+    "wmoCode": "12125",
+    "isSynop": true,
+    "name": "LĘBORK",
+    "longitude": 17.756944,
+    "latitude": 54.553056,
+    "altitude": 39
+  },
+  {
+    "id": "254160110",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "MIASTKO",
+    "longitude": 16.980278,
+    "latitude": 54.015556,
+    "altitude": 160
+  },
+  {
+    "id": "254160020",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "DARŁOWO",
+    "longitude": 16.368333,
+    "latitude": 54.433333,
+    "altitude": 12
+  },
+  {
+    "id": "254180260",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "GDAŃSK-PORT PÓŁNOCNY",
+    "longitude": 18.697778,
+    "latitude": 54.399722,
+    "altitude": 2
+  },
+  {
+    "id": "254170040",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "KARŻNICZKA",
+    "longitude": 17.228611,
+    "latitude": 54.4875,
+    "altitude": 75
+  },
+  {
+    "id": "254180090",
+    "wmoCode": "121407",
+    "isSynop": false,
+    "name": "GDAŃSK-RĘBIECHOWO",
+    "longitude": 18.486667,
+    "latitude": 54.371111,
+    "altitude": 146
+  },
+  {
+    "id": "254140010",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "DZIWNÓW",
+    "longitude": 14.731667,
+    "latitude": 54.022222,
+    "altitude": 3
+  },
+  {
+    "id": "253140010",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "WOLIN",
+    "longitude": 14.615833,
+    "latitude": 53.8375,
+    "altitude": 2
+  },
+  {
+    "id": "253150130",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "LISOWO",
+    "longitude": 15.301389,
+    "latitude": 53.430833,
+    "altitude": 95
+  },
+  {
+    "id": "353140205",
+    "wmoCode": "12205",
+    "isSynop": true,
+    "name": "SZCZECIN",
+    "longitude": 14.622778,
+    "latitude": 53.395278,
+    "altitude": 1
+  },
+  {
+    "id": "353140200",
+    "wmoCode": "12200",
+    "isSynop": true,
+    "name": "ŚWINOUJŚCIE",
+    "longitude": 14.242222,
+    "latitude": 53.923333,
+    "altitude": 4
+  },
+  {
+    "id": "253140110",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "GRYFINO",
+    "longitude": 14.484444,
+    "latitude": 53.256944,
+    "altitude": 3
+  },
+  {
+    "id": "253140040",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "TRZEBIEŻ",
+    "longitude": 14.513889,
+    "latitude": 53.663056,
+    "altitude": 1
+  },
+  {
+    "id": "253150190",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "PRZELEWICE",
+    "longitude": 15.082222,
+    "latitude": 53.104167,
+    "altitude": 65
+  },
+  {
+    "id": "353170235",
+    "wmoCode": "12235",
+    "isSynop": true,
+    "name": "CHOJNICE",
+    "longitude": 17.5325,
+    "latitude": 53.715278,
+    "altitude": 164
+  },
+  {
+    "id": "253170060",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "ZAPĘDOWO",
+    "longitude": 17.840278,
+    "latitude": 53.704167,
+    "altitude": 125
+  },
+  {
+    "id": "253180040",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "STAROGARD GDAŃSKI",
+    "longitude": 18.548889,
+    "latitude": 53.982222,
+    "altitude": 85
+  },
+  {
+    "id": "253180060",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "CZARNA WODA",
+    "longitude": 18.092778,
+    "latitude": 53.840556,
+    "altitude": 125
+  },
+  {
+    "id": "253180090",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "ŚLIWICE",
+    "longitude": 18.175833,
+    "latitude": 53.704722,
+    "altitude": 119
+  },
+  {
+    "id": "253180150",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "GRUDZIĄDZ",
+    "longitude": 18.709444,
+    "latitude": 53.4375,
+    "altitude": 25
+  },
+  {
+    "id": "253180220",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "BYDGOSZCZ",
+    "longitude": 18.045833,
+    "latitude": 53.173611,
+    "altitude": 55
+  },
+  {
+    "id": "353180250",
+    "wmoCode": "12250",
+    "isSynop": true,
+    "name": "TORUŃ",
+    "longitude": 18.595556,
+    "latitude": 53.041944,
+    "altitude": 69
+  },
+  {
+    "id": "254170140",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "KOŚCIERZYNA",
+    "longitude": 17.961944,
+    "latitude": 54.128611,
+    "altitude": 190
+  },
+  {
+    "id": "253180020",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "RADOSTOWO",
+    "longitude": 18.747222,
+    "latitude": 53.989444,
+    "altitude": 40
+  },
+  {
+    "id": "354180155",
+    "wmoCode": "12155",
+    "isSynop": true,
+    "name": "GDAŃSK-ŚWIBNO",
+    "longitude": 18.934444,
+    "latitude": 54.333611,
+    "altitude": 7
+  },
+  {
+    "id": "250190140",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "ŻARKI",
+    "longitude": 19.380278,
+    "latitude": 50.64,
+    "altitude": 380
+  },
+  {
+    "id": "252180260",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "TUREK",
+    "longitude": 18.498333,
+    "latitude": 52.010278,
+    "altitude": 115
+  },
+  {
+    "id": "351180435",
+    "wmoCode": "12435",
+    "isSynop": true,
+    "name": "KALISZ",
+    "longitude": 18.080833,
+    "latitude": 51.781111,
+    "altitude": 137
+  },
+  {
+    "id": "352180345",
+    "wmoCode": "12345",
+    "isSynop": true,
+    "name": "KOŁO-RADOSZEWICE",
+    "longitude": 18.706111,
+    "latitude": 52.361944,
+    "altitude": 109
+  },
+  {
+    "id": "352160330",
+    "wmoCode": "12330",
+    "isSynop": true,
+    "name": "POZNAŃ-ŁAWICA",
+    "longitude": 16.834722,
+    "latitude": 52.416667,
+    "altitude": 88
+  },
+  {
+    "id": "351180455",
+    "wmoCode": "12455",
+    "isSynop": true,
+    "name": "WIELUŃ",
+    "longitude": 18.556667,
+    "latitude": 51.210278,
+    "altitude": 199
+  },
+  {
+    "id": "350190550",
+    "wmoCode": "12550",
+    "isSynop": true,
+    "name": "CZĘSTOCHOWA",
+    "longitude": 19.091667,
+    "latitude": 50.811944,
+    "altitude": 293
+  },
+  {
+    "id": "250190170",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "KRĘCIWILK",
+    "longitude": 19.370278,
+    "latitude": 50.545278,
+    "altitude": 307
+  },
+  {
+    "id": "251180020",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "ZBIERSK",
+    "longitude": 18.150278,
+    "latitude": 51.943333,
+    "altitude": 125
+  },
+  {
+    "id": "251180040",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "PODDĘBICE",
+    "longitude": 18.959722,
+    "latitude": 51.885556,
+    "altitude": 130
+  },
+  {
+    "id": "251180050",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "LISKÓW",
+    "longitude": 18.41,
+    "latitude": 51.835278,
+    "altitude": 147
+  },
+  {
+    "id": "251180140",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "ZŁOCZEW",
+    "longitude": 18.599167,
+    "latitude": 51.421111,
+    "altitude": 175
+  },
+  {
+    "id": "251180190",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "SIEMIANICE",
+    "longitude": 18.143056,
+    "latitude": 51.182778,
+    "altitude": 180
+  },
+  {
+    "id": "251180240",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "JASTRZYGOWICE",
+    "longitude": 18.456944,
+    "latitude": 51.001111,
+    "altitude": 202
+  },
+  {
+    "id": "251180160",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "OSJAKÓW",
+    "longitude": 18.783611,
+    "latitude": 51.283056,
+    "altitude": 156
+  },
+  {
+    "id": "252180210",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "KŁODAWA",
+    "longitude": 18.915833,
+    "latitude": 52.250833,
+    "altitude": 117
+  },
+  {
+    "id": "251180150",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "MIRKÓW",
+    "longitude": 18.146389,
+    "latitude": 51.310278,
+    "altitude": 156
+  },
+  {
+    "id": "252170180",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "WRZEŚNIA",
+    "longitude": 17.5925,
+    "latitude": 52.315,
+    "altitude": 105
+  },
+  {
+    "id": "351190465",
+    "wmoCode": "12465",
+    "isSynop": true,
+    "name": "ŁÓDŹ-LUBLINEK",
+    "longitude": 19.387222,
+    "latitude": 51.718333,
+    "altitude": 174
+  },
+  {
+    "id": "252170210",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "KÓRNIK",
+    "longitude": 17.101944,
+    "latitude": 52.245278,
+    "altitude": 77
+  },
+  {
+    "id": "251190220",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "DOBRYSZYCE II",
+    "longitude": 19.408333,
+    "latitude": 51.1475,
+    "altitude": 216
+  },
+  {
+    "id": "251180330",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "DZIAŁOSZYN",
+    "longitude": 18.873889,
+    "latitude": 51.12,
+    "altitude": 191
+  },
+  {
+    "id": "251180310",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "KIEŁCZYGŁÓW",
+    "longitude": 18.985,
+    "latitude": 51.237222,
+    "altitude": 175
+  },
+  {
+    "id": "251180320",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "KRASZEWICE",
+    "longitude": 18.204722,
+    "latitude": 51.530278,
+    "altitude": 131
+  },
+  {
+    "id": "252170330",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "NOWA WIEŚ PODGÓRNA",
+    "longitude": 17.589167,
+    "latitude": 52.142222,
+    "altitude": 73
+  },
+  {
+    "id": "251170360",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "OSTRÓW WIELKOPOLSKI",
+    "longitude": 17.873333,
+    "latitude": 51.660833,
+    "altitude": 123
+  },
+  {
+    "id": "251190210",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "SZCZERCÓW",
+    "longitude": 19.119167,
+    "latitude": 51.340833,
+    "altitude": 160
+  },
+  {
+    "id": "252180290",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "TULISZKÓW",
+    "longitude": 18.268611,
+    "latitude": 52.067778,
+    "altitude": 111
+  },
+  {
+    "id": "252170190",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "SŁUPCA",
+    "longitude": 17.883333,
+    "latitude": 52.271944,
+    "altitude": 89
+  },
+  {
+    "id": "251170380",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "WOLA KSIĄŻĘCA",
+    "longitude": 17.589167,
+    "latitude": 51.961389,
+    "altitude": 118
+  },
+  {
+    "id": "251190190",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "ŁASK",
+    "longitude": 19.178611,
+    "latitude": 51.585556,
+    "altitude": 189
+  },
+  {
+    "id": "250180580",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "DRONIOWICE",
+    "longitude": 18.808056,
+    "latitude": 50.695278,
+    "altitude": 270
+  },
+  {
+    "id": "251180350",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "SIERADZ-DZIGORZEW",
+    "longitude": 18.704722,
+    "latitude": 51.624167,
+    "altitude": 128
+  },
+  {
+    "id": "250190010",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "JANUSZEWICE",
+    "longitude": 19.961111,
+    "latitude": 50.941944,
+    "altitude": 220
+  },
+  {
+    "id": "251200220",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "WŁOCHÓW",
+    "longitude": 20.612222,
+    "latitude": 51.098889,
+    "altitude": 345
+  },
+  {
+    "id": "251200250",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "SUCHEDNIÓW",
+    "longitude": 20.830556,
+    "latitude": 51.049722,
+    "altitude": 265
+  },
+  {
+    "id": "251210230",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "STARACHOWICE",
+    "longitude": 21.055833,
+    "latitude": 51.041667,
+    "altitude": 265
+  },
+  {
+    "id": "251210240",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "BRODY IŁŻECKIE",
+    "longitude": 21.196944,
+    "latitude": 51.018611,
+    "altitude": 190
+  },
+  {
+    "id": "251220040",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "RADZYŃ PODLASKI",
+    "longitude": 22.600833,
+    "latitude": 51.769167,
+    "altitude": 150
+  },
+  {
+    "id": "251200150",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "ŁAZISKA",
+    "longitude": 20.925833,
+    "latitude": 51.323889,
+    "altitude": 180
+  },
+  {
+    "id": "252210240",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "WIELGOLAS",
+    "longitude": 21.723889,
+    "latitude": 52.037222,
+    "altitude": 150
+  },
+  {
+    "id": "350230595",
+    "wmoCode": "12595",
+    "isSynop": true,
+    "name": "ZAMOŚĆ",
+    "longitude": 23.205556,
+    "latitude": 50.698333,
+    "altitude": 223
+  },
+  {
+    "id": "351210488",
+    "wmoCode": "12488",
+    "isSynop": true,
+    "name": "KOZIENICE",
+    "longitude": 21.543611,
+    "latitude": 51.564722,
+    "altitude": 123
+  },
+  {
+    "id": "250200040",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "BODZENTYN",
+    "longitude": 20.951389,
+    "latitude": 50.946944,
+    "altitude": 270
+  },
+  {
+    "id": "250210020",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "NOSÓW",
+    "longitude": 21.219167,
+    "latitude": 50.919167,
+    "altitude": 265
+  },
+  {
+    "id": "250210030",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "ANNOPOL",
+    "longitude": 21.834167,
+    "latitude": 50.889444,
+    "altitude": 165
+  },
+  {
+    "id": "250220030",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "WYSOKIE",
+    "longitude": 22.666944,
+    "latitude": 50.917778,
+    "altitude": 260
+  },
+  {
+    "id": "251190160",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "PRZEDBÓRZ",
+    "longitude": 19.875278,
+    "latitude": 51.090556,
+    "altitude": 190
+  },
+  {
+    "id": "251200080",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "BIAŁOBRZEGI",
+    "longitude": 20.940278,
+    "latitude": 51.648333,
+    "altitude": 116
+  },
+  {
+    "id": "251200130",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "OPOCZNO",
+    "longitude": 20.234444,
+    "latitude": 51.378889,
+    "altitude": 200
+  },
+  {
+    "id": "251200140",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "RUSZKOWICE",
+    "longitude": 20.665833,
+    "latitude": 51.339167,
+    "altitude": 210
+  },
+  {
+    "id": "251200240",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "STANOWISKA",
+    "longitude": 20.371389,
+    "latitude": 51.041944,
+    "altitude": 305
+  },
+  {
+    "id": "352200375",
+    "wmoCode": "12375",
+    "isSynop": true,
+    "name": "WARSZAWA-OKĘCIE",
+    "longitude": 20.961111,
+    "latitude": 52.162778,
+    "altitude": 106
+  },
+  {
+    "id": "250190210",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "PILICA",
+    "longitude": 19.646944,
+    "latitude": 50.459722,
+    "altitude": 351
+  },
+  {
+    "id": "250210050",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "ŚWIĘTY KRZYŻ",
+    "longitude": 21.051389,
+    "latitude": 50.859444,
+    "altitude": 575
+  },
+  {
+    "id": "251200170",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "CHEŁSTY",
+    "longitude": 20.148611,
+    "latitude": 51.215833,
+    "altitude": 220
+  },
+  {
+    "id": "351220495",
+    "wmoCode": "12495",
+    "isSynop": true,
+    "name": "LUBLIN-RADAWIEC",
+    "longitude": 22.393056,
+    "latitude": 51.216667,
+    "altitude": 238
+  },
+  {
+    "id": "250190080",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "WĄSOSZ",
+    "longitude": 19.685833,
+    "latitude": 50.7375,
+    "altitude": 230
+  },
+  {
+    "id": "251200270",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "DĄBRÓWKA STARA",
+    "longitude": 20.736944,
+    "latitude": 51.780278,
+    "altitude": 174
+  },
+  {
+    "id": "252200150",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "WARSZAWA-BIELANY",
+    "longitude": 20.963333,
+    "latitude": 52.281389,
+    "altitude": 98
+  },
+  {
+    "id": "251210040",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "JARCZEW",
+    "longitude": 21.973333,
+    "latitude": 51.814722,
+    "altitude": 180
+  },
+  {
+    "id": "251210120",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "PUŁAWY",
+    "longitude": 21.966111,
+    "latitude": 51.412778,
+    "altitude": 142
+  },
+  {
+    "id": "250210040",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "NOWA SŁUPIA",
+    "longitude": 21.083333,
+    "latitude": 50.864167,
+    "altitude": 290
+  },
+  {
+    "id": "251230120",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "BEZEK",
+    "longitude": 23.263611,
+    "latitude": 51.177222,
+    "altitude": 224
+  },
+  {
+    "id": "251190230",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "JAROSTY",
+    "longitude": 19.691944,
+    "latitude": 51.4625,
+    "altitude": 197
+  },
+  {
+    "id": "252200120",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "LEGIONOWO",
+    "longitude": 20.956111,
+    "latitude": 52.407778,
+    "altitude": 94
+  },
+  {
+    "id": "250180270",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "ŚWIERKLANIEC",
+    "longitude": 18.9425,
+    "latitude": 50.428889,
+    "altitude": 285
+  },
+  {
+    "id": "249200220",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "ROZTOKA",
+    "longitude": 20.383333,
+    "latitude": 49.640278,
+    "altitude": 815
+  },
+  {
+    "id": "249200240",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "PTASZKOWA",
+    "longitude": 20.886667,
+    "latitude": 49.600278,
+    "altitude": 520
+  },
+  {
+    "id": "249200260",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "ŁĄCKO",
+    "longitude": 20.439444,
+    "latitude": 49.559722,
+    "altitude": 366
+  },
+  {
+    "id": "249200270",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "TURBACZ",
+    "longitude": 20.118056,
+    "latitude": 49.544722,
+    "altitude": 1273
+  },
+  {
+    "id": "249200280",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "ŁABOWA",
+    "longitude": 20.858611,
+    "latitude": 49.526111,
+    "altitude": 455
+  },
+  {
+    "id": "249200330",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "STUDZIONKI",
+    "longitude": 20.211944,
+    "latitude": 49.495278,
+    "altitude": 904
+  },
+  {
+    "id": "249200340",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "DĘBNO",
+    "longitude": 20.209444,
+    "latitude": 49.465833,
+    "altitude": 536
+  },
+  {
+    "id": "249200350",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "HUTA",
+    "longitude": 20.956667,
+    "latitude": 49.465,
+    "altitude": 756
+  },
+  {
+    "id": "249200360",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "MIZERNA",
+    "longitude": 20.281944,
+    "latitude": 49.455278,
+    "altitude": 570
+  },
+  {
+    "id": "249200370",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "KROŚCIENKO",
+    "longitude": 20.431667,
+    "latitude": 49.445556,
+    "altitude": 435
+  },
+  {
+    "id": "249200420",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "NIEDZICA",
+    "longitude": 20.315833,
+    "latitude": 49.417778,
+    "altitude": 534
+  },
+  {
+    "id": "249200450",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "BIAŁKA TATRZAŃSKA",
+    "longitude": 20.107222,
+    "latitude": 49.412222,
+    "altitude": 680
+  },
+  {
+    "id": "249200480",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "BUKOWINA TATRZAŃSKA",
+    "longitude": 20.098333,
+    "latitude": 49.3375,
+    "altitude": 902
+  },
+  {
+    "id": "250210130",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "STASZÓW",
+    "longitude": 21.185,
+    "latitude": 50.595,
+    "altitude": 219
+  },
+  {
+    "id": "250210160",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "MAJDAN KRÓLEWSKI",
+    "longitude": 21.751944,
+    "latitude": 50.366667,
+    "altitude": 200
+  },
+  {
+    "id": "250210210",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "MIELEC",
+    "longitude": 21.432778,
+    "latitude": 50.279444,
+    "altitude": 170
+  },
+  {
+    "id": "250210220",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "KOLBUSZOWA",
+    "longitude": 21.745833,
+    "latitude": 50.262222,
+    "altitude": 200
+  },
+  {
+    "id": "249190530",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "PILSKO",
+    "longitude": 19.318333,
+    "latitude": 49.541111,
+    "altitude": 1278
+  },
+  {
+    "id": "249200120",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "ROZDZIELE",
+    "longitude": 20.416111,
+    "latitude": 49.785278,
+    "altitude": 627
+  },
+  {
+    "id": "249200230",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "GRYBÓW",
+    "longitude": 20.948056,
+    "latitude": 49.619722,
+    "altitude": 335
+  },
+  {
+    "id": "250200360",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "DĄBROWA TARNOWSKA",
+    "longitude": 20.991111,
+    "latitude": 50.186111,
+    "altitude": 197
+  },
+  {
+    "id": "249180390",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "BRENNA-LEŚNICA",
+    "longitude": 18.903056,
+    "latitude": 49.71,
+    "altitude": 426
+  },
+  {
+    "id": "249180520",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "RUDZICA",
+    "longitude": 18.880833,
+    "latitude": 49.853889,
+    "altitude": 345
+  },
+  {
+    "id": "249200960",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "NOWY TARG-KOWANIEC",
+    "longitude": 20.055,
+    "latitude": 49.486389,
+    "altitude": 590
+  },
+  {
+    "id": "254220030",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "GOŁDAP",
+    "longitude": 22.268611,
+    "latitude": 54.308333,
+    "altitude": 159
+  },
+  {
+    "id": "254220060",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "BANIE MAZURSKIE",
+    "longitude": 22.023056,
+    "latitude": 54.251667,
+    "altitude": 110
+  },
+  {
+    "id": "353200272",
+    "wmoCode": "12272",
+    "isSynop": true,
+    "name": "OLSZTYN",
+    "longitude": 20.421389,
+    "latitude": 53.768611,
+    "altitude": 133
+  },
+  {
+    "id": "354210185",
+    "wmoCode": "12185",
+    "isSynop": true,
+    "name": "KĘTRZYN",
+    "longitude": 21.366667,
+    "latitude": 54.067222,
+    "altitude": 107
+  },
+  {
+    "id": "254190050",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "FROMBORK",
+    "longitude": 19.677222,
+    "latitude": 54.360278,
+    "altitude": 2
+  },
+  {
+    "id": "254190080",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "PIERZCHAŁY",
+    "longitude": 19.849167,
+    "latitude": 54.300556,
+    "altitude": 11
+  },
+  {
+    "id": "254190160",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "PASŁĘK",
+    "longitude": 19.636111,
+    "latitude": 54.068611,
+    "altitude": 14
+  },
+  {
+    "id": "254200040",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "BARTOSZYCE",
+    "longitude": 20.797778,
+    "latitude": 54.240278,
+    "altitude": 59
+  },
+  {
+    "id": "254200050",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "BORNITY",
+    "longitude": 20.050833,
+    "latitude": 54.184444,
+    "altitude": 47
+  },
+  {
+    "id": "254200070",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "KASZUNY",
+    "longitude": 20.339722,
+    "latitude": 54.158333,
+    "altitude": 89
+  },
+  {
+    "id": "254210020",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "WĘGORZEWO",
+    "longitude": 21.734722,
+    "latitude": 54.223889,
+    "altitude": 116
+  },
+  {
+    "id": "254200080",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "LIDZBARK WARMIŃSKI",
+    "longitude": 20.586111,
+    "latitude": 54.135833,
+    "altitude": 90
+  },
+  {
+    "id": "250160560",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "STRONIE ŚLĄSKIE",
+    "longitude": 16.866111,
+    "latitude": 50.3025,
+    "altitude": 502
+  },
+  {
+    "id": "249220340",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "WOŁOSATE",
+    "longitude": 22.685833,
+    "latitude": 49.064167,
+    "altitude": 752
+  },
+  {
+    "id": "249220350",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "WYŻNIAŃSKI WIERCH",
+    "longitude": 22.585833,
+    "latitude": 49.121944,
+    "altitude": 913
+  },
+  {
+    "id": "249220280",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "STUPOSIANY",
+    "longitude": 22.683056,
+    "latitude": 49.191667,
+    "altitude": 547
+  },
+  {
+    "id": "249220320",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "POŁONINA WETLIŃSKA",
+    "longitude": 22.551667,
+    "latitude": 49.157778,
+    "altitude": 1226
+  },
+  {
+    "id": "249220190",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "SAKOWCZYK",
+    "longitude": 22.4475,
+    "latitude": 49.314722,
+    "altitude": 561
+  },
+  {
+    "id": "249220150",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "SOLINA-JAWOR",
+    "longitude": 22.468333,
+    "latitude": 49.4,
+    "altitude": 459
+  },
+  {
+    "id": "249220170",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "BALIGRÓD-MCHAWA",
+    "longitude": 22.283611,
+    "latitude": 49.353889,
+    "altitude": 430
+  },
+  {
+    "id": "249220180",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "KOMAŃCZA",
+    "longitude": 22.063333,
+    "latitude": 49.339167,
+    "altitude": 478
+  },
+  {
+    "id": "249210270",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "WISŁOK WIELKI",
+    "longitude": 21.999167,
+    "latitude": 49.378611,
+    "altitude": 540
+  },
+  {
+    "id": "249220140",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "SZCZAWNE",
+    "longitude": 22.146944,
+    "latitude": 49.398889,
+    "altitude": 395
+  },
+  {
+    "id": "249220060",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "BIRCZA",
+    "longitude": 22.481111,
+    "latitude": 49.687222,
+    "altitude": 324
+  },
+  {
+    "id": "249210210",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "PUŁAWY DOLNE",
+    "longitude": 21.907222,
+    "latitude": 49.49,
+    "altitude": 395
+  },
+  {
+    "id": "249210190",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "WISŁOCZEK",
+    "longitude": 21.865556,
+    "latitude": 49.500833,
+    "altitude": 520
+  },
+  {
+    "id": "249220110",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "NOWOTANIEC",
+    "longitude": 22.025278,
+    "latitude": 49.507778,
+    "altitude": 405
+  },
+  {
+    "id": "253190370",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "BĄGART",
+    "longitude": 19.384444,
+    "latitude": 53.991667,
+    "altitude": 0
+  },
+  {
+    "id": "253180160",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "RADZYŃ-FIJEWO",
+    "longitude": 18.946944,
+    "latitude": 53.382778,
+    "altitude": 104
+  },
+  {
+    "id": "253150330",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "SŁONOWICE",
+    "longitude": 15.718056,
+    "latitude": 53.716944,
+    "altitude": 105
+  },
+  {
+    "id": "254170070",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "BUKOWINA",
+    "longitude": 17.843333,
+    "latitude": 54.422222,
+    "altitude": 155
+  },
+  {
+    "id": "252160350",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "KOPASZEWO",
+    "longitude": 16.818333,
+    "latitude": 52.003333,
+    "altitude": 91
+  },
+  {
+    "id": "253210380",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "TUROWO",
+    "longitude": 21.901667,
+    "latitude": 53.528611,
+    "altitude": 141
+  },
+  {
+    "id": "254170020",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "SMOŁDZINO",
+    "longitude": 17.201667,
+    "latitude": 54.667222,
+    "altitude": 4
+  },
+  {
+    "id": "250170840",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "MESZNO",
+    "longitude": 17.141389,
+    "latitude": 50.4325,
+    "altitude": 213
+  },
+  {
+    "id": "253230230",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "ZARZECZANY",
+    "longitude": 23.684444,
+    "latitude": 53.101667,
+    "altitude": 146
+  },
+  {
+    "id": "249210370",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "ROPICA GÓRNA",
+    "longitude": 21.231389,
+    "latitude": 49.596111,
+    "altitude": 357
+  },
+  {
+    "id": "250180750",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "WĄSICE",
+    "longitude": 18.029722,
+    "latitude": 50.985,
+    "altitude": 169
+  },
+  {
+    "id": "250170850",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "KUJAWY",
+    "longitude": 17.803889,
+    "latitude": 50.436944,
+    "altitude": 180
+  },
+  {
+    "id": "250160970",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "ŚNIEŻNIK",
+    "longitude": 16.8325,
+    "latitude": 50.208333,
+    "altitude": 1218
+  },
+  {
+    "id": "250160980",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "WOLIBÓRZ",
+    "longitude": 16.578056,
+    "latitude": 50.590556,
+    "altitude": 518
+  },
+  {
+    "id": "249190970",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "SIDZINA",
+    "longitude": 19.726944,
+    "latitude": 49.619444,
+    "altitude": 546
+  },
+  {
+    "id": "253220370",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "SAWINO",
+    "longitude": 22.864722,
+    "latitude": 53.168889,
+    "altitude": 118
+  },
+  {
+    "id": "249201060",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "TYLMANOWA",
+    "longitude": 20.3875,
+    "latitude": 49.518056,
+    "altitude": 404
+  },
+  {
+    "id": "250180760",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "STRZELCE OPOLSKIE",
+    "longitude": 18.311111,
+    "latitude": 50.517778,
+    "altitude": 229
+  },
+  {
+    "id": "249190990",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "JORDANÓW",
+    "longitude": 19.841667,
+    "latitude": 49.643056,
+    "altitude": 534
+  },
+  {
+    "id": "250160060",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "SOBÓTKA",
+    "longitude": 16.759444,
+    "latitude": 50.902222,
+    "altitude": 156
+  },
+  {
+    "id": "251150450",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "PIEŃSK",
+    "longitude": 15.040278,
+    "latitude": 51.26,
+    "altitude": 164
+  },
+  {
+    "id": "254170280",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "STRUSZEWO",
+    "longitude": 17.357222,
+    "latitude": 54.178889,
+    "altitude": 131
+  },
+  {
+    "id": "251190240",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "WIERZBOWA",
+    "longitude": 19.079444,
+    "latitude": 51.986667,
+    "altitude": 111
+  },
+  {
+    "id": "250161070",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "JODŁÓW",
+    "longitude": 16.771111,
+    "latitude": 50.172778,
+    "altitude": 828
+  },
+  {
+    "id": "250160940",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "NOWA WIEŚ",
+    "longitude": 16.745,
+    "latitude": 50.197778,
+    "altitude": 555
+  },
+  {
+    "id": "250160960",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "STARY GIERAŁTÓW",
+    "longitude": 16.9175,
+    "latitude": 50.31,
+    "altitude": 535
+  },
+  {
+    "id": "249190480",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "LALIKI",
+    "longitude": 19.016111,
+    "latitude": 49.544722,
+    "altitude": 680
+  },
+  {
+    "id": "249190520",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "OBIDOWA",
+    "longitude": 19.968611,
+    "latitude": 49.544167,
+    "altitude": 805
+  },
+  {
+    "id": "249190620",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "BAŃSKA WYŻNA",
+    "longitude": 19.973333,
+    "latitude": 49.384167,
+    "altitude": 896
+  },
+  {
+    "id": "249200180",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "LIMANOWA",
+    "longitude": 20.418333,
+    "latitude": 49.693611,
+    "altitude": 515
+  },
+  {
+    "id": "249200210",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "PÓŁRZECZKI",
+    "longitude": 20.215,
+    "latitude": 49.6525,
+    "altitude": 650
+  },
+  {
+    "id": "350190566",
+    "wmoCode": "12566",
+    "isSynop": true,
+    "name": "KRAKÓW-BALICE",
+    "longitude": 19.795,
+    "latitude": 50.077778,
+    "altitude": 236
+  },
+  {
+    "id": "349190625",
+    "wmoCode": "12625",
+    "isSynop": true,
+    "name": "ZAKOPANE",
+    "longitude": 19.960278,
+    "latitude": 49.293889,
+    "altitude": 852
+  },
+  {
+    "id": "250190470",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "KRAKÓW-WOLA JUSTOWSKA",
+    "longitude": 19.890278,
+    "latitude": 50.063889,
+    "altitude": 204
+  },
+  {
+    "id": "249180180",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "USTROŃ-RÓWNICA-WIEŚ",
+    "longitude": 18.8525,
+    "latitude": 49.719722,
+    "altitude": 768
+  },
+  {
+    "id": "249190320",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "LUBOŃ WIELKI",
+    "longitude": 19.992222,
+    "latitude": 49.653333,
+    "altitude": 1021
+  },
+  {
+    "id": "249200020",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "ŁAZY",
+    "longitude": 20.495278,
+    "latitude": 49.965278,
+    "altitude": 245
+  },
+  {
+    "id": "249210120",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "NOWY ŻMIGRÓD",
+    "longitude": 21.533333,
+    "latitude": 49.611667,
+    "altitude": 300
+  },
+  {
+    "id": "349200660",
+    "wmoCode": "12660",
+    "isSynop": true,
+    "name": "NOWY SĄCZ",
+    "longitude": 20.688611,
+    "latitude": 49.627222,
+    "altitude": 292
+  },
+  {
+    "id": "350190560",
+    "wmoCode": "12560",
+    "isSynop": true,
+    "name": "KATOWICE-MUCHOWIEC",
+    "longitude": 19.032778,
+    "latitude": 50.240556,
+    "altitude": 278
+  },
+  {
+    "id": "350200570",
+    "wmoCode": "12570",
+    "isSynop": true,
+    "name": "KIELCE-SUKÓW",
+    "longitude": 20.692222,
+    "latitude": 50.810556,
+    "altitude": 260
+  },
+  {
+    "id": "350200575",
+    "wmoCode": "12575",
+    "isSynop": true,
+    "name": "TARNÓW",
+    "longitude": 20.941944,
+    "latitude": 50.025556,
+    "altitude": 210
+  },
+  {
+    "id": "350210585",
+    "wmoCode": "12585",
+    "isSynop": true,
+    "name": "SANDOMIERZ",
+    "longitude": 21.715833,
+    "latitude": 50.696667,
+    "altitude": 217
+  },
+  {
+    "id": "250190220",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "ŁAZY",
+    "longitude": 19.383889,
+    "latitude": 50.431111,
+    "altitude": 350
+  },
+  {
+    "id": "250190310",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "MACZKI",
+    "longitude": 19.262778,
+    "latitude": 50.258611,
+    "altitude": 265
+  },
+  {
+    "id": "250200010",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "BARTKÓW",
+    "longitude": 20.649722,
+    "latitude": 50.978611,
+    "altitude": 330
+  },
+  {
+    "id": "250200110",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "CISÓW",
+    "longitude": 20.902778,
+    "latitude": 50.758611,
+    "altitude": 326
+  },
+  {
+    "id": "250200130",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "KLISZÓW",
+    "longitude": 20.524722,
+    "latitude": 50.6125,
+    "altitude": 206
+  },
+  {
+    "id": "250200210",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "MIECHÓW",
+    "longitude": 20.032778,
+    "latitude": 50.362778,
+    "altitude": 299
+  },
+  {
+    "id": "250200230",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "BORUSOWA",
+    "longitude": 20.786944,
+    "latitude": 50.277778,
+    "altitude": 171
+  },
+  {
+    "id": "250200250",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "RADZIEMICE",
+    "longitude": 20.230833,
+    "latitude": 50.253333,
+    "altitude": 240
+  },
+  {
+    "id": "250200280",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "IGOŁOMIA",
+    "longitude": 20.256389,
+    "latitude": 50.093611,
+    "altitude": 202
+  },
+  {
+    "id": "250200290",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "BORZĘCIN",
+    "longitude": 20.71,
+    "latitude": 50.065833,
+    "altitude": 192
+  },
+  {
+    "id": "250210070",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "BARANÓWEK",
+    "longitude": 21.257778,
+    "latitude": 50.77,
+    "altitude": 283
+  },
+  {
+    "id": "250210080",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "SADKÓW",
+    "longitude": 21.077222,
+    "latitude": 50.736667,
+    "altitude": 365
+  },
+  {
+    "id": "250210090",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "JASTRZĘBSKA WOLA",
+    "longitude": 21.186944,
+    "latitude": 50.724722,
+    "altitude": 263
+  },
+  {
+    "id": "250210170",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "WILCZA WOLA",
+    "longitude": 21.931944,
+    "latitude": 50.341389,
+    "altitude": 190
+  },
+  {
+    "id": "250210230",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "RADOMYŚL WIELKI",
+    "longitude": 21.269722,
+    "latitude": 50.199722,
+    "altitude": 190
+  },
+  {
+    "id": "250210240",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "ZAWADA",
+    "longitude": 21.493333,
+    "latitude": 50.063889,
+    "altitude": 200
+  },
+  {
+    "id": "249210170",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "BARTNE",
+    "longitude": 21.345556,
+    "latitude": 49.558611,
+    "altitude": 540
+  },
+  {
+    "id": "249210220",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "WYSZOWADKA",
+    "longitude": 21.420833,
+    "latitude": 49.453889,
+    "altitude": 506
+  },
+  {
+    "id": "249210230",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "WYSOWA",
+    "longitude": 21.1725,
+    "latitude": 49.438056,
+    "altitude": 519
+  },
+  {
+    "id": "249210240",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "BARWINEK",
+    "longitude": 21.684722,
+    "latitude": 49.431111,
+    "altitude": 465
+  },
+  {
+    "id": "249210250",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "JAŚLISKA",
+    "longitude": 21.81,
+    "latitude": 49.44,
+    "altitude": 440
+  },
+  {
+    "id": "249210260",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "TYLICZ",
+    "longitude": 21.008889,
+    "latitude": 49.392222,
+    "altitude": 585
+  },
+  {
+    "id": "250200220",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "SIELEC",
+    "longitude": 20.420556,
+    "latitude": 50.318611,
+    "altitude": 200
+  },
+  {
+    "id": "250210180",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "CHORZELÓW",
+    "longitude": 21.444167,
+    "latitude": 50.348056,
+    "altitude": 170
+  },
+  {
+    "id": "249190460",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "SPYTKOWICE GÓRNE",
+    "longitude": 19.761667,
+    "latitude": 49.564444,
+    "altitude": 639
+  },
+  {
+    "id": "249200440",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "JAWORZYNA KRYNICKA",
+    "longitude": 20.895278,
+    "latitude": 49.417778,
+    "altitude": 1110
+  },
+  {
+    "id": "250200050",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "RYKOSZYN",
+    "longitude": 20.411667,
+    "latitude": 50.865556,
+    "altitude": 274
+  },
+  {
+    "id": "253170350",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "CZYCZKOWY",
+    "longitude": 17.733333,
+    "latitude": 53.860833,
+    "altitude": 137
+  },
+  {
+    "id": "249190210",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "ŁODYGOWICE",
+    "longitude": 19.160278,
+    "latitude": 49.724167,
+    "altitude": 375
+  },
+  {
+    "id": "249190670",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "POLANA CHOCHOŁOWSKA",
+    "longitude": 19.788611,
+    "latitude": 49.236944,
+    "altitude": 1145
+  },
+  {
+    "id": "249200250",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "JASIONÓW",
+    "longitude": 20.025833,
+    "latitude": 49.589722,
+    "altitude": 742
+  },
+  {
+    "id": "249190870",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "ŚLEMIEŃ",
+    "longitude": 19.374444,
+    "latitude": 49.715833,
+    "altitude": 480
+  },
+  {
+    "id": "250190520",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "TYCHY",
+    "longitude": 19.001111,
+    "latitude": 50.131944,
+    "altitude": 255
+  },
+  {
+    "id": "249200920",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "PIWNICZNA",
+    "longitude": 20.723056,
+    "latitude": 49.425,
+    "altitude": 380
+  },
+  {
+    "id": "249190890",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "RADZIECHOWY ",
+    "longitude": 19.155556,
+    "latitude": 49.648611,
+    "altitude": 395
+  },
+  {
+    "id": "354190160",
+    "wmoCode": "12160",
+    "isSynop": true,
+    "name": "ELBLĄG-MILEJEWO",
+    "longitude": 19.543611,
+    "latitude": 54.223333,
+    "altitude": 189
+  },
+  {
+    "id": "253190070",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "PRABUTY",
+    "longitude": 19.215,
+    "latitude": 53.739444,
+    "altitude": 100
+  },
+  {
+    "id": "254190020",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "NOWA PASŁĘKA",
+    "longitude": 19.746944,
+    "latitude": 54.426111,
+    "altitude": 2
+  },
+  {
+    "id": "254220020",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "ŻABIN",
+    "longitude": 22.038056,
+    "latitude": 54.321389,
+    "altitude": 110
+  },
+  {
+    "id": "249220260",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "DWERNIK",
+    "longitude": 22.633889,
+    "latitude": 49.220833,
+    "altitude": 543
+  },
+  {
+    "id": "249210150",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "IWONICZ-ZDRÓJ",
+    "longitude": 21.788333,
+    "latitude": 49.567222,
+    "altitude": 425
+  },
+  {
+    "id": "349210670",
+    "wmoCode": "12670",
+    "isSynop": true,
+    "name": "KROSNO",
+    "longitude": 21.769167,
+    "latitude": 49.706667,
+    "altitude": 330
+  },
+  {
+    "id": "249210160",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "ORZECHÓWKA",
+    "longitude": 21.961389,
+    "latitude": 49.716667,
+    "altitude": 310
+  },
+  {
+    "id": "249210040",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "ŻARNOWA",
+    "longitude": 21.816389,
+    "latitude": 49.877778,
+    "altitude": 220
+  },
+  {
+    "id": "249220010",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "KAŃCZUGA",
+    "longitude": 22.407222,
+    "latitude": 49.985278,
+    "altitude": 215
+  },
+  {
+    "id": "249220040",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "DYNÓW",
+    "longitude": 22.235,
+    "latitude": 49.835278,
+    "altitude": 249
+  },
+  {
+    "id": "349220690",
+    "wmoCode": "12690",
+    "isSynop": true,
+    "name": "LESKO",
+    "longitude": 22.341667,
+    "latitude": 49.466389,
+    "altitude": 420
+  },
+  {
+    "id": "349190650",
+    "wmoCode": "12650",
+    "isSynop": true,
+    "name": "KASPROWY WIERCH",
+    "longitude": 19.981944,
     "latitude": 49.2325,
     "altitude": 1990
   },
   {
-    "id": "12560",
-    "station": "Katowice",
-    "name": "Katowice",
-    "longitude": 19.03277778,
-    "latitude": 50.2405556,
-    "altitude": 278
+    "id": "250180670",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "TRZEBISZYN",
+    "longitude": 18.190833,
+    "latitude": 50.865,
+    "altitude": 196
   },
   {
-    "id": "12185",
-    "station": "Kętrzyn",
-    "name": "Kętrzyn",
-    "longitude": 21.36666667,
-    "latitude": 54.0672222,
-    "altitude": 106
+    "id": "254180270",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "ZELEWO",
+    "longitude": 18.075278,
+    "latitude": 54.623056,
+    "altitude": 43
   },
   {
-    "id": "12570",
-    "station": "Kielce",
-    "name": "Kielce-Suków",
-    "longitude": 20.69222222,
-    "latitude": 50.8105556,
-    "altitude": 260
+    "id": "251170440",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "DROŁTOWICE",
+    "longitude": 17.596111,
+    "latitude": 51.335,
+    "altitude": 200
   },
   {
-    "id": "12520",
-    "station": "Kłodzko",
-    "name": "Kłodzko",
-    "longitude": 16.61416667,
-    "latitude": 50.4369444,
-    "altitude": 356
+    "id": "253180260",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "LUBIEWO",
+    "longitude": 18.025,
+    "latitude": 53.463889,
+    "altitude": 116
   },
   {
-    "id": "12345",
-    "station": "Koło",
-    "name": "Koło-Radoszewice",
-    "longitude": 18.70611111,
-    "latitude": 52.3619444,
-    "altitude": 109
+    "id": "253170370",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "UPIŁKA",
+    "longitude": 17.946944,
+    "latitude": 53.946944,
+    "altitude": 141
   },
   {
-    "id": "12100",
-    "station": "Kołobrzeg",
-    "name": "Kołobrzeg-Dźwirzyno",
-    "longitude": 15.38888889,
-    "latitude": 54.1586111,
-    "altitude": 4
+    "id": "250150550",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "SZRENICA",
+    "longitude": 15.512222,
+    "latitude": 50.790833,
+    "altitude": 1327
   },
   {
-    "id": "12105",
-    "station": "Koszalin",
-    "name": "Koszalin",
-    "longitude": 16.15527778,
-    "latitude": 54.2044444,
-    "altitude": 33
+    "id": "250190790",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "CHRZANÓW",
+    "longitude": 19.376667,
+    "latitude": 50.1125,
+    "altitude": 252
   },
   {
-    "id": "12488",
-    "station": "Kozienice",
-    "name": "Kozienice",
-    "longitude": 21.54361111,
-    "latitude": 51.5647222,
-    "altitude": 123
+    "id": "250180740",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "SIERAKOWICE",
+    "longitude": 18.431389,
+    "latitude": 50.265556,
+    "altitude": 203
   },
   {
-    "id": "12566",
-    "station": "Kraków",
-    "name": "Kraków-Balice",
-    "longitude": 19.795,
-    "latitude": 50.0777778,
-    "altitude": 236
+    "id": "253220220",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "ZAWADY",
+    "longitude": 22.673333,
+    "latitude": 53.156944,
+    "altitude": 110
   },
   {
-    "id": "12670",
-    "station": "Krosno",
-    "name": "Krosno",
-    "longitude": 21.76916667,
-    "latitude": 49.7066667,
-    "altitude": 330
+    "id": "253220270",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "JABŁONOWO-WYPYCHY",
+    "longitude": 22.750278,
+    "latitude": 53.029722,
+    "altitude": 130
   },
   {
-    "id": "12415",
-    "station": "Legnica",
-    "name": "Legnica",
-    "longitude": 16.20777778,
+    "id": "253230020",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "RÓŻANYSTOK",
+    "longitude": 23.401389,
+    "latitude": 53.635278,
+    "altitude": 160
+  },
+  {
+    "id": "253230030",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "JANÓW",
+    "longitude": 23.229444,
+    "latitude": 53.459722,
+    "altitude": 161
+  },
+  {
+    "id": "253230060",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "JAŁÓWKA",
+    "longitude": 23.340556,
+    "latitude": 53.353889,
+    "altitude": 170
+  },
+  {
+    "id": "253230110",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "FASTY",
+    "longitude": 23.025833,
+    "latitude": 53.1775,
+    "altitude": 114
+  },
+  {
+    "id": "353200270",
+    "wmoCode": "12270",
+    "isSynop": true,
+    "name": "MŁAWA",
+    "longitude": 20.361111,
+    "latitude": 53.104167,
+    "altitude": 147
+  },
+  {
+    "id": "353210285",
+    "wmoCode": "12285",
+    "isSynop": true,
+    "name": "OSTROŁĘKA",
+    "longitude": 21.533889,
+    "latitude": 53.065833,
+    "altitude": 94
+  },
+  {
+    "id": "253220070",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "BIEBRZA",
+    "longitude": 22.578333,
+    "latitude": 53.650556,
+    "altitude": 115
+  },
+  {
+    "id": "253230160",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "SUPRAŚL",
+    "longitude": 23.3325,
+    "latitude": 53.210833,
+    "altitude": 137
+  },
+  {
+    "id": "250160130",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "SZCZAWNO-ZDRÓJ",
+    "longitude": 16.241111,
+    "latitude": 50.806667,
+    "altitude": 431
+  },
+  {
+    "id": "250160150",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "KAMIENNA GÓRA",
+    "longitude": 16.036111,
+    "latitude": 50.792778,
+    "altitude": 464
+  },
+  {
+    "id": "250160170",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "LUBACHÓW",
+    "longitude": 16.428611,
+    "latitude": 50.763889,
+    "altitude": 305
+  },
+  {
+    "id": "250160190",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "BOGUSZÓW-GORCE",
+    "longitude": 16.19,
+    "latitude": 50.749444,
+    "altitude": 518
+  },
+  {
+    "id": "250160260",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "DZIERŻONIÓW",
+    "longitude": 16.624167,
+    "latitude": 50.743333,
+    "altitude": 252
+  },
+  {
+    "id": "250160290",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "CHEŁMSKO ŚLĄSKIE",
+    "longitude": 16.07,
+    "latitude": 50.670833,
+    "altitude": 498
+  },
+  {
+    "id": "250160450",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "KUDOWA-ZDRÓJ",
+    "longitude": 16.221944,
+    "latitude": 50.438056,
+    "altitude": 364
+  },
+  {
+    "id": "250160480",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "SŁOSZÓW",
+    "longitude": 16.379444,
+    "latitude": 50.41,
+    "altitude": 556
+  },
+  {
+    "id": "250160490",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "POLANICA-ZDRÓJ",
+    "longitude": 16.518333,
+    "latitude": 50.425278,
+    "altitude": 389
+  },
+  {
+    "id": "250160510",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "OŁDRZYCHOWICE KŁODZKIE",
+    "longitude": 16.734722,
+    "latitude": 50.356667,
+    "altitude": 349
+  },
+  {
+    "id": "350170530",
+    "wmoCode": "12530",
+    "isSynop": true,
+    "name": "OPOLE",
+    "longitude": 17.968889,
+    "latitude": 50.626944,
+    "altitude": 163
+  },
+  {
+    "id": "350150500",
+    "wmoCode": "12500",
+    "isSynop": true,
+    "name": "JELENIA GÓRA",
+    "longitude": 15.788889,
+    "latitude": 50.900278,
+    "altitude": 342
+  },
+  {
+    "id": "351160415",
+    "wmoCode": "12415",
+    "isSynop": true,
+    "name": "LEGNICA",
+    "longitude": 16.207778,
     "latitude": 51.1925,
     "altitude": 123
   },
   {
-    "id": "12690",
-    "station": "Lesko",
-    "name": "Lesko",
-    "longitude": 22.34166667,
-    "latitude": 49.4663889,
-    "altitude": 420
-  },
-  {
-    "id": "12418",
-    "station": "Leszno",
-    "name": "Leszno",
-    "longitude": 16.53472222,
-    "latitude": 51.8355556,
+    "id": "351160418",
+    "wmoCode": "12418",
+    "isSynop": true,
+    "name": "LESZNO",
+    "longitude": 16.534722,
+    "latitude": 51.835556,
     "altitude": 91
   },
   {
-    "id": "12125",
-    "station": "Lębork",
-    "name": "Lębork",
-    "longitude": 17.75694444,
-    "latitude": 54.5530556,
-    "altitude": 39
-  },
-  {
-    "id": "12495",
-    "station": "Lublin",
-    "name": "Lublin-Radawiec",
-    "longitude": 22.39305556,
-    "latitude": 51.2166667,
-    "altitude": 238
-  },
-  {
-    "id": "12120",
-    "station": "Łeba",
-    "name": "Łeba",
-    "longitude": 17.53472222,
-    "latitude": 54.7536111,
-    "altitude": 1
-  },
-  {
-    "id": "12465",
-    "station": "Łódź",
-    "name": "Łódź",
-    "longitude": 19.38722222,
-    "latitude": 51.7183333,
-    "altitude": 174
-  },
-  {
-    "id": "12280",
-    "station": "Mikołajki",
-    "name": "Mikołajki",
-    "longitude": 21.58972222,
-    "latitude": 53.7891667,
-    "altitude": 127
-  },
-  {
-    "id": "12270",
-    "station": "Mława",
-    "name": "Mława",
-    "longitude": 20.36111111,
-    "latitude": 53.1041667,
-    "altitude": 147
-  },
-  {
-    "id": "12660",
-    "station": "Nowy Sącz",
-    "name": "Nowy Sącz",
-    "longitude": 20.68861111,
-    "latitude": 49.6272222,
-    "altitude": 292
-  },
-  {
-    "id": "12272",
-    "station": "Olsztyn",
-    "name": "Olsztyn",
-    "longitude": 20.42138889,
-    "latitude": 53.7686111,
-    "altitude": 133
-  },
-  {
-    "id": "12530",
-    "station": "Opole",
-    "name": "Opole",
-    "longitude": 17.96888889,
-    "latitude": 50.6269444,
-    "altitude": 163
-  },
-  {
-    "id": "12285",
-    "station": "Ostrołęka",
-    "name": "Ostrołęka",
-    "longitude": 21.53388889,
-    "latitude": 53.0658333,
-    "altitude": 94
-  },
-  {
-    "id": "12230",
-    "station": "Piła",
-    "name": "Piła",
-    "longitude": 16.74722222,
-    "latitude": 53.1305556,
-    "altitude": 72
-  },
-  {
-    "id": "12360",
-    "station": "Płock",
-    "name": "Płock",
-    "longitude": 19.72583333,
-    "latitude": 52.5883333,
-    "altitude": 106
-  },
-  {
-    "id": "12330",
-    "station": "Poznań",
-    "name": "Poznań",
-    "longitude": 16.83472222,
-    "latitude": 52.4166667,
-    "altitude": 88
-  },
-  {
-    "id": "12695",
-    "station": "Przemyśl",
-    "name": "Przemyśl",
-    "longitude": 22.77194444,
-    "latitude": 49.8041667,
-    "altitude": 279
-  },
-  {
-    "id": "12540",
-    "station": "Racibórz",
-    "name": "Racibórz",
-    "longitude": 18.19083333,
-    "latitude": 50.0611111,
-    "altitude": 206
-  },
-  {
-    "id": "12210",
-    "station": "Resko",
-    "name": "Resko-Smólsko",
-    "longitude": 15.39333333,
-    "latitude": 53.7636111,
-    "altitude": 52
-  },
-  {
-    "id": "12580",
-    "station": "Rzeszów",
-    "name": "Rzeszów-Jasionka",
-    "longitude": 22.04222222,
-    "latitude": 50.1108333,
-    "altitude": 206
-  },
-  {
-    "id": "12585",
-    "station": "Sandomierz",
-    "name": "Sandomierz",
-    "longitude": 21.71583333,
-    "latitude": 50.6966667,
-    "altitude": 217
-  },
-  {
-    "id": "12385",
-    "station": "Siedlce",
-    "name": "Siedlce",
-    "longitude": 22.24472222,
-    "latitude": 52.1811111,
-    "altitude": 152
-  },
-  {
-    "id": "12310",
-    "station": "Słubice",
-    "name": "Słubice",
-    "longitude": 14.61972222,
-    "latitude": 52.3486111,
-    "altitude": 53
-  },
-  {
-    "id": "12469",
-    "station": "Sulejów",
-    "name": "Sulejów",
-    "longitude": 19.86638889,
-    "latitude": 51.3533333,
-    "altitude": 188
-  },
-  {
-    "id": "12195",
-    "station": "Suwałki",
-    "name": "Suwałki",
-    "longitude": 22.94888889,
-    "latitude": 54.1308333,
-    "altitude": 184
-  },
-  {
-    "id": "12205",
-    "station": "Szczecin",
-    "name": "Szczecin",
-    "longitude": 14.62277778,
-    "latitude": 53.3952778,
-    "altitude": 1
-  },
-  {
-    "id": "12215",
-    "station": "Szczecinek",
-    "name": "Szczecinek",
-    "longitude": 16.74666667,
-    "latitude": 53.7177778,
-    "altitude": 139
-  },
-  {
-    "id": "12510",
-    "station": "Śnieżka",
-    "name": "Śnieżka",
-    "longitude": 15.73972222,
-    "latitude": 50.7363889,
+    "id": "350150510",
+    "wmoCode": "12510",
+    "isSynop": true,
+    "name": "ŚNIEŻKA",
+    "longitude": 15.739722,
+    "latitude": 50.736389,
     "altitude": 1603
   },
   {
-    "id": "12200",
-    "station": "Świnoujście",
-    "name": "Świnoujście",
-    "longitude": 14.24222222,
-    "latitude": 53.9233333,
-    "altitude": 4
-  },
-  {
-    "id": "12575",
-    "station": "Tarnów",
-    "name": "Tarnów",
-    "longitude": 20.98388889,
-    "latitude": 50.03,
-    "altitude": 210
-  },
-  {
-    "id": "12399",
-    "station": "Terespol",
-    "name": "Terespol",
-    "longitude": 23.62194444,
-    "latitude": 52.0786111,
-    "altitude": 133
-  },
-  {
-    "id": "12250",
-    "station": "Toruń",
-    "name": "Toruń",
-    "longitude": 18.59555556,
-    "latitude": 53.0419444,
-    "altitude": 69
-  },
-  {
-    "id": "12115",
-    "station": "Ustka",
-    "name": "Ustka",
-    "longitude": 16.85416667,
-    "latitude": 54.5883333,
-    "altitude": 3
-  },
-  {
-    "id": "12375",
-    "station": "Warszawa",
-    "name": "Warszawa",
-    "longitude": 20.96111111,
-    "latitude": 52.1627778,
-    "altitude": 106
-  },
-  {
-    "id": "12455",
-    "station": "Wieluń",
-    "name": "Wieluń",
-    "longitude": 18.55666667,
-    "latitude": 51.2102778,
-    "altitude": 199
-  },
-  {
-    "id": "12497",
-    "station": "Włodawa",
-    "name": "Włodawa",
-    "longitude": 23.52944444,
-    "latitude": 51.5533333,
-    "altitude": 177
-  },
-  {
-    "id": "12424",
-    "station": "Wrocław",
-    "name": "Wrocław-Strachowice",
+    "id": "351160424",
+    "wmoCode": "12424",
+    "isSynop": true,
+    "name": "WROCŁAW-STRACHOWICE",
     "longitude": 16.9,
-    "latitude": 51.1033333,
+    "latitude": 51.103333,
     "altitude": 120
   },
   {
-    "id": "12625",
-    "station": "Zakopane",
-    "name": "Zakopane",
-    "longitude": 19.96027778,
-    "latitude": 49.2938889,
-    "altitude": 852
+    "id": "250160030",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "BOLKÓW",
+    "longitude": 16.098611,
+    "latitude": 50.925,
+    "altitude": 310
   },
   {
-    "id": "12595",
-    "station": "Zamość",
-    "name": "Zamość",
-    "longitude": 23.20555556,
-    "latitude": 50.6983333,
-    "altitude": 223
+    "id": "251150110",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "ŻAGAŃ",
+    "longitude": 15.293611,
+    "latitude": 51.649722,
+    "altitude": 96
   },
   {
-    "id": "12400",
-    "station": "Zielona Góra",
-    "name": "Zielona Góra",
-    "longitude": 15.52472222,
-    "latitude": 51.93,
-    "altitude": 192
+    "id": "250150080",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "STARA KAMIENICA",
+    "longitude": 15.574167,
+    "latitude": 50.916944,
+    "altitude": 374
+  },
+  {
+    "id": "250150340",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "BOROWICE",
+    "longitude": 15.69,
+    "latitude": 50.789167,
+    "altitude": 660
+  },
+  {
+    "id": "250190030",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "SILNICZKA",
+    "longitude": 19.758889,
+    "latitude": 50.921944,
+    "altitude": 215
+  },
+  {
+    "id": "351190469",
+    "wmoCode": "12469",
+    "isSynop": true,
+    "name": "SULEJÓW",
+    "longitude": 19.866389,
+    "latitude": 51.353333,
+    "altitude": 188
+  },
+  {
+    "id": "250220050",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "ZAKŁODZIE",
+    "longitude": 22.861389,
+    "latitude": 50.7575,
+    "altitude": 205
+  },
+  {
+    "id": "250230020",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "NIELISZ",
+    "longitude": 23.038611,
+    "latitude": 50.805,
+    "altitude": 200
+  },
+  {
+    "id": "251190140",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "PLUCICE",
+    "longitude": 19.601944,
+    "latitude": 51.203611,
+    "altitude": 204
+  },
+  {
+    "id": "249200490",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "MUSZYNA",
+    "longitude": 20.886389,
+    "latitude": 49.349722,
+    "altitude": 445
+  },
+  {
+    "id": "249200530",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "ŁYSA POLANA",
+    "longitude": 20.115,
+    "latitude": 49.263611,
+    "altitude": 970
+  },
+  {
+    "id": "249200550",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "DOLINA PIĘCIU STAWÓW",
+    "longitude": 20.047778,
+    "latitude": 49.213611,
+    "altitude": 1674
+  },
+  {
+    "id": "249210010",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "PILZNO",
+    "longitude": 21.308333,
+    "latitude": 49.987222,
+    "altitude": 195
+  },
+  {
+    "id": "249210070",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "BIECZ-GRUDNA",
+    "longitude": 21.295556,
+    "latitude": 49.735278,
+    "altitude": 285
+  },
+  {
+    "id": "249210080",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "JASŁO",
+    "longitude": 21.485,
+    "latitude": 49.735556,
+    "altitude": 228
+  },
+  {
+    "id": "249210090",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "GORLICE",
+    "longitude": 21.171111,
+    "latitude": 49.655278,
+    "altitude": 300
+  },
+  {
+    "id": "249180160",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "BRENNA",
+    "longitude": 18.870833,
+    "latitude": 49.753611,
+    "altitude": 350
+  },
+  {
+    "id": "249180210",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "SZCZYRK",
+    "longitude": 19.021389,
+    "latitude": 49.705556,
+    "altitude": 593
+  },
+  {
+    "id": "249180220",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "CZANTORIA",
+    "longitude": 18.819722,
+    "latitude": 49.683333,
+    "altitude": 842
+  },
+  {
+    "id": "249180230",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "WISŁA",
+    "longitude": 18.861389,
+    "latitude": 49.654722,
+    "altitude": 430
+  },
+  {
+    "id": "249180240",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "WISŁA-MALINKA",
+    "longitude": 18.9675,
+    "latitude": 49.644722,
+    "altitude": 685
+  },
+  {
+    "id": "249190030",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "LIBERTÓW",
+    "longitude": 19.895,
+    "latitude": 49.9725,
+    "altitude": 318
+  },
+  {
+    "id": "249190050",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "RADZISZÓW",
+    "longitude": 19.809167,
+    "latitude": 49.939722,
+    "altitude": 222
+  },
+  {
+    "id": "249190090",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "INWAŁD",
+    "longitude": 19.388611,
+    "latitude": 49.867222,
+    "altitude": 350
+  },
+  {
+    "id": "249190130",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "MIĘDZYBRODZIE BIALSKIE",
+    "longitude": 19.196111,
+    "latitude": 49.789444,
+    "altitude": 328
+  },
+  {
+    "id": "249190140",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "LESKOWIEC",
+    "longitude": 19.446667,
+    "latitude": 49.795556,
+    "altitude": 872
+  },
+  {
+    "id": "249190170",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "BOGDANÓWKA",
+    "longitude": 19.788056,
+    "latitude": 49.759444,
+    "altitude": 812
+  },
+  {
+    "id": "249190190",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "MAKÓW PODHALAŃSKI",
+    "longitude": 19.688056,
+    "latitude": 49.725833,
+    "altitude": 416
+  },
+  {
+    "id": "249190240",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "LACHOWICE KRALE",
+    "longitude": 19.417778,
+    "latitude": 49.688333,
+    "altitude": 616
+  },
+  {
+    "id": "249190280",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "KRZECZÓW",
+    "longitude": 19.91,
+    "latitude": 49.683611,
+    "altitude": 548
+  },
+  {
+    "id": "249190350",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "ZAWOJA",
+    "longitude": 19.518611,
+    "latitude": 49.611667,
+    "altitude": 697
+  },
+  {
+    "id": "249190390",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "MARKOWE SZCZAWINY",
+    "longitude": 19.516389,
+    "latitude": 49.5875,
+    "altitude": 1193
+  },
+  {
+    "id": "249190410",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "MILÓWKA",
+    "longitude": 19.079444,
+    "latitude": 49.559167,
+    "altitude": 485
+  },
+  {
+    "id": "249190430",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "SOPOTNIA WIELKA",
+    "longitude": 19.299444,
+    "latitude": 49.581667,
+    "altitude": 745
+  },
+  {
+    "id": "249190440",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "KORBIELÓW",
+    "longitude": 19.348333,
+    "latitude": 49.568611,
+    "altitude": 650
+  },
+  {
+    "id": "249190560",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "JABŁONKA",
+    "longitude": 19.695833,
+    "latitude": 49.472222,
+    "altitude": 614
+  },
+  {
+    "id": "249200930",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "PORONIN",
+    "longitude": 20.035278,
+    "latitude": 49.330278,
+    "altitude": 776
+  },
+  {
+    "id": "249200980",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "MSZANA DOLNA",
+    "longitude": 20.054444,
+    "latitude": 49.663611,
+    "altitude": 440
+  },
+  {
+    "id": "249200990",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "WRONOWICE",
+    "longitude": 20.590556,
+    "latitude": 49.736389,
+    "altitude": 270
+  },
+  {
+    "id": "249210030",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "TUCHÓW",
+    "longitude": 21.0475,
+    "latitude": 49.903889,
+    "altitude": 220
+  },
+  {
+    "id": "250210110",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "RAKÓW",
+    "longitude": 21.048611,
+    "latitude": 50.671667,
+    "altitude": 220
+  },
+  {
+    "id": "349190600",
+    "wmoCode": "12600",
+    "isSynop": true,
+    "name": "BIELSKO-BIAŁA",
+    "longitude": 19.002222,
+    "latitude": 49.806667,
+    "altitude": 396
+  },
+  {
+    "id": "249180010",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "PSZCZYNA",
+    "longitude": 18.919167,
+    "latitude": 49.995556,
+    "altitude": 270
+  },
+  {
+    "id": "249190780",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "GUBAŁÓWKA",
+    "longitude": 19.929722,
+    "latitude": 49.305556,
+    "altitude": 1123
+  },
+  {
+    "id": "249190790",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "RATUŁÓW",
+    "longitude": 19.884167,
+    "latitude": 49.391667,
+    "altitude": 679
+  },
+  {
+    "id": "249190880",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "WADOWICE",
+    "longitude": 19.511111,
+    "latitude": 49.877222,
+    "altitude": 265
+  },
+  {
+    "id": "249200950",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "SZAFLARY",
+    "longitude": 20.025278,
+    "latitude": 49.416111,
+    "altitude": 636
+  },
+  {
+    "id": "249210340",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "KREMPNA",
+    "longitude": 21.484167,
+    "latitude": 49.516389,
+    "altitude": 380
+  },
+  {
+    "id": "250190510",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "PIWOŃ",
+    "longitude": 19.245,
+    "latitude": 50.484444,
+    "altitude": 300
+  },
+  {
+    "id": "249190770",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "STRACONKA",
+    "longitude": 19.107222,
+    "latitude": 49.793889,
+    "altitude": 450
+  },
+  {
+    "id": "249180150",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "WAPIENICA",
+    "longitude": 18.973333,
+    "latitude": 49.773611,
+    "altitude": 456
+  },
+  {
+    "id": "250200370",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "KONIECZNO",
+    "longitude": 20.034167,
+    "latitude": 50.794167,
+    "altitude": 268
+  },
+  {
+    "id": "250200380",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "BIELINY PODUCHOWNE",
+    "longitude": 20.958889,
+    "latitude": 50.849444,
+    "altitude": 321
+  },
+  {
+    "id": "249200910",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "MORSKIE OKO",
+    "longitude": 20.071389,
+    "latitude": 49.201111,
+    "altitude": 1400
+  },
+  {
+    "id": "249190850",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "RYCERKA GÓRNA",
+    "longitude": 19.008056,
+    "latitude": 49.425833,
+    "altitude": 720
+  },
+  {
+    "id": "249190860",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "SOBLÓWKA",
+    "longitude": 19.145278,
+    "latitude": 49.456667,
+    "altitude": 620
+  },
+  {
+    "id": "250190380",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "BIERUŃ STARY",
+    "longitude": 19.094722,
+    "latitude": 50.084167,
+    "altitude": 255
+  },
+  {
+    "id": "249201010",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "SIERCZA",
+    "longitude": 20.033889,
+    "latitude": 49.9725,
+    "altitude": 336
+  },
+  {
+    "id": "249190820",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "KOSZARAWA",
+    "longitude": 19.413889,
+    "latitude": 49.672222,
+    "altitude": 671
+  },
+  {
+    "id": "249190830",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "KOŚCIELISKO-KIRY",
+    "longitude": 19.870833,
+    "latitude": 49.277778,
+    "altitude": 933
+  },
+  {
+    "id": "249190840",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "RAJCZA",
+    "longitude": 19.115278,
+    "latitude": 49.508056,
+    "altitude": 505
+  },
+  {
+    "id": "249190810",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "KALWARIA ZEBRZYDOWSKA",
+    "longitude": 19.685278,
+    "latitude": 49.87,
+    "altitude": 312
+  },
+  {
+    "id": "253200080",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "JEMIOŁOWO",
+    "longitude": 20.299444,
+    "latitude": 53.561667,
+    "altitude": 175
+  },
+  {
+    "id": "254190120",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "KMIECIN",
+    "longitude": 19.163889,
+    "latitude": 54.187778,
+    "altitude": 0
+  },
+  {
+    "id": "254190190",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "ELBLĄG",
+    "longitude": 19.431389,
+    "latitude": 54.161944,
+    "altitude": 39
+  },
+  {
+    "id": "254190230",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "ROGITY",
+    "longitude": 19.861389,
+    "latitude": 54.389167,
+    "altitude": 8
+  },
+  {
+    "id": "250140020",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "SIENIAWKA",
+    "longitude": 14.835278,
+    "latitude": 50.893611,
+    "altitude": 234
+  },
+  {
+    "id": "251150420",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "STANKOWICE",
+    "longitude": 15.313611,
+    "latitude": 51.016667,
+    "altitude": 335
+  },
+  {
+    "id": "252170390",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "GNIEZNO II",
+    "longitude": 17.630278,
+    "latitude": 52.523611,
+    "altitude": 117
+  },
+  {
+    "id": "250160910",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "SREBRNA GÓRA II",
+    "longitude": 16.668333,
+    "latitude": 50.580833,
+    "altitude": 380
+  },
+  {
+    "id": "253170360",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "PRUSZCZ",
+    "longitude": 17.825556,
+    "latitude": 53.446389,
+    "altitude": 124
+  },
+  {
+    "id": "253190380",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "LUBSTYN",
+    "longitude": 19.845556,
+    "latitude": 53.5275,
+    "altitude": 200
+  },
+  {
+    "id": "254160030",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "SŁAWNO",
+    "longitude": 16.670278,
+    "latitude": 54.351667,
+    "altitude": 25
+  },
+  {
+    "id": "251190250",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "BEŁCHATÓW",
+    "longitude": 19.396944,
+    "latitude": 51.379722,
+    "altitude": 207
+  },
+  {
+    "id": "249220370",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "ZATWARNICA",
+    "longitude": 22.552222,
+    "latitude": 49.215833,
+    "altitude": null
+  },
+  {
+    "id": "250180660",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "RUDA ŚLĄSKA",
+    "longitude": 18.82,
+    "latitude": 50.246944,
+    "altitude": 236
+  },
+  {
+    "id": "253180270",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "SKÓRCZ-RYZOWIE",
+    "longitude": 18.536944,
+    "latitude": 53.788333,
+    "altitude": 85
+  },
+  {
+    "id": "253220360",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "BIERNATKI",
+    "longitude": 22.853333,
+    "latitude": 53.867778,
+    "altitude": 136
+  },
+  {
+    "id": "249201030",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "DOBRA",
+    "longitude": 20.273333,
+    "latitude": 49.7275,
+    "altitude": 427
+  },
+  {
+    "id": "251210320",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "KAZANÓW",
+    "longitude": 21.4675,
+    "latitude": 51.278333,
+    "altitude": 158
+  },
+  {
+    "id": "250190530",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "KATOWICE PYRZOWICE",
+    "longitude": 19.095,
+    "latitude": 50.477222,
+    "altitude": 301
+  },
+  {
+    "id": "250190780",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "BĘDKOWICE",
+    "longitude": 19.769444,
+    "latitude": 50.179167,
+    "altitude": 434
+  },
+  {
+    "id": "250161030",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "RZECZKA",
+    "longitude": 16.4475,
+    "latitude": 50.676667,
+    "altitude": 624
+  },
+  {
+    "id": "252230290",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "BOLESTY",
+    "longitude": 23.090833,
+    "latitude": 52.736667,
+    "altitude": 156
+  },
+  {
+    "id": "250180110",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "DOBRODZIEŃ",
+    "longitude": 18.425556,
+    "latitude": 50.729167,
+    "altitude": 227
+  },
+  {
+    "id": "249180620",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "KOŃCZYCE MAŁE",
+    "longitude": 18.638889,
+    "latitude": 49.852222,
+    "altitude": 242
+  },
+  {
+    "id": "249210420",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "SMEREKOWIEC",
+    "longitude": 21.233889,
+    "latitude": 49.505278,
+    "altitude": 451
+  },
+  {
+    "id": "249180590",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "RUPTAWA",
+    "longitude": 18.589444,
+    "latitude": 49.936667,
+    "altitude": 230
+  },
+  {
+    "id": "252220050",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "BRAŃSK",
+    "longitude": 22.826389,
+    "latitude": 52.741944,
+    "altitude": 125
+  },
+  {
+    "id": "252220120",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "TONKIELE",
+    "longitude": 22.565278,
+    "latitude": 52.412222,
+    "altitude": 115
+  },
+  {
+    "id": "253170320",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "LIPA",
+    "longitude": 17.257778,
+    "latitude": 53.050556,
+    "altitude": 62
+  },
+  {
+    "id": "253170340",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "IWNO",
+    "longitude": 17.418056,
+    "latitude": 53.026667,
+    "altitude": 111
+  },
+  {
+    "id": "250190880",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "SUŁOSZOWA",
+    "longitude": 19.74,
+    "latitude": 50.258333,
+    "altitude": 442
+  },
+  {
+    "id": "249190060",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "SIEPRAW",
+    "longitude": 19.964722,
+    "latitude": 49.904722,
+    "altitude": 267
+  },
+  {
+    "id": "250150560",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "MAŁA KOPA",
+    "longitude": 15.726111,
+    "latitude": 50.743611,
+    "altitude": 1341
+  },
+  {
+    "id": "254190070",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "TOLKMICKO",
+    "longitude": 19.5225,
+    "latitude": 54.325278,
+    "altitude": 2
+  },
+  {
+    "id": "250190810",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "LUBSZA",
+    "longitude": 19.004167,
+    "latitude": 50.609722,
+    "altitude": 335
+  },
+  {
+    "id": "250180720",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "MODZURÓW",
+    "longitude": 18.138889,
+    "latitude": 50.160556,
+    "altitude": 244
+  },
+  {
+    "id": "251150430",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "BIAŁKÓW",
+    "longitude": 15.021667,
+    "latitude": 51.776944,
+    "altitude": 85
+  },
+  {
+    "id": "250160010",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "STRZEGOM",
+    "longitude": 16.376389,
+    "latitude": 50.963889,
+    "altitude": 211
+  },
+  {
+    "id": "252140210",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "BOCZÓW",
+    "longitude": 14.938611,
+    "latitude": 52.316944,
+    "altitude": 79
+  },
+  {
+    "id": "250180560",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "ŻORY",
+    "longitude": 18.696389,
+    "latitude": 50.053611,
+    "altitude": 245
+  },
+  {
+    "id": "254230040",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "PODWOJPONIE",
+    "longitude": 23.119444,
+    "latitude": 54.300278,
+    "altitude": 207
+  },
+  {
+    "id": "251150440",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "SIECIEBORZYCE",
+    "longitude": 15.536944,
+    "latitude": 51.665556,
+    "altitude": 150
+  },
+  {
+    "id": "252170420",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "ROGOWO",
+    "longitude": 17.643333,
+    "latitude": 52.7325,
+    "altitude": 94
+  },
+  {
+    "id": "252230250",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "ZAMOSZE",
+    "longitude": 23.912778,
+    "latitude": 52.815278,
+    "altitude": 157
+  },
+  {
+    "id": "253220330",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "MARIANOWO II",
+    "longitude": 22.105833,
+    "latitude": 53.211944,
+    "altitude": 138
+  },
+  {
+    "id": "253210350",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "TYSZKI-WĄDOŁOWO",
+    "longitude": 21.984167,
+    "latitude": 53.447778,
+    "altitude": 152
+  },
+  {
+    "id": "252230240",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "NAREWKA",
+    "longitude": 23.725,
+    "latitude": 52.863611,
+    "altitude": 143
+  },
+  {
+    "id": "252230230",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "NAREW",
+    "longitude": 23.522778,
+    "latitude": 52.916667,
+    "altitude": 134
+  },
+  {
+    "id": "253210290",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "PTAKI",
+    "longitude": 21.791667,
+    "latitude": 53.393056,
+    "altitude": 107
+  },
+  {
+    "id": "253210280",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "DOBRYLAS",
+    "longitude": 21.864722,
+    "latitude": 53.285278,
+    "altitude": 102
+  },
+  {
+    "id": "251160170",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "CHWAŁKOWICE",
+    "longitude": 16.613056,
+    "latitude": 51.448333,
+    "altitude": 178
+  },
+  {
+    "id": "251170290",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "NAMYSŁÓW",
+    "longitude": 17.715833,
+    "latitude": 51.065833,
+    "altitude": 152
+  },
+  {
+    "id": "250150030",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "POBIEDNA",
+    "longitude": 15.308611,
+    "latitude": 50.951944,
+    "altitude": 409
+  },
+  {
+    "id": "250150130",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "CIECHANOWICE",
+    "longitude": 15.977222,
+    "latitude": 50.867222,
+    "altitude": 405
+  },
+  {
+    "id": "350160520",
+    "wmoCode": "12520",
+    "isSynop": true,
+    "name": "KŁODZKO",
+    "longitude": 16.614167,
+    "latitude": 50.436944,
+    "altitude": 356
+  },
+  {
+    "id": "251150340",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "GRYFÓW ŚLĄSKI",
+    "longitude": 15.409444,
+    "latitude": 51.026667,
+    "altitude": 312
+  },
+  {
+    "id": "250160310",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "MIEROSZÓW",
+    "longitude": 16.175833,
+    "latitude": 50.6625,
+    "altitude": 493
+  },
+  {
+    "id": "250150060",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "RĘBISZÓW",
+    "longitude": 15.448889,
+    "latitude": 50.951667,
+    "altitude": 420
+  },
+  {
+    "id": "250150050",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "PILCHOWICE",
+    "longitude": 15.64,
+    "latitude": 50.962778,
+    "altitude": 251
+  },
+  {
+    "id": "251150350",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "LUBOMIERZ",
+    "longitude": 15.502778,
+    "latitude": 51.015278,
+    "altitude": 365
+  },
+  {
+    "id": "249190640",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "NOWE BYSTRE",
+    "longitude": 19.929167,
+    "latitude": 49.332222,
+    "altitude": 870
+  },
+  {
+    "id": "249190680",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "HALA ORNAK",
+    "longitude": 19.859444,
+    "latitude": 49.229167,
+    "altitude": 1109
+  },
+  {
+    "id": "249200050",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "STRADOMKA",
+    "longitude": 20.309167,
+    "latitude": 49.920833,
+    "altitude": 226
+  },
+  {
+    "id": "249200060",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "GNOJNIK",
+    "longitude": 20.588333,
+    "latitude": 49.895278,
+    "altitude": 310
+  },
+  {
+    "id": "249200070",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "DOBCZYCE",
+    "longitude": 20.070556,
+    "latitude": 49.8775,
+    "altitude": 308
+  },
+  {
+    "id": "249200110",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "JODŁOWNIK",
+    "longitude": 20.224722,
+    "latitude": 49.770833,
+    "altitude": 384
+  },
+  {
+    "id": "249200130",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "JASTRZĘBIA",
+    "longitude": 20.896389,
+    "latitude": 49.786389,
+    "altitude": 288
+  },
+  {
+    "id": "249200140",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "WĘGLÓWKA",
+    "longitude": 20.074444,
+    "latitude": 49.750278,
+    "altitude": 512
+  },
+  {
+    "id": "249220120",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "LESZCZOWATE",
+    "longitude": 22.547778,
+    "latitude": 49.507222,
+    "altitude": 486
+  },
+  {
+    "id": "249220070",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "RYBOTYCZE",
+    "longitude": 22.64,
+    "latitude": 49.654444,
+    "altitude": 289
+  },
+  {
+    "id": "349220695",
+    "wmoCode": "12695",
+    "isSynop": true,
+    "name": "PRZEMYŚL",
+    "longitude": 22.771944,
+    "latitude": 49.804167,
+    "altitude": 230
+  },
+  {
+    "id": "350220580",
+    "wmoCode": "12580",
+    "isSynop": true,
+    "name": "RZESZÓW-JASIONKA",
+    "longitude": 22.042222,
+    "latitude": 50.110833,
+    "altitude": 206
+  },
+  {
+    "id": "250230140",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "WIELKIE OCZY",
+    "longitude": 23.158333,
+    "latitude": 50.017778,
+    "altitude": 236
+  },
+  {
+    "id": "250230130",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "FUTORY",
+    "longitude": 23.046389,
+    "latitude": 50.196667,
+    "altitude": 239
+  },
+  {
+    "id": "250230170",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "JĘDRZEJÓWKA",
+    "longitude": 23.342778,
+    "latitude": 50.329722,
+    "altitude": 285
+  },
+  {
+    "id": "250220140",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "TARNOGRÓD",
+    "longitude": 22.756667,
+    "latitude": 50.356667,
+    "altitude": 237
+  },
+  {
+    "id": "250230060",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "JÓZEFÓW",
+    "longitude": 23.058333,
+    "latitude": 50.4875,
+    "altitude": 257
+  },
+  {
+    "id": "250220130",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "BRODZIAKI",
+    "longitude": 22.79,
+    "latitude": 50.506667,
+    "altitude": 201
+  },
+  {
+    "id": "250220120",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "JAROCIN",
+    "longitude": 22.306667,
+    "latitude": 50.568611,
+    "altitude": 183
+  },
+  {
+    "id": "250220080",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "FRAMPOL",
+    "longitude": 22.666111,
+    "latitude": 50.675,
+    "altitude": 243
+  },
+  {
+    "id": "250230160",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "CIESZANÓW",
+    "longitude": 23.118056,
+    "latitude": 50.233611,
+    "altitude": 217
+  },
+  {
+    "id": "250220220",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "JAROSŁAW",
+    "longitude": 22.7025,
+    "latitude": 50.021111,
+    "altitude": 180
+  },
+  {
+    "id": "251160190",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "LUBIN",
+    "longitude": 16.216944,
+    "latitude": 51.411944,
+    "altitude": 131
+  },
+  {
+    "id": "249180550",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "CIESZYN",
+    "longitude": 18.609167,
+    "latitude": 49.775,
+    "altitude": 255
+  },
+  {
+    "id": "349200628",
+    "wmoCode": "12628",
+    "isSynop": false,
+    "name": "HALA GĄSIENICOWA",
+    "longitude": 20.005833,
+    "latitude": 49.243889,
+    "altitude": 1523
+  },
+  {
+    "id": "252150270",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "BABIMOST",
+    "longitude": 15.803333,
+    "latitude": 52.143611,
+    "altitude": 57
+  },
+  {
+    "id": "250150530",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "ŚWIERADÓW-ZDRÓJ II",
+    "longitude": 15.325556,
+    "latitude": 50.905833,
+    "altitude": 595
+  },
+  {
+    "id": "253140060",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "GOLENIÓW",
+    "longitude": 14.888333,
+    "latitude": 53.593889,
+    "altitude": 34
+  },
+  {
+    "id": "249210140",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "DUKLA",
+    "longitude": 21.680556,
+    "latitude": 49.566944,
+    "altitude": 385
+  },
+  {
+    "id": "250210260",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "SĘDZISZÓW MAŁOPOLSKI",
+    "longitude": 21.703611,
+    "latitude": 50.078056,
+    "altitude": 210
+  },
+  {
+    "id": "249180170",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "BŁATNIA",
+    "longitude": 18.9425,
+    "latitude": 49.746944,
+    "altitude": 882
+  },
+  {
+    "id": "249190150",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "STRÓŻA",
+    "longitude": 19.9175,
+    "latitude": 49.796389,
+    "altitude": 330
+  },
+  {
+    "id": "249200470",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "KRYNICA",
+    "longitude": 20.960833,
+    "latitude": 49.407778,
+    "altitude": 582
+  },
+  {
+    "id": "249220230",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "LUTOWISKA",
+    "longitude": 22.683333,
+    "latitude": 49.243056,
+    "altitude": 666
+  },
+  {
+    "id": "249220310",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "WETLINA",
+    "longitude": 22.471944,
+    "latitude": 49.144722,
+    "altitude": 708
+  },
+  {
+    "id": "249220270",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "KALNICA",
+    "longitude": 22.424167,
+    "latitude": 49.197222,
+    "altitude": 577
+  },
+  {
+    "id": "249220220",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "POLANA",
+    "longitude": 22.576667,
+    "latitude": 49.303333,
+    "altitude": 458
+  },
+  {
+    "id": "249220290",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "ROZTOKI GÓRNE",
+    "longitude": 22.314444,
+    "latitude": 49.153333,
+    "altitude": 700
+  },
+  {
+    "id": "249220240",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "ŻUBRACZE",
+    "longitude": 22.271667,
+    "latitude": 49.208889,
+    "altitude": 623
+  },
+  {
+    "id": "249220250",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "CISNA",
+    "longitude": 22.331111,
+    "latitude": 49.212778,
+    "altitude": 549
+  },
+  {
+    "id": "249220080",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "SANOK-TREPCZA",
+    "longitude": 22.185278,
+    "latitude": 49.584722,
+    "altitude": 307
+  },
+  {
+    "id": "249180070",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "MAZAŃCOWICE",
+    "longitude": 18.969444,
+    "latitude": 49.8625,
+    "altitude": 269
+  },
+  {
+    "id": "249180090",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "RUDZICA",
+    "longitude": 18.8825,
+    "latitude": 49.853333,
+    "altitude": 337
+  },
+  {
+    "id": "249180130",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "CIESZYN",
+    "longitude": 18.648333,
+    "latitude": 49.754167,
+    "altitude": 295
+  },
+  {
+    "id": "249180630",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "KICZYCE",
+    "longitude": 18.799722,
+    "latitude": 49.821667,
+    "altitude": 283
+  },
+  {
+    "id": "249190010",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "JAWISZOWICE",
+    "longitude": 19.141944,
+    "latitude": 49.959722,
+    "altitude": 260
+  },
+  {
+    "id": "249190080",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "WADOWICE",
+    "longitude": 19.518611,
+    "latitude": 49.881944,
+    "altitude": 259
+  },
+  {
+    "id": "249190220",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "ŚLEMIEŃ",
+    "longitude": 19.353056,
+    "latitude": 49.7175,
+    "altitude": 447
+  },
+  {
+    "id": "249190230",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "LUBIEŃ",
+    "longitude": 19.97,
+    "latitude": 49.720833,
+    "altitude": 429
+  },
+  {
+    "id": "249190270",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "OSIELEC",
+    "longitude": 19.738889,
+    "latitude": 49.678889,
+    "altitude": 439
+  },
+  {
+    "id": "249190290",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "LIPOWA",
+    "longitude": 19.076667,
+    "latitude": 49.666111,
+    "altitude": 530
+  },
+  {
+    "id": "249190310",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "PEWEL MAŁA",
+    "longitude": 19.305833,
+    "latitude": 49.660833,
+    "altitude": 425
+  },
+  {
+    "id": "249190340",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "KOSZARAWA",
+    "longitude": 19.404444,
+    "latitude": 49.655833,
+    "altitude": 595
+  },
+  {
+    "id": "249190380",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "KAMESZNICA",
+    "longitude": 19.064444,
+    "latitude": 49.57,
+    "altitude": 470
+  },
+  {
+    "id": "249190420",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "ŻABNICA",
+    "longitude": 19.1875,
+    "latitude": 49.560833,
+    "altitude": 585
+  },
+  {
+    "id": "249190470",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "RABA WYŻNA",
+    "longitude": 19.884167,
+    "latitude": 49.566667,
+    "altitude": 535
+  },
+  {
+    "id": "249190540",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "RAJCZA",
+    "longitude": 19.105278,
+    "latitude": 49.506111,
+    "altitude": 495
+  },
+  {
+    "id": "249190580",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "RYCERKA GÓRNA",
+    "longitude": 19.008333,
+    "latitude": 49.426389,
+    "altitude": null
+  },
+  {
+    "id": "249190610",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "RATUŁÓW",
+    "longitude": 19.883611,
+    "latitude": 49.391667,
+    "altitude": 679
+  },
+  {
+    "id": "249190630",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "WITÓW",
+    "longitude": 19.825,
+    "latitude": 49.3275,
+    "altitude": 822
+  },
+  {
+    "id": "249190660",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "KOŚCIELISKO-KIRY",
+    "longitude": 19.865833,
+    "latitude": 49.278611,
+    "altitude": 919
+  },
+  {
+    "id": "249190750",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "SOBLÓWKA",
+    "longitude": 19.148333,
+    "latitude": 49.4375,
+    "altitude": 702
+  },
+  {
+    "id": "249190920",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "LIPNICA WIELKA",
+    "longitude": 19.545278,
+    "latitude": 49.537778,
+    "altitude": 819
+  },
+  {
+    "id": "249190980",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "SUCHA BESKIDZKA",
+    "longitude": 19.605833,
+    "latitude": 49.753889,
+    "altitude": 324
+  },
+  {
+    "id": "249200080",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "ŁAPANÓW",
+    "longitude": 20.283611,
+    "latitude": 49.875278,
+    "altitude": 265
+  },
+  {
+    "id": "249200290",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "OCHOTNICA GÓRNA",
+    "longitude": 20.244722,
+    "latitude": 49.510278,
+    "altitude": 617
+  },
+  {
+    "id": "249200310",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "KOWANIEC",
+    "longitude": 20.046944,
+    "latitude": 49.490833,
+    "altitude": 623
+  },
+  {
+    "id": "249200380",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "SZAFLARY",
+    "longitude": 20.030833,
+    "latitude": 49.424722,
+    "altitude": 643
+  },
+  {
+    "id": "249200540",
+    "wmoCode": "126632",
+    "isSynop": false,
+    "name": "HALA GĄSIENICOWA",
+    "longitude": 20.005833,
+    "latitude": 49.243889,
+    "altitude": 1523
+  },
+  {
+    "id": "249200570",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "TRZEMEŚNIA",
+    "longitude": 20.012778,
+    "latitude": 49.8125,
+    "altitude": 347
+  },
+  {
+    "id": "249210130",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "ZBOISKA",
+    "longitude": 21.695833,
+    "latitude": 49.5775,
+    "altitude": 320
+  },
+  {
+    "id": "249210180",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "KREMPNA",
+    "longitude": 21.489444,
+    "latitude": 49.515833,
+    "altitude": 380
+  },
+  {
+    "id": "249210280",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "KUNKOWA",
+    "longitude": 21.124722,
+    "latitude": 49.55,
+    "altitude": 413
+  },
+  {
+    "id": "249220130",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "BRZEGI DOLNE",
+    "longitude": 22.621111,
+    "latitude": 49.443333,
+    "altitude": 438
+  },
+  {
+    "id": "249220160",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "TELEŚNICA OSZWAROWA",
+    "longitude": 22.531111,
+    "latitude": 49.380278,
+    "altitude": 449
+  },
+  {
+    "id": "249220210",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "TERKA",
+    "longitude": 22.426944,
+    "latitude": 49.297222,
+    "altitude": 446
+  },
+  {
+    "id": "249220330",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "TARNAWA NIŻNA",
+    "longitude": 22.791389,
+    "latitude": 49.124722,
+    "altitude": 708
+  },
+  {
+    "id": "249220360",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "BUKOWIEC",
+    "longitude": 22.413611,
+    "latitude": 49.305833,
+    "altitude": 435
+  },
+  {
+    "id": "250150090",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "ŚWIERADÓW-ZDRÓJ",
+    "longitude": 15.358611,
+    "latitude": 50.898333,
+    "altitude": 510
+  },
+  {
+    "id": "250160270",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "WALIM",
+    "longitude": 16.439167,
+    "latitude": 50.702778,
+    "altitude": 489
+  },
+  {
+    "id": "250160350",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "SREBRNA GÓRA",
+    "longitude": 16.664722,
+    "latitude": 50.577222,
+    "altitude": 405
+  },
+  {
+    "id": "250160530",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "ZIELENIEC",
+    "longitude": 16.394167,
+    "latitude": 50.33,
+    "altitude": 840
+  },
+  {
+    "id": "250160610",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "BOLESŁAWÓW",
+    "longitude": 16.890833,
+    "latitude": 50.254722,
+    "altitude": 602
+  },
+  {
+    "id": "250160630",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "MIĘDZYGÓRZE",
+    "longitude": 16.773611,
+    "latitude": 50.218611,
+    "altitude": 795
+  },
+  {
+    "id": "250170250",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "OTMUCHÓW",
+    "longitude": 17.166389,
+    "latitude": 50.472222,
+    "altitude": 212
+  },
+  {
+    "id": "250180250",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "BRYNICA",
+    "longitude": 18.998889,
+    "latitude": 50.471667,
+    "altitude": 283
+  },
+  {
+    "id": "250180650",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "PŁAWNIOWICE",
+    "longitude": 18.482222,
+    "latitude": 50.376389,
+    "altitude": 218
+  },
+  {
+    "id": "250190150",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "BONOWICE",
+    "longitude": 19.793611,
+    "latitude": 50.621111,
+    "altitude": 260
+  },
+  {
+    "id": "250190160",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "LGOTA GÓRNA",
+    "longitude": 19.235278,
+    "latitude": 50.600833,
+    "altitude": 320
+  },
+  {
+    "id": "250190180",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "PIWOŃ",
+    "longitude": 19.251111,
+    "latitude": 50.483056,
+    "altitude": 295
+  },
+  {
+    "id": "250190290",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "OLEWIN",
+    "longitude": 19.603611,
+    "latitude": 50.276944,
+    "altitude": 398
+  },
+  {
+    "id": "250190840",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "ROKITNO SZLACHECKIE",
+    "longitude": 19.431111,
+    "latitude": 50.435278,
+    "altitude": 343
+  },
+  {
+    "id": "250210120",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "KLIMONTÓW",
+    "longitude": 21.450278,
+    "latitude": 50.653333,
+    "altitude": 203
+  },
+  {
+    "id": "250210280",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "WOLA RANIŻOWSKA",
+    "longitude": 21.992222,
+    "latitude": 50.301111,
+    "altitude": 195
+  },
+  {
+    "id": "250210330",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "KLIMONTÓW",
+    "longitude": 21.463611,
+    "latitude": 50.6525,
+    "altitude": 210
+  },
+  {
+    "id": "250220210",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "JAROSŁAW",
+    "longitude": 22.696389,
+    "latitude": 50.018333,
+    "altitude": 181
+  },
+  {
+    "id": "251140060",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "SOBOLICE",
+    "longitude": 14.975,
+    "latitude": 51.388333,
+    "altitude": 150
+  },
+  {
+    "id": "251150030",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "NOWOGRÓD BOBRZAŃSKI",
+    "longitude": 15.253056,
+    "latitude": 51.799444,
+    "altitude": 102
+  },
+  {
+    "id": "251150180",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "TOMASZÓW BOLESŁAWIECKI",
+    "longitude": 15.6775,
+    "latitude": 51.276389,
+    "altitude": 186
+  },
+  {
+    "id": "251150390",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "ZŁOTNIKI LUBAŃSKIE",
+    "longitude": 15.340556,
+    "latitude": 51.013889,
+    "altitude": 360
+  },
+  {
+    "id": "251150410",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "ŚWIERZAWA",
+    "longitude": 15.888889,
+    "latitude": 51.016944,
+    "altitude": 260
+  },
+  {
+    "id": "251160420",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "PYSZĄCA",
+    "longitude": 16.679722,
+    "latitude": 51.256389,
+    "altitude": 110
+  },
+  {
+    "id": "251170030",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "WITASZYCE",
+    "longitude": 17.553333,
+    "latitude": 51.945556,
+    "altitude": 130
+  },
+  {
+    "id": "251170430",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "OSTRZESZÓW II",
+    "longitude": 17.915556,
+    "latitude": 51.434444,
+    "altitude": 186
+  },
+  {
+    "id": "251180090",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "SIERADZ",
+    "longitude": 18.687222,
+    "latitude": 51.593056,
+    "altitude": 140
+  },
+  {
+    "id": "252140150",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "MASZEWO",
+    "longitude": 14.918889,
+    "latitude": 52.069722,
+    "altitude": 68
+  },
+  {
+    "id": "252140160",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "TRZCIŃSKO-ZDRÓJ",
+    "longitude": 14.588056,
+    "latitude": 52.964444,
+    "altitude": 53
+  },
+  {
+    "id": "252150070",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "DREZDENKO",
+    "longitude": 15.841111,
+    "latitude": 52.854722,
+    "altitude": 31
+  },
+  {
+    "id": "252170110",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "GNIEZNO",
+    "longitude": 17.531944,
+    "latitude": 52.5575,
+    "altitude": 170
+  },
+  {
+    "id": "252180060",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "PAKOŚĆ",
+    "longitude": 18.0925,
+    "latitude": 52.799444,
+    "altitude": 76
+  },
+  {
+    "id": "252180310",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "RADOSZEWICE",
+    "longitude": 18.706111,
+    "latitude": 52.361944,
+    "altitude": 110
+  },
+  {
+    "id": "252230040",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "NAREW",
+    "longitude": 23.519167,
+    "latitude": 52.914722,
+    "altitude": 139
+  },
+  {
+    "id": "252230060",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "NAREWKA",
+    "longitude": 23.728056,
+    "latitude": 52.871667,
+    "altitude": 143
+  },
+  {
+    "id": "252230080",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "NOWE MASIEWO",
+    "longitude": 23.897222,
+    "latitude": 52.833889,
+    "altitude": 150
+  },
+  {
+    "id": "252230110",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "HAJNÓWKA",
+    "longitude": 23.560278,
+    "latitude": 52.7325,
+    "altitude": 163
+  },
+  {
+    "id": "253150020",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "WITNO",
+    "longitude": 15.063056,
+    "latitude": 53.944444,
+    "altitude": 20
+  },
+  {
+    "id": "253160040",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "GRZMIĄCA",
+    "longitude": 16.439167,
+    "latitude": 53.835833,
+    "altitude": 100
+  },
+  {
+    "id": "253160260",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "WICEWO",
+    "longitude": 16.123611,
+    "latitude": 53.8875,
+    "altitude": 47
+  },
+  {
+    "id": "253170030",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "RÓŻKI-DĘBIE",
+    "longitude": 17.148056,
+    "latitude": 53.891111,
+    "altitude": 155
+  },
+  {
+    "id": "253170330",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "SITOWIEC",
+    "longitude": 17.754167,
+    "latitude": 53.368889,
+    "altitude": 134
+  },
+  {
+    "id": "253180170",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "NOWY JASINIEC",
+    "longitude": 18.037222,
+    "latitude": 53.348333,
+    "altitude": 90
+  },
+  {
+    "id": "253190260",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "OSTROWITE",
+    "longitude": 19.274167,
+    "latitude": 53.42,
+    "altitude": 101
+  },
+  {
+    "id": "253210130",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "SZCZYTNO",
+    "longitude": 21.012222,
+    "latitude": 53.576944,
+    "altitude": 160
+  },
+  {
+    "id": "253210180",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "PTAKI",
+    "longitude": 21.794722,
+    "latitude": 53.390556,
+    "altitude": 112
+  },
+  {
+    "id": "253210220",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "DOBRYLAS",
+    "longitude": 21.827222,
+    "latitude": 53.296389,
+    "altitude": 104
+  },
+  {
+    "id": "253220210",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "TYKOCIN",
+    "longitude": 22.770556,
+    "latitude": 53.204444,
+    "altitude": 109
+  },
+  {
+    "id": "253230170",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "NOWOSIÓŁKI",
+    "longitude": 23.526389,
+    "latitude": 53.175,
+    "altitude": 132
+  },
+  {
+    "id": "254150050",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "BIAŁOGARD",
+    "longitude": 15.975,
+    "latitude": 54.004167,
+    "altitude": 23
+  },
+  {
+    "id": "254160040",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "JEŻYCZKI",
+    "longitude": 16.390556,
+    "latitude": 54.334722,
+    "altitude": 10
+  },
+  {
+    "id": "254160060",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "SIERAKOWO",
+    "longitude": 16.516389,
+    "latitude": 54.216389,
+    "altitude": 50
+  },
+  {
+    "id": "254160080",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "POLANÓW",
+    "longitude": 16.683056,
+    "latitude": 54.118611,
+    "altitude": 80
+  },
+  {
+    "id": "254160130",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "CIECHOLUB",
+    "longitude": 16.874444,
+    "latitude": 54.172778,
+    "altitude": 115
+  },
+  {
+    "id": "254160140",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "KŁANINO",
+    "longitude": 16.486111,
+    "latitude": 54.0275,
+    "altitude": 114
+  },
+  {
+    "id": "254170130",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "NIEZABYSZEWO",
+    "longitude": 17.423333,
+    "latitude": 54.138333,
+    "altitude": 160
+  },
+  {
+    "id": "254170190",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "SŁUPSK",
+    "longitude": 17.035556,
+    "latitude": 54.463333,
+    "altitude": 17
+  },
+  {
+    "id": "254170210",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "BORUCINO",
+    "longitude": 17.991667,
+    "latitude": 54.253611,
+    "altitude": null
+  },
+  {
+    "id": "254180130",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "GORĘCZYNO",
+    "longitude": 18.1625,
+    "latitude": 54.261944,
+    "altitude": 177
+  },
+  {
+    "id": "351160425",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "WROCŁAW",
+    "longitude": 16.881667,
+    "latitude": 51.113611,
+    "altitude": 120
+  },
+  {
+    "id": "249200320",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "ŁOPUSZNA",
+    "longitude": 20.123611,
+    "latitude": 49.474167,
+    "altitude": 570
+  },
+  {
+    "id": "254200140",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "OSIEKA",
+    "longitude": 20.7825,
+    "latitude": 54.208889,
+    "altitude": 74
+  },
+  {
+    "id": "251230240",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "STUDZIANKA",
+    "longitude": 23.214722,
+    "latitude": 51.931667,
+    "altitude": 143
+  },
+  {
+    "id": "251230220",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "DEPUŁTYCZE KRÓLEWSKIE",
+    "longitude": 23.436111,
+    "latitude": 51.083056,
+    "altitude": 216
+  },
+  {
+    "id": "254220120",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "PRZEROŚL",
+    "longitude": 22.659722,
+    "latitude": 54.258056,
+    "altitude": 215
+  },
+  {
+    "id": "251150080",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "GRABIK",
+    "longitude": 15.111389,
+    "latitude": 51.6525,
+    "altitude": 166
+  },
+  {
+    "id": "252220210",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "WIERZBOWO NOWE",
+    "longitude": 22.324167,
+    "latitude": 52.984444,
+    "altitude": 130
+  },
+  {
+    "id": "252150350",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "KLESZCZEWO",
+    "longitude": 15.389722,
+    "latitude": 52.455833,
+    "altitude": 93
+  },
+  {
+    "id": "252170410",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "MOGILNO",
+    "longitude": 17.966667,
+    "latitude": 52.644444,
+    "altitude": 95
+  },
+  {
+    "id": "249201020",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "OSTROWSKO",
+    "longitude": 20.093889,
+    "latitude": 49.48,
+    "altitude": 568
+  },
+  {
+    "id": "253210390",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "MIKOSZE-OSADA",
+    "longitude": 21.907778,
+    "latitude": 53.816111,
+    "altitude": 124
+  },
+  {
+    "id": "251220260",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "TURZE ROGI",
+    "longitude": 22.463889,
+    "latitude": 51.926944,
+    "altitude": 159
+  },
+  {
+    "id": "250180540",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "RYDUŁTOWY",
+    "longitude": 18.429444,
+    "latitude": 50.050278,
+    "altitude": 295
+  },
+  {
+    "id": "254170320",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "JASIEŃ",
+    "longitude": 17.636944,
+    "latitude": 54.285556,
+    "altitude": 151
+  },
+  {
+    "id": "250180210",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "ZIELONA",
+    "longitude": 18.968056,
+    "latitude": 50.549167,
+    "altitude": 284
+  },
+  {
+    "id": "254170060",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "MIKOROWO",
+    "longitude": 17.580556,
+    "latitude": 54.408333,
+    "altitude": 117
+  },
+  {
+    "id": "252160370",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "WRONKI",
+    "longitude": 16.373056,
+    "latitude": 52.6925,
+    "altitude": 70
+  },
+  {
+    "id": "250150580",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "JARKOWICE",
+    "longitude": 15.873611,
+    "latitude": 50.736389,
+    "altitude": 650
+  },
+  {
+    "id": "250180680",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "CZERWIONKA-LESZCZYNY",
+    "longitude": 18.663611,
+    "latitude": 50.154444,
+    "altitude": 246
+  },
+  {
+    "id": "252180370",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "KLECZEW",
+    "longitude": 18.170556,
+    "latitude": 52.386944,
+    "altitude": 98
+  },
+  {
+    "id": "250180730",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "BIERAWA",
+    "longitude": 18.244722,
+    "latitude": 50.282222,
+    "altitude": 178
+  },
+  {
+    "id": "353180255",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "KWIDZYN",
+    "longitude": 18.871667,
+    "latitude": 53.734167,
+    "altitude": null
+  },
+  {
+    "id": "250240070",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "GOŁĘBIE",
+    "longitude": 24.083056,
+    "latitude": 50.634722,
+    "altitude": 204
+  },
+  {
+    "id": "250230190",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "KOLONIA NOWOSIÓŁKI",
+    "longitude": 23.916111,
+    "latitude": 50.541667,
+    "altitude": 248
+  },
+  {
+    "id": "253210410",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "TARGOWO",
+    "longitude": 21.028611,
+    "latitude": 53.695278,
+    "altitude": 165
+  },
+  {
+    "id": "250170770",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "UNIKOWICE",
+    "longitude": 17.008611,
+    "latitude": 50.4425,
+    "altitude": 248
+  },
+  {
+    "id": "250180450",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "ZWONOWICE",
+    "longitude": 18.437778,
+    "latitude": 50.142778,
+    "altitude": 260
+  },
+  {
+    "id": "250140010",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "WYSZKÓW",
+    "longitude": 14.993611,
+    "latitude": 50.965278,
+    "altitude": 330
+  },
+  {
+    "id": "254180280",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "SZEMUD",
+    "longitude": 18.213611,
+    "latitude": 54.493056,
+    "altitude": 154
+  },
+  {
+    "id": "250170860",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "PRZYLESIE",
+    "longitude": 17.349722,
+    "latitude": 50.782222,
+    "altitude": 164
+  },
+  {
+    "id": "253150320",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "LUBIANA",
+    "longitude": 15.323333,
+    "latitude": 53.104444,
+    "altitude": 68
+  },
+  {
+    "id": "251150220",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "NOWOGRODZIEC",
+    "longitude": 15.395278,
+    "latitude": 51.195556,
+    "altitude": 206
+  },
+  {
+    "id": "250160930",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "KARŁÓW",
+    "longitude": 16.336944,
+    "latitude": 50.474167,
+    "altitude": 753
+  },
+  {
+    "id": "254150060",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "GĄSKI",
+    "longitude": 15.917222,
+    "latitude": 54.238056,
+    "altitude": 8
+  },
+  {
+    "id": "253150360",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "KINOWO",
+    "longitude": 15.451389,
+    "latitude": 53.975,
+    "altitude": 32
+  },
+  {
+    "id": "250150180",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "JAGNIĄTKÓW",
+    "longitude": 15.611944,
+    "latitude": 50.82,
+    "altitude": 549
+  },
+  {
+    "id": "250200520",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "DOBROWODA",
+    "longitude": 20.765556,
+    "latitude": 50.394444,
+    "altitude": 208
+  },
+  {
+    "id": "250180790",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "SOWCZYCE",
+    "longitude": 18.486389,
+    "latitude": 50.848056,
+    "altitude": 248
+  },
+  {
+    "id": "249210390",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "UŚCIE GORLICKIE",
+    "longitude": 21.131944,
+    "latitude": 49.526944,
+    "altitude": 398
+  },
+  {
+    "id": "252220220",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "TOŁWIN",
+    "longitude": 22.951111,
+    "latitude": 52.499167,
+    "altitude": 175
+  },
+  {
+    "id": "254170330",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "TUCHOMKO",
+    "longitude": 17.368333,
+    "latitude": 54.131389,
+    "altitude": null
+  },
+  {
+    "id": "254160150",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "MOKRE",
+    "longitude": 16.401667,
+    "latitude": 54.170278,
+    "altitude": 76
+  },
+  {
+    "id": "251170090",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "SMOLICE",
+    "longitude": 17.179722,
+    "latitude": 51.694167,
+    "altitude": 105
+  },
+  {
+    "id": "252190190",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "LUTOCIN",
+    "longitude": 19.751111,
+    "latitude": 52.984722,
+    "altitude": 129
+  },
+  {
+    "id": "250161060",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "ŁOMNICA",
+    "longitude": 16.328333,
+    "latitude": 50.672222,
+    "altitude": 570
+  },
+  {
+    "id": "253150290",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "ŁOPIANÓW",
+    "longitude": 15.261389,
+    "latitude": 53.875556,
+    "altitude": 32
+  },
+  {
+    "id": "253200290",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "BAGIENICE",
+    "longitude": 20.858056,
+    "latitude": 53.255,
+    "altitude": 130
+  },
+  {
+    "id": "250150570",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "MYSŁÓW",
+    "longitude": 15.983056,
+    "latitude": 50.9325,
+    "altitude": 464
+  },
+  {
+    "id": "250220020",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "ZAKRZÓWEK",
+    "longitude": 22.3725,
+    "latitude": 50.929444,
+    "altitude": 270
+  },
+  {
+    "id": "251200320",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "MSZCZONÓW",
+    "longitude": 20.497222,
+    "latitude": 51.984167,
+    "altitude": 161
+  },
+  {
+    "id": "251220230",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "OSTRÓWEK-KOLONIA",
+    "longitude": 22.600278,
+    "latitude": 51.593611,
+    "altitude": 148
+  },
+  {
+    "id": "253150310",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "NIEDŹWIEDZISKA",
+    "longitude": 15.078056,
+    "latitude": 53.949444,
+    "altitude": 20
+  },
+  {
+    "id": "253230250",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "ŚLUZA TARTAK",
+    "longitude": 23.461667,
+    "latitude": 53.8825,
+    "altitude": 108
+  },
+  {
+    "id": "250150590",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "NIEDAMIRÓW",
+    "longitude": 15.870556,
+    "latitude": 50.691111,
+    "altitude": 685
+  },
+  {
+    "id": "250190830",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "MYSŁÓW",
+    "longitude": 19.215,
+    "latitude": 50.572778,
+    "altitude": 322
+  },
+  {
+    "id": "250210290",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "ŁUBNICE",
+    "longitude": 21.154722,
+    "latitude": 50.396944,
+    "altitude": 162
+  },
+  {
+    "id": "253150340",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "MIĘDZYRZECZE",
+    "longitude": 15.568333,
+    "latitude": 53.871944,
+    "altitude": 59
+  },
+  {
+    "id": "250220240",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "BUKOWNICA",
+    "longitude": 22.846667,
+    "latitude": 50.560556,
+    "altitude": 235
+  },
+  {
+    "id": "250220230",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "PIWODA",
+    "longitude": 22.755,
+    "latitude": 50.076389,
+    "altitude": 183
+  },
+  {
+    "id": "250161080",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "STARKÓWEK",
+    "longitude": 16.518056,
+    "latitude": 50.373333,
+    "altitude": 484
+  },
+  {
+    "id": "252220230",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "ANDRZEJEWO",
+    "longitude": 22.185278,
+    "latitude": 52.823333,
+    "altitude": 117
+  },
+  {
+    "id": "250170870",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "OPOLE-WIK",
+    "longitude": 17.901111,
+    "latitude": 50.681111,
+    "altitude": 149
+  },
+  {
+    "id": "254190150",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "SŁOBITY",
+    "longitude": 19.751389,
+    "latitude": 54.129722,
+    "altitude": 55
+  },
+  {
+    "id": "250190820",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "DĄBROWA GÓRNICZA",
+    "longitude": 19.264444,
+    "latitude": 50.402222,
+    "altitude": 321
+  },
+  {
+    "id": "249170080",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "DZIERŻKOWICE",
+    "longitude": 17.846389,
+    "latitude": 49.992222,
+    "altitude": 270
+  },
+  {
+    "id": "254170310",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "OBJEZIERZE",
+    "longitude": 17.067778,
+    "latitude": 54.300278,
+    "altitude": 142
+  },
+  {
+    "id": "250150540",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "CZERNICA",
+    "longitude": 15.7175,
+    "latitude": 50.974444,
+    "altitude": 299
+  },
+  {
+    "id": "250161020",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "ZIELENIEC II",
+    "longitude": 16.399167,
+    "latitude": 50.344444,
+    "altitude": 721
+  },
+  {
+    "id": "251150470",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "MIEDZIANA",
+    "longitude": 15.116389,
+    "latitude": 51.020833,
+    "altitude": 295
+  },
+  {
+    "id": "252230150",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "KLESZCZELE",
+    "longitude": 23.319444,
+    "latitude": 52.572222,
+    "altitude": 160
+  },
+  {
+    "id": "252140220",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "CHOJNA",
+    "longitude": 14.404167,
+    "latitude": 52.940833,
+    "altitude": 49
+  },
+  {
+    "id": "249180030",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "CHAŁUPKI",
+    "longitude": 18.3275,
+    "latitude": 49.925833,
+    "altitude": 198
+  },
+  {
+    "id": "252140090",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "KOSTRZYN NAD ODRĄ",
+    "longitude": 14.661111,
+    "latitude": 52.598611,
+    "altitude": 26
+  },
+  {
+    "id": "253150350",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "RADOWO MAŁE",
+    "longitude": 15.452222,
+    "latitude": 53.668333,
+    "altitude": 93
+  },
+  {
+    "id": "252200350",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "NACPOLSK",
+    "longitude": 20.251389,
+    "latitude": 52.514167,
+    "altitude": 126
+  },
+  {
+    "id": "253180280",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "BRZOZOWO",
+    "longitude": 18.424722,
+    "latitude": 53.312222,
+    "altitude": 85
+  },
+  {
+    "id": "250161040",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "ZŁOTY STOK",
+    "longitude": 16.850556,
+    "latitude": 50.429722,
+    "altitude": 536
+  },
+  {
+    "id": "252180380",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "RAKOWO",
+    "longitude": 18.288611,
+    "latitude": 52.497222,
+    "altitude": 103
+  },
+  {
+    "id": "253200040",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "GIETRZWAŁD",
+    "longitude": 20.244722,
+    "latitude": 53.751389,
+    "altitude": 107
+  },
+  {
+    "id": "250220250",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "PISKOROWICE",
+    "longitude": 22.516944,
+    "latitude": 50.245556,
+    "altitude": 171
+  },
+  {
+    "id": "249180640",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "BRENNA-BRENNICA",
+    "longitude": 18.9075,
+    "latitude": 49.723333,
+    "altitude": 403
+  },
+  {
+    "id": "250200490",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "KOKOTÓW",
+    "longitude": 20.070833,
+    "latitude": 50.021667,
+    "altitude": null
+  },
+  {
+    "id": "254180290",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "SZYMANKOWO",
+    "longitude": 18.931389,
+    "latitude": 54.074167,
+    "altitude": 3
+  },
+  {
+    "id": "250161090",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "WOLBROMEK",
+    "longitude": 16.127222,
+    "latitude": 50.929722,
+    "altitude": 290
+  },
+  {
+    "id": "252190230",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "PODDĘBICE",
+    "longitude": 19.009167,
+    "latitude": 52.553611,
+    "altitude": 91
+  },
+  {
+    "id": "252200290",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "KAMPINOS",
+    "longitude": 20.4725,
+    "latitude": 52.268889,
+    "altitude": 87
+  },
+  {
+    "id": "250230180",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "GRABOWIEC GÓRA",
+    "longitude": 23.57,
+    "latitude": 50.8125,
+    "altitude": 268
+  },
+  {
+    "id": "249191020",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "SKAWICA",
+    "longitude": 19.666944,
+    "latitude": 49.686389,
+    "altitude": 409
+  },
+  {
+    "id": "250200550",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "BROŃCZYCE",
+    "longitude": 20.103333,
+    "latitude": 50.233333,
+    "altitude": 256
+  },
+  {
+    "id": "250180770",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "SIERONIOWICE",
+    "longitude": 18.359167,
+    "latitude": 50.450278,
+    "altitude": 263
+  },
+  {
+    "id": "252210320",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "KOZŁY",
+    "longitude": 21.409167,
+    "latitude": 52.452222,
+    "altitude": 107
+  },
+  {
+    "id": "253160240",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "BARWICE",
+    "longitude": 16.353889,
+    "latitude": 53.753056,
+    "altitude": 133
+  },
+  {
+    "id": "251220250",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "OSTRÓW LUBELSKI",
+    "longitude": 22.869722,
+    "latitude": 51.496111,
+    "altitude": 157
+  },
+  {
+    "id": "250190850",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "TROKS",
+    "longitude": 19.635833,
+    "latitude": 50.303889,
+    "altitude": 411
+  },
+  {
+    "id": "252140070",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "BOLESZKOWICE",
+    "longitude": 14.566667,
+    "latitude": 52.726944,
+    "altitude": 50
+  },
+  {
+    "id": "252190240",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "TRĘBKI",
+    "longitude": 19.540556,
+    "latitude": 52.320278,
+    "altitude": 105
+  },
+  {
+    "id": "251190150",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "DOBRYSZYCE",
+    "longitude": 19.428333,
+    "latitude": 51.138889,
+    "altitude": 259
+  },
+  {
+    "id": "253200140",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "WIELBARK",
+    "longitude": 20.937222,
+    "latitude": 53.406111,
+    "altitude": 127
+  },
+  {
+    "id": "250190920",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "KORYCZANY",
+    "longitude": 19.934722,
+    "latitude": 50.489444,
+    "altitude": 323
+  },
+  {
+    "id": "253150010",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "STARNIN",
+    "longitude": 15.456667,
+    "latitude": 53.965833,
+    "altitude": 36
+  },
+  {
+    "id": "250190390",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "KRAKÓW-OBSERWATORIUM",
+    "longitude": 19.958611,
+    "latitude": 50.063889,
+    "altitude": 204
+  },
+  {
+    "id": "251220240",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "ZADWORZE",
+    "longitude": 22.230556,
+    "latitude": 51.015278,
+    "altitude": 254
+  },
+  {
+    "id": "252150360",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "WITYŃ",
+    "longitude": 15.611111,
+    "latitude": 52.2675,
+    "altitude": 76
+  },
+  {
+    "id": "250170880",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "BOREK STRZELIŃSKI",
+    "longitude": 17.088611,
+    "latitude": 50.868889,
+    "altitude": 146
+  },
+  {
+    "id": "249191040",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "RYCERKA GÓRNA II",
+    "longitude": 19.011944,
+    "latitude": 49.440556,
+    "altitude": 679
+  },
+  {
+    "id": "252210340",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "WARSZAWA-MŁK",
+    "longitude": 21.032222,
+    "latitude": 52.210556,
+    "altitude": null
+  },
+  {
+    "id": "250161110",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "GOLIŃSK",
+    "longitude": null,
+    "latitude": null,
+    "altitude": 493
+  },
+  {
+    "id": "253200310",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "PRZASNYSZ",
+    "longitude": 20.931389,
+    "latitude": 53.012222,
+    "altitude": 120
+  },
+  {
+    "id": "254220130",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "BORKI",
+    "longitude": 22.172222,
+    "latitude": 54.1,
+    "altitude": null
+  },
+  {
+    "id": "250190930",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "KRAKÓW-KAMPUS UJ",
+    "longitude": 19.901944,
+    "latitude": 50.026944,
+    "altitude": 211
+  },
+  {
+    "id": "250180780",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "ŚWIERKLANY",
+    "longitude": 18.585833,
+    "latitude": 50.012222,
+    "altitude": 285
+  },
+  {
+    "id": "250190860",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "WYWŁA",
+    "longitude": 19.925278,
+    "latitude": 50.615556,
+    "altitude": 282
+  },
+  {
+    "id": "353160213",
+    "wmoCode": "",
+    "isSynop": false,
+    "name": "BARWICE",
+    "longitude": 16.353889,
+    "latitude": 53.753056,
+    "altitude": 133
   }
 ]

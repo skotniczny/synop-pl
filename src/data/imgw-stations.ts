@@ -2,13 +2,13 @@ import STATIONS_JSON from "./imgw-stations.json" with { type: "json" }
 
 type Station = {
   id: string
-  station: string
+  wmoCode: string,
+  isSynop: boolean,
   name: string
-  longitude: number
-  latitude: number
-  altitude: number
+  longitude: number | null
+  latitude: number | null
+  altitude: number | null
 }
 
-export const stations = STATIONS_JSON as Station[]
-
-export const stationMap = new Map<string, Station>(stations.map((station) => [station.id, station]))
+export const meteoStations: Station[] = STATIONS_JSON
+export const synopStations: Station[] = STATIONS_JSON.filter((item) => item.isSynop)
