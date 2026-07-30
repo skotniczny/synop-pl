@@ -2,8 +2,8 @@ import STATIONS_JSON from "./imgw-stations.json" with { type: "json" }
 
 type Station = {
   id: string
-  wmoCode: string,
-  isSynop: boolean,
+  wmoCode: string
+  isSynop: boolean
   name: string
   longitude: number | null
   latitude: number | null
