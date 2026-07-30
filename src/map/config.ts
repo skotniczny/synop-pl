@@ -20,7 +20,7 @@ type Config = {
 export const configs: { [Key in LayerKey]: Config } = {
   temperatura_format: {
     label: "Temperatura powietrza",
-    filter: null,
+    filter: ["all", ["!=", ["get", "temperatura_format"], null]],
     color: temperatureColors,
     synopKey: "temperatura",
     unit: " °C",
@@ -34,21 +34,21 @@ export const configs: { [Key in LayerKey]: Config } = {
   },
   wilgotnosc_wzgledna: {
     label: "Wilgotność powietrza",
-    filter: null,
+    filter: ["all", ["!=", ["get", "wilgotnosc_wzgledna"], null]],
     color: humidityColors,
     synopKey: "wilgotnosc_wzgledna",
     unit: "%",
   },
   predkosc_wiatru: {
     label: "Kierunek i prędkość wiatru",
-    filter: null,
+    filter: ["!=", ["get", "predkosc_wiatru"], null],
     color: windSpeedColors,
     synopKey: "predkosc_wiatru",
     unit: " m/s",
   },
   suma_opadu: {
     label: "Suma opadu",
-    filter: ["all", ["!=", ["get", "suma_opadu"], "0"]],
+    filter: ["all", ["!=", ["get", "suma_opadu"], "0"], ["!=", ["get", "suma_opadu"], null]],
     color: rainColors,
     synopKey: "suma_opadu",
     unit: " mm",
