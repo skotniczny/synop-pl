@@ -1,5 +1,3 @@
-import type { LayerKey } from "../config"
-
 const colors = {
   "-40": "#4A004A",
   "-39": "#4E0051",
@@ -84,13 +82,11 @@ const colors = {
   "40": "#660033",
 }
 
-const key: LayerKey = "temperatura_format"
-
-export const temperatureColors = [
+export const temperatureColors = (key: string) => [
   "match",
   ["round", ["to-number", ["get", key]]],
   ...Object.entries(colors)
     .map(([k, v]) => [Number(k), v])
     .flat(),
-  "#fff", // fallback
+  "#fff",
 ]

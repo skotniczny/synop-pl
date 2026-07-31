@@ -1,8 +1,4 @@
-import { type LayerKey } from "../config"
-
-const key: LayerKey = "wilgotnosc_wzgledna"
-
-export const humidityColors = [
+export const humidityColors = (key: string) => [
   "interpolate",
   ["linear"],
   ["to-number", ["get", key]],

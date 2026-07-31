@@ -1,8 +1,4 @@
-import { type LayerKey } from "../config"
-
-const key: LayerKey = "cisnienie_format"
-
-export const pressureColors = [
+export const pressureColors = (key: string) => [
   "interpolate",
   ["linear"],
   ["to-number", ["get", key]],

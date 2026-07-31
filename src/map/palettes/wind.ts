@@ -1,8 +1,4 @@
-import { type LayerKey } from "../config"
-
-const key: LayerKey = "predkosc_wiatru"
-
-export const windSpeedColors = [
+export const windSpeedColors = (key: string) => [
   "interpolate",
   ["linear"],
   ["*", ["to-number", ["get", key]], 3.6],

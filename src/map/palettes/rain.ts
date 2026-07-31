@@ -1,8 +1,4 @@
-import { type LayerKey } from "../config"
-
-const key: LayerKey = "suma_opadu"
-
-export const rainColors = [
+export const rainColors = (key: string) => [
   "interpolate",
   ["linear"],
   ["to-number", ["get", key]],
