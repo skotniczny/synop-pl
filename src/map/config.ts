@@ -3,6 +3,7 @@ import { humidityColors } from "./palettes/humidity"
 import { pressureColors } from "./palettes/pressure"
 import { rainColors } from "./palettes/rain"
 import { windSpeedColors } from "./palettes/wind"
+import { type SynopRecord } from "../api/fetch"
 
 export type LayerKey =
   "temperatura_format" | "cisnienie_format" | "wilgotnosc_wzgledna" | "predkosc_wiatru" | "suma_opadu"
@@ -54,3 +55,16 @@ export const configs: { [Key in LayerKey]: Config } = {
     unit: " mm",
   },
 }
+
+export const tableColumns: { data: keyof SynopRecord; title: string }[] = [
+  { data: "id_stacji", title: "Id" },
+  { data: "stacja", title: "Stacja" },
+  { data: "data_pomiaru", title: "Data pomiaru" },
+  { data: "godzina_pomiaru", title: "Godzina pomiaru [UTC]" },
+  { data: "temperatura", title: "Temperatura [°C]" },
+  { data: "predkosc_wiatru", title: "Prędkość wiatru [m/s]" },
+  { data: "kierunek_wiatru", title: "Kierunek wiatru [°]" },
+  { data: "wilgotnosc_wzgledna", title: "Wilgotność [%]" },
+  { data: "suma_opadu", title: "Suma opadu [mm]" },
+  { data: "cisnienie", title: "Ciśnienie [hPa]" },
+]
