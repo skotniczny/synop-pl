@@ -8,7 +8,7 @@ export type SynopRecord = {
   kierunek_wiatru: string
   wilgotnosc_wzgledna: string
   suma_opadu: string
-  cisnienie: string
+  cisnienie: string | null
 }
 
 export type MeteoRecord = {
