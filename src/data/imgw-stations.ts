@@ -1,6 +1,6 @@
 import STATIONS_JSON from "./imgw-stations.json" with { type: "json" }
 
-type Station = {
+export type Station = {
   id: string
   wmoCode: string
   isSynop: boolean
