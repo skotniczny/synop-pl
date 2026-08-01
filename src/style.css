@@ -189,8 +189,28 @@ p {
   transform: rotate(180deg);
 }
 
-.featured-l-b {
+.featured-c-t,
+.featured-l-b,
+.featured-r-b {
   position: absolute;
-  left: 1rem;
+}
+
+.featured-l-b,
+.featured-r-b {
+  
   bottom: 1rem;
+}
+
+.featured-l-b {
+  left: 1rem;
+}
+
+.featured-r-b {
+  right: 1rem;
+}
+
+.featured-c-t {
+  left: 50%;
+  top: 1rem;
+  transform: translateX(-50%);
 }
