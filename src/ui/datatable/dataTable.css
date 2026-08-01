@@ -1,5 +1,6 @@
 .dt-search,
-.dt-info {
+.dt-info,
+.dt-paging {
   padding-left: 0.5rem;
   padding-right: 0.5rem;
 }
@@ -7,4 +8,9 @@
 .dt-column-title {
   white-space: nowrap;
   font-weight: 600;
+}
+
+div.dt-container .dt-paging .dt-paging-button {
+  padding-top: 0;
+  padding-bottom: 0;
 }
