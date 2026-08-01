@@ -6,20 +6,25 @@ import { initControls } from "./ui/controls/controls.ts"
 import { initHighlightWidget } from "./ui/highlightwidget/highlightWidget.ts"
 import { state, config } from "./state/appState.ts"
 import { toastDanger } from "./ui/toast/toast.ts"
+import { initSourceSwitch } from "./ui/sourceswitch/sourceSwitch.ts"
+import type { DataRecord } from "./map/config.ts"
 
-const data = await config.fetchData().catch((e) => {
+function handleFetchError(e: unknown): DataRecord[] {
   const message =
     e instanceof Error
       ? `Nie udało się pobrać danych: ${e.message}`
       : "Wystąpił nieoczekiwany błąd podczas pobierania danych"
   toastDanger(message)
   return []
-})
+}
+
+const data = await config.fetchData().catch(handleFetchError)
 const map = initMap("map", config.toGeoJSON(data))
 initDataTable("#imgwData", data)
 initDateTime(document.body, data)
 initControls(".control", map)
 initHighlightWidget(".featured-l-b", data)
+initSourceSwitch(".featured-c-t", map, handleFetchError)
 
 document.querySelector<HTMLDivElement>(".tabs")?.addEventListener("click", (e: PointerEvent) => {
   const target = e.currentTarget

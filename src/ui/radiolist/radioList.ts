@@ -1,6 +1,6 @@
 import { elt } from "../dom"
 
-export function initRadioList(
+export function createRadioList(
   items: { key: string; label: string; checked: boolean }[],
   changeEvent: (e: Event) => void,
 ): HTMLDivElement {
