@@ -1,6 +1,6 @@
 import { dateTimeFormat } from "../utils/formats"
 import { createDate, makeDateISOString } from "../utils/date"
-import { configs } from "./config"
+import { config } from "../state/appState"
 
 function row(label: string, value: string | number | null, unit: string) {
   return `<tr><td>${label}</td><td class="text-right"><strong>${value ?? "—"}</strong>${unit}</td></tr>`
@@ -18,11 +18,12 @@ function windRow(label: string, value: string | number | null, unit: string, win
 
 export function createStationPopup(feature: maplibregl.GeoJSONFeature): string {
   const p = feature.properties
+  const layers = config.layers
   let date = new Date()
   if (p.data_pomiaru && p.godzina_pomiaru) {
     date = createDate(makeDateISOString(p.data_pomiaru, p.godzina_pomiaru))
   }
-  const rows = Object.entries(configs)
+  const rows = Object.entries(layers)
     .map(([key, { label, unit }]) => {
       const labelFormat = label.toLocaleLowerCase()
       return key === "predkosc_wiatru"
@@ -31,15 +32,15 @@ export function createStationPopup(feature: maplibregl.GeoJSONFeature): string {
     })
     .join("\n")
 
-  const alternative_name = p.stacja.toLowerCase() !== p.nazwa_stacji.toLowerCase() ? p.nazwa_stacji : null
+  const stationName = p[config.stationNameKey] ?? p.stacja ?? ""
   return `
     <div class="head">
-      <strong>${p.stacja}</strong><br>
-      ${alternative_name ? `<small>${p.nazwa_stacji}</small><br>` : ""}
-      wysokość <em>${p.altitude}</em> m npm<br>
+      <strong>${stationName}</strong><br>
+      ${p.nazwa_stacji && p.nazwa_stacji.toLowerCase() !== stationName.toLowerCase() ? `<small>${p.nazwa_stacji}</small><br>` : ""}
+      ${p.altitude ? `wysokość <em>${p.altitude}</em> m npm<br>` : ""}
     </div>
     <table>
-      <tr><td>data</td><td class="text-right"><time>${dateTimeFormat.format(date)}</time></td></tr>
+      ${p.data_pomiaru ? `<tr><td>data</td><td class="text-right"><time>${dateTimeFormat.format(date)}</time></td></tr>` : ""}
       ${rows}
     </table>`
 }

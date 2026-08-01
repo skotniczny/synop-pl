@@ -1,5 +1,5 @@
 import { elt } from "../dom"
-import { synopStations } from "../../data/imgw-stations"
+import { config } from "../../state/appState"
 
 export function initSearch(container: string, map: maplibregl.Map): void {
   const searchInput = elt("input", { className: "form-ctrl", type: "search", placeholder: "wyszukaj" })
@@ -8,7 +8,8 @@ export function initSearch(container: string, map: maplibregl.Map): void {
     e.preventDefault()
     const query = searchInput.value.trim().toLocaleLowerCase()
     if (!query) return
-    const station = synopStations.find((item) => item.name.toLocaleLowerCase().includes(query))
+    const stations = config.stations
+    const station = stations.find((item) => item.name.toLocaleLowerCase().includes(query))
     if (!station) return
     const { longitude, latitude } = station
     if (!longitude || !latitude) return

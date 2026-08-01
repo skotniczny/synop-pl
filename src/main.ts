@@ -1,15 +1,13 @@
 import "./style.css"
-import { fetchImgwSynopData } from "./api/fetch.ts"
-import { synopToGeoJSON } from "./data/synopToGeoJson.ts"
 import { initMap } from "./map/initMap.ts"
 import { initDataTable } from "./ui/datatable/dataTable.ts"
 import { initDateTime } from "./ui/datetime/initDateTime.ts"
 import { initControls } from "./ui/initControls.ts"
 import { initHighlightWidget } from "./ui/highlightwidget/highlightWidget.ts"
-import { state } from "./state/appState.ts"
+import { state, config } from "./state/appState.ts"
 import { toastDanger } from "./ui/toast/toast.ts"
 
-const data = await fetchImgwSynopData().catch((e) => {
+const data = await config.fetchData().catch((e) => {
   const message =
     e instanceof Error
       ? `Nie udało się pobrać danych: ${e.message}`
@@ -17,7 +15,7 @@ const data = await fetchImgwSynopData().catch((e) => {
   toastDanger(message)
   return []
 })
-const map = initMap("map", synopToGeoJSON(data))
+const map = initMap("map", config.toGeoJSON(data))
 initDataTable("#imgwData", data)
 initDateTime(document.body, data)
 initControls(".control", map)

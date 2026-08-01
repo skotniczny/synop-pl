@@ -1,14 +1,13 @@
 import DataTable from "datatables.net-dt"
-import type { SynopRecord } from "../../api/fetch"
-import { state } from "../../state/appState"
-import { tableColumns } from "../../map/config"
+import { state, config } from "../../state/appState"
+import type { DataRecord } from "../../map/config"
 import "datatables.net-dt/css/dataTables.dataTables.min.css"
 import "./dataTable.css"
 
-export function initDataTable(selector: string, data: SynopRecord[]) {
+export function initDataTable(selector: string, data: DataRecord[]) {
   new DataTable(selector, {
     data: data,
-    columns: tableColumns,
+    columns: config.tableColumns,
     paging: false,
     language: {
       info: "Wyświetlanie wierszy od _START_ do _END_ z _TOTAL_",

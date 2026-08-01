@@ -1,12 +1,12 @@
-import { state } from "../state/appState"
+import { state, config } from "../state/appState"
 import { elt } from "./dom"
 import { setParameter } from "../map/layerSwitcher"
-import { configs, type LayerKey } from "../map/config"
 
 export function initControls(selector: string, map: maplibregl.Map) {
   const el = document.querySelector<HTMLDivElement>(selector)
   if (!el) throw new Error(`Element not found for selector: ${selector}`)
-  const buttons = Object.entries(configs).map(([key, { label, unit }]) => {
+  const layers = config.layers
+  const buttons = Object.entries(layers).map(([key, { label, unit }]) => {
     const btnLabel = `${label} [${unit.trim()}]`
     const btn = elt("button", { className: "btn", type: "button" }, btnLabel)
     btn.dataset.parameter = key
@@ -26,7 +26,7 @@ export function initControls(selector: string, map: maplibregl.Map) {
 
     const btn = target.closest("button[data-parameter]")
     if (btn instanceof HTMLButtonElement) {
-      setParameter(map, btn.dataset.parameter as LayerKey)
+      setParameter(map, btn.dataset.parameter!)
       buttons.forEach((b) => b.classList.toggle("active", b === btn))
       return
     }

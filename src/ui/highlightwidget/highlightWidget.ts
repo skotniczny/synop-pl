@@ -1,22 +1,23 @@
 import { elt } from "../dom"
-import type { SynopRecord } from "../../api/fetch"
+import { config } from "../../state/appState"
+import type { DataRecord } from "../../map/config"
 import type { ExtremesResult } from "./extremes"
-import type { SynopKey } from "../../map/config"
 import { computeExtremes } from "./extremes"
 import "./highlightWidget.css"
 
 let extremes: ExtremesResult
 let rootEl: HTMLDivElement
 
-function createHighlightList(data: SynopRecord[]): HTMLUListElement {
+function createHighlightList(data: DataRecord[]): HTMLUListElement {
+  const nameKey = config.stationNameKey
   const ul = elt("ul", { className: "highlight_list" })
   for (const item of data) {
-    ul.append(elt("li", {}, `${item.stacja}`))
+    ul.append(elt("li", {}, `${item[nameKey]}`))
   }
   return ul
 }
 
-function createHighlightContainer(data: SynopRecord[], key: SynopKey, unit: string): HTMLDivElement {
+function createHighlightContainer(data: DataRecord[], key: string, unit: string): HTMLDivElement {
   const container = elt("div", { className: "highlight_container" })
   const raw = Number(data[0][key])
   const value = `${raw}${unit}`
@@ -26,19 +27,19 @@ function createHighlightContainer(data: SynopRecord[], key: SynopKey, unit: stri
   return container
 }
 
-export function initHighlightWidget(selector: string, data: SynopRecord[]) {
+export function initHighlightWidget(selector: string, data: DataRecord[]) {
   const el = document.querySelector<HTMLDivElement>(selector)
   if (!el) throw new Error(`Element not found for selector: ${selector}`)
   rootEl = el
   extremes = computeExtremes(data)
 }
 
-export function setHighlightedProperty(synopKey: SynopKey, unit: string) {
-  const maxEl = createHighlightContainer(extremes[synopKey].max, synopKey, unit)
+export function setHighlightedProperty(measurementKey: string, unit: string, showMin: boolean) {
+  const maxEl = createHighlightContainer(extremes[measurementKey].max, measurementKey, unit)
   maxEl.classList.add("highlight_container-max")
-  const nodes = [maxEl]
-  if (synopKey !== "suma_opadu" && synopKey !== "predkosc_wiatru") {
-    const minEl = createHighlightContainer(extremes[synopKey].min, synopKey, unit)
+  const nodes: HTMLDivElement[] = [maxEl]
+  if (showMin) {
+    const minEl = createHighlightContainer(extremes[measurementKey].min, measurementKey, unit)
     minEl.classList.add("highlight_container-min")
     nodes.push(minEl)
   }

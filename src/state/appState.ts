@@ -1,15 +1,17 @@
-import { type LayerKey } from "../map/config"
+import { type SourceName, sourceConfigs } from "../map/config"
 
 type AppState = {
-  selectedLayer: LayerKey
+  selectedLayer: string
   labelsVisible: boolean
   datatableVisible: boolean
+  source: SourceName
 }
 
 const defaultState: AppState = {
   selectedLayer: "temperatura_format",
   labelsVisible: false,
   datatableVisible: false,
+  source: "synop",
 }
 
 function loadState(): AppState {
@@ -31,10 +33,14 @@ function saveState(state: AppState) {
   localStorage.setItem("synoppl-app-state", JSON.stringify(state))
 }
 
-export const state = new Proxy(loadState(), {
+const initialState = loadState()
+export let config = sourceConfigs[initialState.source]
+
+export const state = new Proxy(initialState, {
   set<K extends keyof AppState>(target: AppState, prop: K, value: AppState[K]) {
     target[prop] = value
     saveState(target)
+    if (prop === "source") config = sourceConfigs[target.source]
     return true
   },
 })
