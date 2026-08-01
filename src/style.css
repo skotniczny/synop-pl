@@ -91,6 +91,13 @@ p {
   padding: 0.25rem;
 }
 
+.form-group {
+  border-radius: 8px;
+  padding: 0.25rem;
+  background: var(--bg);
+  box-shadow: var(--shadow);
+}
+
 .app {
   height: 100vh;
   position: relative;
