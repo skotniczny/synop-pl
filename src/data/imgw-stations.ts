@@ -5,10 +5,11 @@ export type Station = {
   wmoCode: string
   isSynop: boolean
   name: string
-  longitude: number | null
-  latitude: number | null
+  longitude: number
+  latitude: number
   altitude: number | null
 }
 
-export const meteoStations: Station[] = STATIONS_JSON
-export const synopStations: Station[] = STATIONS_JSON.filter((item) => item.isSynop)
+const stations: Station[] = STATIONS_JSON.filter((item) => item.longitude !== null && item.latitude !== null)
+export const meteoStations: Station[] = stations
+export const synopStations: Station[] = stations.filter((item) => item.isSynop)
