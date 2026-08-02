@@ -16,8 +16,10 @@ export function initSourceSwitch(selector: string, map: maplibregl.Map, onError:
       ],
       async (e: Event) => {
         if (e.target instanceof HTMLInputElement) {
-          state.source = e.target.value as SourceName
+          const requestedSource = e.target.value as SourceName
+          state.source = requestedSource
           const data = await config.fetchData().catch(onError)
+          if (state.source !== requestedSource) return
           const source = map.getSource("stations") as maplibregl.GeoJSONSource
           source.setData(config.toGeoJSON(data).data as maplibregl.GeoJSONSourceSpecification["data"])
           updateHighlightWidget(data)
