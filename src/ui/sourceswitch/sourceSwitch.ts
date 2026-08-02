@@ -4,6 +4,7 @@ import { updateControls } from "../controls/controls"
 import { updateHighlightWidget } from "../highlightwidget/highlightWidget"
 import { updateDateTime } from "../datetime/initDateTime"
 import { updateDataTable } from "../datatable/dataTable"
+import { setParameter } from "../../map/layerSwitcher"
 import { type DataRecord, type SourceName } from "../../map/config"
 
 export function initSourceSwitch(selector: string, map: maplibregl.Map, onError: (e: unknown) => DataRecord[]) {
@@ -19,8 +20,9 @@ export function initSourceSwitch(selector: string, map: maplibregl.Map, onError:
           const data = await config.fetchData().catch(onError)
           const source = map.getSource("stations") as maplibregl.GeoJSONSource
           source.setData(config.toGeoJSON(data).data as maplibregl.GeoJSONSourceSpecification["data"])
-          updateControls()
           updateHighlightWidget(data)
+          setParameter(map, state.selectedLayer)
+          updateControls()
           updateDateTime(data)
           updateDataTable(data)
         }
