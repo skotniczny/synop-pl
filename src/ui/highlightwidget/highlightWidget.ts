@@ -1,6 +1,6 @@
 import { elt } from "../dom"
 import { config, state } from "../../state/appState"
-import type { DataRecord } from "../../map/config"
+import type { DataRecord, LayerConfig } from "../../map/config"
 import type { ExtremesResult } from "./extremes"
 import { computeExtremes } from "./extremes"
 import "./highlightWidget.css"
@@ -34,7 +34,8 @@ export function initHighlightWidget(selector: string, data: DataRecord[]) {
   extremes = computeExtremes(data)
 }
 
-export function setHighlightedProperty(measurementKey: string, unit: string, showMin: boolean) {
+export function setHighlightedProperty(layerCfg: LayerConfig) {
+  const { measurementKey, unit, showMin } = layerCfg
   const maxEl = createHighlightContainer(extremes[measurementKey].max, measurementKey, unit)
   maxEl.classList.add("highlight_container-max")
   const nodes: HTMLDivElement[] = [maxEl]
@@ -48,6 +49,6 @@ export function setHighlightedProperty(measurementKey: string, unit: string, sho
 
 export function updateHighlightWidget(data: DataRecord[]) {
   extremes = computeExtremes(data)
-  const cfg = config.layers[state.selectedLayer] ?? config.layers["temperatura_format"]
-  setHighlightedProperty(cfg.measurementKey, cfg.unit, cfg.showMin)
+  const layerCfg = config.layers[state.selectedLayer] ?? config.layers["temperatura_format"]
+  setHighlightedProperty(layerCfg)
 }
