@@ -87,8 +87,12 @@ p {
 .form-ctrl {
   border-radius: 8px;
   border: 1px solid var(--border);
-  box-shadow: var(--shadow);
   padding: 0.25rem;
+  width: 100%;
+}
+
+.form-ctrl[type="search"] {
+  border-color: transparent;
 }
 
 .form-group {
@@ -135,16 +139,9 @@ p {
 }
 
 .control {
-  position: absolute;
-  top: 1rem;
-  left: 1rem;
   display: flex;
   flex-direction: column;
   row-gap: 0.25rem;
-  border-radius: 8px;
-  background-color: var(--bg);
-  padding: 0.25rem;
-  box-shadow: var(--shadow);
 }
 
 .feat-item {
@@ -191,17 +188,26 @@ p {
 
 .featured-c-t,
 .featured-l-b,
-.featured-r-b {
+.featured-r-b,
+.featured-l-t {
   position: absolute;
 }
 
 .featured-l-b,
 .featured-r-b {
-  
   bottom: 1rem;
 }
 
+.featured-l-t,
+.featured-c-t {
+  top: 1rem;
+}
+
 .featured-l-b {
+  left: 1rem;
+}
+
+.featured-l-t {
   left: 1rem;
 }
 
@@ -211,6 +217,13 @@ p {
 
 .featured-c-t {
   left: 50%;
-  top: 1rem;
   transform: translateX(-50%);
+}
+
+.mb-sm {
+  margin-bottom: 0.5rem;
+}
+
+.p-0 {
+  padding: 0;
 }

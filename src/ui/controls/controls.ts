@@ -1,8 +1,10 @@
 import { state, config } from "../../state/appState"
 import { elt } from "../dom"
 import { setParameter } from "../../map/layerSwitcher"
+import { createSearch } from "../search/search"
 
 let el: HTMLDivElement | null = null
+let control: HTMLDivElement
 let buttons: HTMLButtonElement[] = []
 const checkbox = elt("input", {
   type: "checkbox",
@@ -24,7 +26,7 @@ function updateButtons(): void {
 export function updateControls() {
   if (!el) return
   updateButtons()
-  el.replaceChildren(...buttons, label)
+  control.replaceChildren(...buttons, label)
 }
 
 export function initControls(selector: string, map: maplibregl.Map) {
@@ -32,8 +34,9 @@ export function initControls(selector: string, map: maplibregl.Map) {
   if (!el) throw new Error(`Element not found for selector: ${selector}`)
   updateButtons()
 
-  el.append(...buttons, label)
-  el.addEventListener("click", (e) => {
+  const search = createSearch(map)
+  control = elt("div", { className: "form-group control" }, ...buttons, label)
+  control.addEventListener("click", (e) => {
     const target = e.target
 
     if (!(target instanceof HTMLElement)) return
@@ -51,4 +54,5 @@ export function initControls(selector: string, map: maplibregl.Map) {
       state.labelsVisible = input.checked
     }
   })
+  el.append(search, control)
 }

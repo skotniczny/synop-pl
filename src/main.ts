@@ -22,7 +22,7 @@ const data = await config.fetchData().catch(handleFetchError)
 const map = initMap("map", config.toGeoJSON(data))
 initDataTable("#imgwData", data)
 initDateTime(document.body, data)
-initControls(".control", map)
+initControls(".featured-l-t", map)
 initHighlightWidget(".featured-l-b", data)
 initSourceSwitch(".featured-c-t", map, handleFetchError)
 
