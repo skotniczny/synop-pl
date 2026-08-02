@@ -36,11 +36,17 @@ export function initHighlightWidget(selector: string, data: DataRecord[]) {
 
 export function setHighlightedProperty(layerCfg: LayerConfig) {
   const { measurementKey, unit, showMin } = layerCfg
-  const maxEl = createHighlightContainer(extremes[measurementKey].max, measurementKey, unit)
+  const ext = extremes[measurementKey]
+  if (!ext || !ext.max.length) {
+    rootEl.replaceChildren()
+    return
+  }
+
+  const maxEl = createHighlightContainer(ext.max, measurementKey, unit)
   maxEl.classList.add("highlight_container-max")
   const nodes: HTMLDivElement[] = [maxEl]
   if (showMin) {
-    const minEl = createHighlightContainer(extremes[measurementKey].min, measurementKey, unit)
+    const minEl = createHighlightContainer(ext.min, measurementKey, unit)
     minEl.classList.add("highlight_container-min")
     nodes.push(minEl)
   }
