@@ -1,4 +1,4 @@
-// znaczniki stacji pomiarowych
+// measurement markers — filter and fill colour are set per parameter by setParameter
 export const stationsCircleLayer: maplibregl.AddLayerObject = {
   id: "stations-circle",
   type: "circle",

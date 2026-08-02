@@ -6,6 +6,7 @@ export function synopToGeoJSON(data: SynopRecord[]): maplibregl.GeoJSONSourceSpe
   const features = synopStations.map((station) => {
     const synopRecord = synopMap.get(station.wmoCode)
     const baseProps = {
+      stacja: station.name,
       nazwa_stacji: station.name,
       altitude: station.altitude,
     }

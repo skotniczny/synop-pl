@@ -4,6 +4,7 @@ import "./style.css"
 import { regionsPl } from "../data/regionsPl"
 import { stationsNameLayer } from "./layers/stations-name"
 import { stationsTextLayer } from "./layers/stations-text"
+import { stationsMarkerLayer } from "./layers/stations-marker"
 import { stationsCircleLayer } from "./layers/stations-circle"
 import { regionsPlLayer } from "./layers/regions-pl"
 import { state } from "../state/appState"
@@ -32,13 +33,14 @@ export function initMap(elementId: string, sourceSpec: maplibregl.GeoJSONSourceS
     map.addLayer(regionsPlLayer)
     map.addSource("stations", sourceSpec)
     map.addLayer(stationsTriangleLayer)
+    map.addLayer(stationsMarkerLayer)
     map.addLayer(stationsCircleLayer)
     map.addLayer(stationsTextLayer)
     map.addLayer(stationsNameLayer)
     map.setLayoutProperty("stations-name", "visibility", state.labelsVisible ? "visible" : "none")
     setParameter(map, state.selectedLayer)
   })
-  map.on("click", "stations-circle", (e: maplibregl.MapLayerMouseEvent) => {
+  map.on("click", ["stations-circle", "stations-marker"], (e: maplibregl.MapLayerMouseEvent) => {
     const feature = e.features?.[0]
     if (!feature) return
 
