@@ -42,9 +42,9 @@ export function initControls(selector: string, map: maplibregl.Map) {
     if (!(target instanceof HTMLElement)) return
 
     const btn = target.closest("button[data-parameter]")
-    if (btn instanceof HTMLButtonElement) {
-      setParameter(map, btn.dataset.parameter!)
-      buttons.forEach((b) => b.classList.toggle("active", b === btn))
+    if (btn instanceof HTMLButtonElement && btn.dataset.parameter) {
+      setParameter(map, btn.dataset.parameter)
+      buttons.forEach((b) => b.classList.toggle("active", b.dataset.parameter === state.selectedLayer))
       return
     }
 
