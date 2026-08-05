@@ -8,7 +8,4 @@ export const stationsTextLayer: maplibregl.AddLayerObject = {
     "text-offset": [0, 0],
     "text-font": ["Open Sans Semibold"],
   },
-  paint: {
-    "text-color": "#000",
-  },
 }

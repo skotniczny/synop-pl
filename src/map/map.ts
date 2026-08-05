@@ -11,6 +11,7 @@ import { state } from "../state/appState"
 import { createStationPopup } from "./popupTemplate"
 import { stationsTriangleLayer } from "./layers/stations-triangle"
 import type { LayerConfig } from "./config"
+import { contrastTextColor } from "./palettes/contrast"
 
 export function initMap(
   elementId: string,
@@ -64,6 +65,7 @@ export function renderStations(map: maplibregl.Map, layerKey: string, layerCfg: 
   map.setFilter("stations-circle", layerCfg.filter)
   map.setFilter("stations-text", layerCfg.filter)
   map.setPaintProperty("stations-circle", "circle-color", layerCfg.color)
+  map.setPaintProperty("stations-text", "text-color", contrastTextColor(layerCfg.color))
   map.setLayoutProperty("stations-triangle", "visibility", layerKey === "predkosc_wiatru" ? "visible" : "none")
 }
 
