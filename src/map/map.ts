@@ -8,12 +8,15 @@ import { stationsMarkerLayer } from "./layers/stations-marker"
 import { stationsCircleLayer } from "./layers/stations-circle"
 import { regionsPlLayer } from "./layers/regions-pl"
 import { state } from "../state/appState"
-import { setParameter } from "./layerSwitcher"
 import { createStationPopup } from "./popupTemplate"
 import { stationsTriangleLayer } from "./layers/stations-triangle"
 import type { LayerConfig } from "./config"
 
-export function initMap(elementId: string, sourceSpec: maplibregl.GeoJSONSourceSpecification) {
+export function initMap(
+  elementId: string,
+  sourceSpec: maplibregl.GeoJSONSourceSpecification,
+  onLoad?: (map: maplibregl.Map) => void,
+) {
   const map = new maplibregl.Map({
     container: elementId,
     style: "https://demotiles.maplibre.org/globe.json",
@@ -39,7 +42,7 @@ export function initMap(elementId: string, sourceSpec: maplibregl.GeoJSONSourceS
     map.addLayer(stationsTextLayer)
     map.addLayer(stationsNameLayer)
     map.setLayoutProperty("stations-name", "visibility", state.labelsVisible ? "visible" : "none")
-    setParameter(map, state.selectedLayer)
+    onLoad?.(map)
   })
   map.on("click", ["stations-circle", "stations-marker"], (e: maplibregl.MapLayerMouseEvent) => {
     const feature = e.features?.[0]

@@ -8,6 +8,7 @@ import { state, config } from "./state/appState.ts"
 import { toastDanger } from "./ui/toast/toast.ts"
 import { initSourceSwitch } from "./ui/sourceswitch/sourceSwitch.ts"
 import type { DataRecord } from "./map/config.ts"
+import { setParameter } from "./map/layerSwitcher.ts"
 
 function handleFetchError(e: unknown): DataRecord[] {
   const message =
@@ -19,7 +20,7 @@ function handleFetchError(e: unknown): DataRecord[] {
 }
 
 const data = await config.fetchData().catch(handleFetchError)
-const map = initMap("map", config.toGeoJSON(data))
+const map = initMap("map", config.toGeoJSON(data), (map) => setParameter(map, state.selectedLayer))
 initDataTable("#imgwData", data)
 initDateTime(document.body, data)
 initControls(".featured-l-t", map)
