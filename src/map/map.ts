@@ -11,6 +11,7 @@ import { state } from "../state/appState"
 import { setParameter } from "./layerSwitcher"
 import { createStationPopup } from "./popupTemplate"
 import { stationsTriangleLayer } from "./layers/stations-triangle"
+import type { LayerConfig } from "./config"
 
 export function initMap(elementId: string, sourceSpec: maplibregl.GeoJSONSourceSpecification) {
   const map = new maplibregl.Map({
@@ -53,4 +54,17 @@ export function initMap(elementId: string, sourceSpec: maplibregl.GeoJSONSourceS
     }
   })
   return map
+}
+
+export function renderStations(map: maplibregl.Map, layerKey: string, layerCfg: LayerConfig) {
+  map.setLayoutProperty("stations-text", "text-field", ["to-string", ["get", layerKey]])
+  map.setFilter("stations-circle", layerCfg.filter)
+  map.setFilter("stations-text", layerCfg.filter)
+  map.setPaintProperty("stations-circle", "circle-color", layerCfg.color)
+  map.setLayoutProperty("stations-triangle", "visibility", layerKey === "predkosc_wiatru" ? "visible" : "none")
+}
+
+export function setStationsData(map: maplibregl.Map, data: maplibregl.GeoJSONSourceSpecification["data"]) {
+  const source = map.getSource("stations") as maplibregl.GeoJSONSource
+  source.setData(data)
 }

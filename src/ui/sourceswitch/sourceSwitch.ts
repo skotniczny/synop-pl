@@ -1,10 +1,7 @@
 import { createRadioList } from "../radiolist/radioList"
 import { state, config } from "../../state/appState"
 import { updateControls } from "../controls/controls"
-import { updateHighlightWidget } from "../highlightwidget/highlightWidget"
-import { updateDateTime } from "../datetime/initDateTime"
-import { updateDataTable } from "../datatable/dataTable"
-import { setParameter } from "../../map/layerSwitcher"
+import { setLayer } from "../../map/layerSwitcher"
 import { type DataRecord, type SourceName } from "../../map/config"
 
 export function initSourceSwitch(selector: string, map: maplibregl.Map, onError: (e: unknown) => DataRecord[]) {
@@ -21,12 +18,7 @@ export function initSourceSwitch(selector: string, map: maplibregl.Map, onError:
           updateControls()
           const data = await config.fetchData().catch(onError)
           if (state.source !== requestedSource) return
-          const source = map.getSource("stations") as maplibregl.GeoJSONSource
-          source.setData(config.toGeoJSON(data).data as maplibregl.GeoJSONSourceSpecification["data"])
-          updateHighlightWidget(data)
-          setParameter(map, state.selectedLayer)
-          updateDateTime(data)
-          updateDataTable(data)
+          setLayer(map, state.selectedLayer, data)
         }
       },
     ),

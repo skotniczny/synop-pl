@@ -1,5 +1,5 @@
 import { elt } from "../dom"
-import { config, state } from "../../state/appState"
+import { config } from "../../state/appState"
 import type { DataRecord, LayerConfig } from "../../map/config"
 import type { ExtremesResult } from "./extremes"
 import { computeExtremes } from "./extremes"
@@ -34,7 +34,10 @@ export function initHighlightWidget(selector: string, data: DataRecord[]) {
   extremes = computeExtremes(data)
 }
 
-export function setHighlightedProperty(layerCfg: LayerConfig) {
+export function updateHighlightWidget(layerCfg: LayerConfig, data?: DataRecord[]) {
+  if (data) {
+    extremes = computeExtremes(data)
+  }
   const { measurementKey, unit, showMin } = layerCfg
   const ext = extremes[measurementKey]
   if (!ext || !ext.max.length) {
@@ -51,10 +54,4 @@ export function setHighlightedProperty(layerCfg: LayerConfig) {
     nodes.push(minEl)
   }
   rootEl.replaceChildren(...nodes)
-}
-
-export function updateHighlightWidget(data: DataRecord[]) {
-  extremes = computeExtremes(data)
-  const layerCfg = config.layers[state.selectedLayer] ?? config.layers["temperatura_format"]
-  setHighlightedProperty(layerCfg)
 }

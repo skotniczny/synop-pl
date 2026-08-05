@@ -1,14 +1,26 @@
 import { state, config } from "../state/appState"
-import { setHighlightedProperty } from "../ui/highlightwidget/highlightWidget"
+import { renderStations, setStationsData } from "./map"
+import { updateHighlightWidget } from "../ui/highlightwidget/highlightWidget"
+import type { DataRecord } from "./config"
+import { updateDataTable } from "../ui/datatable/dataTable"
+import { updateDateTime } from "../ui/datetime/initDateTime"
+
+function selectLayer(param: string) {
+  state.selectedLayer = param
+  return config.layers[state.selectedLayer]
+}
 
 export function setParameter(map: maplibregl.Map, param: string) {
-  state.selectedLayer = param
-  const layerCfg = config.layers[state.selectedLayer]
+  const layerCfg = selectLayer(param)
+  renderStations(map, state.selectedLayer, layerCfg)
+  updateHighlightWidget(layerCfg)
+}
 
-  map.setLayoutProperty("stations-text", "text-field", ["to-string", ["get", state.selectedLayer]])
-  map.setFilter("stations-circle", layerCfg.filter)
-  map.setFilter("stations-text", layerCfg.filter)
-  map.setPaintProperty("stations-circle", "circle-color", layerCfg.color)
-  map.setLayoutProperty("stations-triangle", "visibility", state.selectedLayer === "predkosc_wiatru" ? "visible" : "none")
-  setHighlightedProperty(layerCfg)
+export function setLayer(map: maplibregl.Map, param: string, data: DataRecord[]) {
+  setStationsData(map, config.toGeoJSON(data).data)
+  const layerCfg = selectLayer(param)
+  renderStations(map, state.selectedLayer, layerCfg)
+  updateHighlightWidget(layerCfg, data)
+  updateDateTime(data)
+  updateDataTable(data)
 }

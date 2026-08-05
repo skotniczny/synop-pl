@@ -1,5 +1,5 @@
 import "./style.css"
-import { initMap } from "./map/initMap.ts"
+import { initMap } from "./map/map.ts"
 import { initDataTable } from "./ui/datatable/dataTable.ts"
 import { initDateTime } from "./ui/datetime/initDateTime.ts"
 import { initControls } from "./ui/controls/controls.ts"
