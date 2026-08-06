@@ -8,7 +8,7 @@ import { state, config } from "./state/appState.ts"
 import { toastDanger } from "./ui/toast/toast.ts"
 import { initSourceSwitch } from "./ui/sourceswitch/sourceSwitch.ts"
 import type { DataRecord } from "./map/config.ts"
-import { setParameter } from "./map/layerSwitcher.ts"
+import { setLayer, setParameter } from "./map/layerSwitcher.ts"
 
 function handleFetchError(e: unknown): DataRecord[] {
   const message =
@@ -19,11 +19,16 @@ function handleFetchError(e: unknown): DataRecord[] {
   return []
 }
 
-const data = await config.fetchData().catch(handleFetchError)
-initDataTable(".data", data)
-const map = initMap("map", config.toGeoJSON(data), (map) => setParameter(map, state.selectedLayer))
+const dataPromise = config.fetchData().catch(handleFetchError)
+const map = initMap("map", config.toGeoJSON([]), async (map) => {
+  setParameter(map, state.selectedLayer)
+  initControls(".featured-l-t", map)
+  const data = await dataPromise
+  setLayer(map, state.selectedLayer, data)
+  initSourceSwitch(".featured-c-t", map, handleFetchError)
+})
 map.on("mousedown", hideDataTable)
-initDateTime(document.body, data)
-initControls(".featured-l-t", map)
-initHighlightWidget(".featured-l-b", data)
-initSourceSwitch(".featured-c-t", map, handleFetchError)
+
+initDataTable(".data", [])
+initDateTime(document.body, [])
+initHighlightWidget(".featured-l-b", [])
