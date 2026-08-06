@@ -21,15 +21,8 @@ function handleFetchError(e: unknown): DataRecord[] {
 
 const data = await config.fetchData().catch(handleFetchError)
 const map = initMap("map", config.toGeoJSON(data), (map) => setParameter(map, state.selectedLayer))
-initDataTable("#imgwData", data)
+initDataTable(".data", data)
 initDateTime(document.body, data)
 initControls(".featured-l-t", map)
 initHighlightWidget(".featured-l-b", data)
 initSourceSwitch(".featured-c-t", map, handleFetchError)
-
-document.querySelector<HTMLDivElement>(".tabs")?.addEventListener("click", (e: PointerEvent) => {
-  const target = e.currentTarget
-  if (!(target instanceof HTMLDivElement)) return
-  target.parentElement?.classList.toggle("show")
-  state.datatableVisible = !state.datatableVisible
-})

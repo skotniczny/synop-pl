@@ -4,8 +4,8 @@ import type { DataRecord } from "../../map/config"
 import "datatables.net-dt/css/dataTables.dataTables.min.css"
 import "./dataTable.css"
 
+let tableEl: HTMLTableElement | null = null
 let table: InstanceType<typeof DataTable> | null = null
-let tableSelector: string
 
 const tableConfig = {
   paging: true,
@@ -24,29 +24,31 @@ const tableConfig = {
   scrollY: "calc(100vh - 158px)",
 }
 
-export function initDataTable(selector: string, data: DataRecord[]) {
-  tableSelector = selector
-  table = new DataTable(selector, {
+function createDataTable(el: HTMLTableElement, data: DataRecord[]) {
+  return new DataTable(el, {
     data,
     columns: config.tableColumns,
     ...tableConfig,
   })
+}
 
-  const dataView = document.querySelector<HTMLDivElement>(".data")
+export function initDataTable(selector: string, data: DataRecord[]) {
+  const dataView = document.querySelector<HTMLDivElement>(selector)
+  if (!dataView) throw new Error(`Element not found for selector: ${selector}`)
+  dataView.classList.toggle("show", state.datatableVisible)
+  tableEl = dataView.querySelector<HTMLTableElement>("table")
+  if (!tableEl) throw new Error("Element not found for selector: table")
+  table = createDataTable(tableEl, data)
 
-  if (state.datatableVisible) {
-    dataView?.classList.add("show")
-  } else {
-    dataView?.classList.remove("show")
-  }
+  dataView.querySelector<HTMLDivElement>(".tabs")?.addEventListener("click", () => {
+    state.datatableVisible = !state.datatableVisible
+    dataView.classList.toggle("show", state.datatableVisible)
+  })
 }
 
 export function updateDataTable(data: DataRecord[]) {
-  if (table) table.destroy()
-  document.querySelector(tableSelector)?.replaceChildren()
-  table = new DataTable(tableSelector, {
-    data,
-    columns: config.tableColumns,
-    ...tableConfig,
-  })
+  if (!table || !tableEl) return
+  table.destroy()
+  tableEl.replaceChildren()
+  table = createDataTable(tableEl, data)
 }
