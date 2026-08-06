@@ -1,11 +1,13 @@
 import DataTable from "datatables.net-dt"
 import { state, config } from "../../state/appState"
 import type { DataRecord } from "../../map/config"
+import { elt } from "../dom"
 import "datatables.net-dt/css/dataTables.dataTables.min.css"
 import "./dataTable.css"
 
+const tableEl = elt("table", { className: "stripe hover" })
+const buttonEl = createToggleButton()
 let containerEl: HTMLDivElement | null = null
-let tableEl: HTMLTableElement | null = null
 let table: InstanceType<typeof DataTable> | null = null
 
 const tableConfig = {
@@ -35,24 +37,29 @@ function createDataTable(el: HTMLTableElement, data: DataRecord[]) {
 
 function applyDataTableVisibility() {
   containerEl?.classList.toggle("show", state.datatableVisible)
+  buttonEl.ariaExpanded = String(state.datatableVisible)
+}
+
+function createToggleButton(): HTMLButtonElement {
+  const arrow = elt("span", { className: "tabs_icon" }, "▲")
+  const tab = elt("button", { className: "tabs", type: "button" }, "Dane tabelaryczne", arrow)
+  tab.addEventListener("click", () => {
+    state.datatableVisible = !state.datatableVisible
+    applyDataTableVisibility()
+  })
+  return tab
 }
 
 export function initDataTable(selector: string, data: DataRecord[]) {
   containerEl = document.querySelector<HTMLDivElement>(selector)
   if (!containerEl) throw new Error(`Element not found for selector: ${selector}`)
-  applyDataTableVisibility()
-  tableEl = containerEl.querySelector<HTMLTableElement>("table")
-  if (!tableEl) throw new Error("Element not found for selector: table")
+  containerEl.append(buttonEl, tableEl)
   table = createDataTable(tableEl, data)
-
-  containerEl.querySelector<HTMLDivElement>(".tabs")?.addEventListener("click", () => {
-    state.datatableVisible = !state.datatableVisible
-    applyDataTableVisibility()
-  })
+  applyDataTableVisibility()
 }
 
 export function updateDataTable(data: DataRecord[]) {
-  if (!table || !tableEl) return
+  if (!table) return
   table.destroy()
   tableEl.replaceChildren()
   table = createDataTable(tableEl, data)

@@ -1,3 +1,47 @@
+.data {
+  --tabs-height: 26px;
+  background: var(--bg);
+  position: absolute;
+  top: 0;
+  transform: translateY(100vh);
+  transition: transform 0.2s ease-in;
+  height: 100vh;
+  width: 100%;
+  z-index: 3;
+  filter: drop-shadow(rgba(0, 0, 0, 0.1) 0 10px 15px);
+}
+
+.data.show {
+  transform: translateY(var(--tabs-height));
+}
+
+.tabs {
+  position: absolute;
+  top: calc(var(--tabs-height) * -1);
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: var(--bg);
+  border: none;
+  border-radius: 8px 8px 0 0;
+  padding: 0.25rem 1rem;
+  font: inherit;
+  color: var(--text);
+  line-height: 19px;
+}
+
+.tabs_icon {
+  line-height: 1;
+  display: inline-block;
+  transition: transform 0.2s ease-in-out;
+  font-size: 0.75rem;
+  padding-left: 2px;
+  padding-right: 2px;
+}
+
+:where(.show) .tabs_icon {
+  transform: rotate(180deg);
+}
+
 .dt-search,
 .dt-info,
 .dt-paging {
