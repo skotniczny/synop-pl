@@ -4,6 +4,7 @@ import type { DataRecord } from "../../map/config"
 import "datatables.net-dt/css/dataTables.dataTables.min.css"
 import "./dataTable.css"
 
+let containerEl: HTMLDivElement | null = null
 let tableEl: HTMLTableElement | null = null
 let table: InstanceType<typeof DataTable> | null = null
 
@@ -32,17 +33,21 @@ function createDataTable(el: HTMLTableElement, data: DataRecord[]) {
   })
 }
 
+function applyDataTableVisibility() {
+  containerEl?.classList.toggle("show", state.datatableVisible)
+}
+
 export function initDataTable(selector: string, data: DataRecord[]) {
-  const dataView = document.querySelector<HTMLDivElement>(selector)
-  if (!dataView) throw new Error(`Element not found for selector: ${selector}`)
-  dataView.classList.toggle("show", state.datatableVisible)
-  tableEl = dataView.querySelector<HTMLTableElement>("table")
+  containerEl = document.querySelector<HTMLDivElement>(selector)
+  if (!containerEl) throw new Error(`Element not found for selector: ${selector}`)
+  applyDataTableVisibility()
+  tableEl = containerEl.querySelector<HTMLTableElement>("table")
   if (!tableEl) throw new Error("Element not found for selector: table")
   table = createDataTable(tableEl, data)
 
-  dataView.querySelector<HTMLDivElement>(".tabs")?.addEventListener("click", () => {
+  containerEl.querySelector<HTMLDivElement>(".tabs")?.addEventListener("click", () => {
     state.datatableVisible = !state.datatableVisible
-    dataView.classList.toggle("show", state.datatableVisible)
+    applyDataTableVisibility()
   })
 }
 
@@ -51,4 +56,11 @@ export function updateDataTable(data: DataRecord[]) {
   table.destroy()
   tableEl.replaceChildren()
   table = createDataTable(tableEl, data)
+}
+
+export function hideDataTable() {
+  if (state.datatableVisible) {
+    state.datatableVisible = false
+    applyDataTableVisibility()
+  }
 }

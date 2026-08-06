@@ -1,6 +1,6 @@
 import "./style.css"
 import { initMap } from "./map/map.ts"
-import { initDataTable } from "./ui/datatable/dataTable.ts"
+import { hideDataTable, initDataTable } from "./ui/datatable/dataTable.ts"
 import { initDateTime } from "./ui/datetime/initDateTime.ts"
 import { initControls } from "./ui/controls/controls.ts"
 import { initHighlightWidget } from "./ui/highlightwidget/highlightWidget.ts"
@@ -20,8 +20,9 @@ function handleFetchError(e: unknown): DataRecord[] {
 }
 
 const data = await config.fetchData().catch(handleFetchError)
-const map = initMap("map", config.toGeoJSON(data), (map) => setParameter(map, state.selectedLayer))
 initDataTable(".data", data)
+const map = initMap("map", config.toGeoJSON(data), (map) => setParameter(map, state.selectedLayer))
+map.on("mousedown", hideDataTable)
 initDateTime(document.body, data)
 initControls(".featured-l-t", map)
 initHighlightWidget(".featured-l-b", data)

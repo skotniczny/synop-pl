@@ -51,12 +51,6 @@ export function initMap(
 
     new maplibregl.Popup({ offset: 25 }).setLngLat(e.lngLat).setHTML(createStationPopup(feature)).addTo(map)
   })
-  map.on("mousedown", () => {
-    if (state.datatableVisible) {
-      document.querySelector<HTMLDivElement>(".data")?.classList.remove("show")
-      state.datatableVisible = !state.datatableVisible
-    }
-  })
   return map
 }
 
