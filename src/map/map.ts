@@ -10,6 +10,8 @@ import { regionsPlLayer } from "./layers/regions-pl"
 import { state } from "../state/appState"
 import { createStationPopup } from "./popupTemplate"
 import { stationsTriangleLayer } from "./layers/stations-triangle"
+import { searchPulseLayer } from "./layers/search-pulse"
+import { pulsingDot } from "./images/pulsing-dot"
 import type { LayerConfig } from "./config"
 import { contrastTextColor } from "./palettes/contrast"
 
@@ -36,6 +38,9 @@ export function initMap(
   map.on("load", () => {
     map.addSource("regions", regionsPl)
     map.addLayer(regionsPlLayer)
+    map.addImage("pulsing-dot", pulsingDot(map), { pixelRatio: 2 })
+    map.addSource("search-hit", { type: "geojson", data: { type: "FeatureCollection", features: [] } })
+    map.addLayer(searchPulseLayer)
     map.addSource("stations", sourceSpec)
     map.addLayer(stationsTriangleLayer)
     map.addLayer(stationsMarkerLayer)
