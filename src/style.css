@@ -117,12 +117,6 @@ p {
   row-gap: 0.25rem;
 }
 
-.feat-item {
-  position: absolute;
-  top: 1rem;
-  right: 1rem;
-}
-
 .d-block {
   display: block;
 }
@@ -151,7 +145,8 @@ p {
 .featured-c-t,
 .featured-l-b,
 .featured-r-b,
-.featured-l-t {
+.featured-l-t,
+.featured-r-t {
   position: absolute;
 }
 
@@ -161,7 +156,8 @@ p {
 }
 
 .featured-l-t,
-.featured-c-t {
+.featured-c-t,
+.featured-r-t {
   top: 1rem;
 }
 
@@ -180,6 +176,10 @@ p {
 .featured-c-t {
   left: 50%;
   transform: translateX(-50%);
+}
+
+.featured-r-t {
+  right: 1rem;
 }
 
 .mb-sm {

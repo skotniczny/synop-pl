@@ -16,7 +16,9 @@ function makeMeasureDateISOString(data: DataRecord[]): string {
   return dateISOString
 }
 
-export function initDateTime(el: HTMLElement, data: DataRecord[]) {
+export function initDateTime(selector: string, data: DataRecord[]) {
+  const el = document.querySelector<HTMLDivElement>(selector)
+  if (!el) throw new Error(`Element not found for selector: ${selector}`)
   const dateISOString = makeMeasureDateISOString(data)
   timeEl = dateTimeComponent(dateISOString)
   el.append(timeEl)
