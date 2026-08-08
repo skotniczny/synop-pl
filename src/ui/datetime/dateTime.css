@@ -1,0 +1,8 @@
+.datetime {
+  display: flex;
+  flex-direction: column;
+}
+
+.datetime_weekday {
+  text-transform: capitalize;
+}

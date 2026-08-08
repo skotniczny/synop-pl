@@ -117,10 +117,6 @@ p {
   row-gap: 0.25rem;
 }
 
-.d-block {
-  display: block;
-}
-
 .d-inline-block {
   display: inline-block;
 }
@@ -132,10 +128,6 @@ p {
 
 .display-2 {
   font-size: 1.4rem;
-}
-
-.text-capitalize {
-  text-transform: capitalize;
 }
 
 .text-right {
