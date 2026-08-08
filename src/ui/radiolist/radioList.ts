@@ -9,15 +9,15 @@ export function createRadioList(
   for (const item of items) {
     const radioId = `${item.key}-${id}`
     const radio: HTMLInputElement = elt("input", {
-      className: "form-check",
+      className: "form-check_input",
       type: "radio",
       name: `radio-${id}`,
       id: radioId,
       value: item.key,
       checked: item.checked,
     })
-    const label: HTMLLabelElement = elt("label", { className: "form-label", htmlFor: radioId }, item.label)
-    elts.append(radio, label)
+    const label: HTMLLabelElement = elt("label", { className: "form-check_label", htmlFor: radioId }, item.label)
+    elts.append(elt("div", { className: "form-check" }, radio, label))
   }
   const container: HTMLDivElement = elt("div", { className: "form-group" }, elts)
   container.addEventListener("change", changeEvent)

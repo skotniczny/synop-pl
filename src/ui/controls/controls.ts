@@ -2,15 +2,14 @@ import { state, config } from "../../state/appState"
 import { elt } from "../dom"
 import { setParameter } from "../../map/layerSwitcher"
 import { createSearch } from "../search/search"
+import { createCheckbox } from "../checkbox/checkbox"
 
 let el: HTMLDivElement | null = null
 let control: HTMLDivElement
 let buttons: HTMLButtonElement[] = []
-const checkbox = elt("input", {
-  type: "checkbox",
-  checked: state.labelsVisible,
-})
-const label = elt("label", {}, checkbox, "Wyświetl nazwy stacji")
+
+const showLabels = "show-labels"
+const checkbox = createCheckbox(showLabels, "Wyświetl nazwy stacji", state.labelsVisible)
 
 function updateButtons(): void {
   const layers = config.layers
@@ -26,7 +25,7 @@ function updateButtons(): void {
 export function updateControls() {
   if (!el) return
   updateButtons()
-  control.replaceChildren(...buttons, label)
+  control.replaceChildren(...buttons, checkbox)
 }
 
 export function initControls(selector: string, map: maplibregl.Map) {
@@ -35,7 +34,8 @@ export function initControls(selector: string, map: maplibregl.Map) {
   updateButtons()
 
   const search = createSearch(map)
-  control = elt("div", { className: "form-group control" }, ...buttons, label)
+
+  control = elt("div", { className: "form-group control" }, ...buttons, checkbox)
   control.addEventListener("click", (e) => {
     const target = e.target
 
@@ -45,13 +45,17 @@ export function initControls(selector: string, map: maplibregl.Map) {
     if (btn instanceof HTMLButtonElement && btn.dataset.parameter) {
       setParameter(map, btn.dataset.parameter)
       buttons.forEach((b) => b.classList.toggle("active", b.dataset.parameter === state.selectedLayer))
-      return
     }
+  })
+  control.addEventListener("change", (e) => {
+    const input = e.target
+    if (!(input instanceof HTMLInputElement)) return
 
-    const input = target.closest("input[type=checkbox]")
-    if (input instanceof HTMLInputElement) {
-      map.setLayoutProperty("stations-name", "visibility", input.checked ? "visible" : "none")
-      state.labelsVisible = input.checked
+    switch (input.name) {
+      case showLabels:
+        map.setLayoutProperty("stations-name", "visibility", input.checked ? "visible" : "none")
+        state.labelsVisible = input.checked
+        return
     }
   })
   el.append(search, control)
