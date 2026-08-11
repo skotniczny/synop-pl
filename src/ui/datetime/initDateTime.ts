@@ -1,4 +1,4 @@
-import { makeDateISOString } from "../../utils/date"
+import { makeSynopISOString } from "../../utils/date"
 import { dateTimeComponent } from "./dateTime"
 import { mostFrequent } from "../../utils/mostFrequent"
 import type { DataRecord } from "../../map/config"
@@ -9,7 +9,7 @@ function makeMeasureDateISOString(data: DataRecord[]): string {
   let dateISOString = new Date().toISOString()
   const measureDateISOString = data
     .filter((item) => item.data_pomiaru && item.godzina_pomiaru)
-    .map((item) => makeDateISOString(item.data_pomiaru!, item.godzina_pomiaru!))
+    .map((item) => makeSynopISOString(item.data_pomiaru!, item.godzina_pomiaru!))
   if (measureDateISOString.length) {
     dateISOString = mostFrequent<string>(measureDateISOString)
   }

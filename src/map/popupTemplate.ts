@@ -1,5 +1,5 @@
 import { dateTimeFormat } from "../utils/formats"
-import { createDate, makeDateISOString } from "../utils/date"
+import { makeSynopISOString } from "../utils/date"
 import { config } from "../state/appState"
 
 function row(label: string, value: string | number | null, unit: string) {
@@ -21,7 +21,7 @@ export function createStationPopup(feature: maplibregl.GeoJSONFeature): string {
   const layers = config.layers
   let date = new Date()
   if (p.data_pomiaru && p.godzina_pomiaru) {
-    date = createDate(makeDateISOString(p.data_pomiaru, p.godzina_pomiaru))
+    date = new Date(makeSynopISOString(p.data_pomiaru, p.godzina_pomiaru))
   }
   const rows = Object.entries(layers)
     .map(([key, { label, unit }]) => {
