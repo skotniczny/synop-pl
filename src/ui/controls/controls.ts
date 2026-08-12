@@ -1,6 +1,6 @@
 import { state, config } from "../../state/appState"
 import { elt } from "../dom"
-import { renderData, setParameter } from "../../map/layerSwitcher"
+import { renderData, setLayer } from "../../map/layerSwitcher"
 import { createSearch } from "../search/search"
 import { createCheckbox } from "../checkbox/checkbox"
 
@@ -46,7 +46,7 @@ export function initControls(selector: string, map: maplibregl.Map) {
 
     const btn = target.closest("button[data-parameter]")
     if (btn instanceof HTMLButtonElement && btn.dataset.parameter) {
-      setParameter(map, btn.dataset.parameter)
+      setLayer(map, btn.dataset.parameter)
       buttons.forEach((b) => b.classList.toggle("active", b.dataset.parameter === state.selectedLayer))
     }
   })
@@ -61,7 +61,7 @@ export function initControls(selector: string, map: maplibregl.Map) {
         return
       case filterData:
         state.qualityControl = input.checked
-        renderData(map, state.selectedLayer)
+        renderData(map)
         return
     }
   })

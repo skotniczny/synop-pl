@@ -9,28 +9,28 @@ import { applyQualityControl } from "../data/qualityControl"
 let rawData: DataRecord[] = []
 let rawSource: SourceName | null = null
 
-function selectLayer(param: string) {
-  state.selectedLayer = param
+function currentLayer() {
   return config.layers[state.selectedLayer]
 }
 
-export function setParameter(map: maplibregl.Map, param: string) {
-  const layerCfg = selectLayer(param)
+export function setLayer(map: maplibregl.Map, param: string) {
+  state.selectedLayer = param
+  const layerCfg = currentLayer()
   renderStations(map, state.selectedLayer, layerCfg)
   updateHighlightWidget(layerCfg)
 }
 
-export function setLayer(map: maplibregl.Map, param: string, data: DataRecord[]) {
+export function setData(map: maplibregl.Map, data: DataRecord[]) {
   rawData = data
   rawSource = state.source
-  renderData(map, param)
+  renderData(map)
 }
 
-export function renderData(map: maplibregl.Map, param: string) {
+export function renderData(map: maplibregl.Map) {
   if (rawSource !== state.source) return
   const data = state.qualityControl ? applyQualityControl(rawData, Date.now()) : rawData
   setStationsData(map, config.toGeoJSON(data).data)
-  const layerCfg = selectLayer(param)
+  const layerCfg = currentLayer()
   renderStations(map, state.selectedLayer, layerCfg)
   updateHighlightWidget(layerCfg, data)
   updateDateTime(data)

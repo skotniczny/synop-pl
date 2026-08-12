@@ -1,7 +1,7 @@
 import { createRadioList } from "../radiolist/radioList"
 import { state } from "../../state/appState"
 import { updateControls } from "../controls/controls"
-import { setLayer } from "../../map/layerSwitcher"
+import { setData } from "../../map/layerSwitcher"
 import { type DataRecord, type SourceName } from "../../map/config"
 import "./sourceSwitch.css"
 
@@ -18,7 +18,7 @@ export function initSourceSwitch(selector: string, map: maplibregl.Map, loadData
         updateControls()
         const data = await loadData()
         if (state.source !== requestedSource) return
-        setLayer(map, state.selectedLayer, data)
+        setData(map, data)
       }
     },
   )

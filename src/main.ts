@@ -8,7 +8,7 @@ import { state, config } from "./state/appState.ts"
 import { toastDanger } from "./ui/toast/toast.ts"
 import { initSourceSwitch } from "./ui/sourceswitch/sourceSwitch.ts"
 import type { DataRecord } from "./map/config.ts"
-import { setLayer, setParameter } from "./map/layerSwitcher.ts"
+import { setLayer, setData } from "./map/layerSwitcher.ts"
 
 function loadData(): Promise<DataRecord[]> {
   return config.fetchData().catch((e) => {
@@ -23,10 +23,10 @@ function loadData(): Promise<DataRecord[]> {
 
 const dataPromise = loadData()
 const map = initMap("map", config.toGeoJSON([]), async (map) => {
-  setParameter(map, state.selectedLayer)
+  setLayer(map, state.selectedLayer)
   initControls(".featured-l-t", map)
   const data = await dataPromise
-  setLayer(map, state.selectedLayer, data)
+  setData(map, data)
   initSourceSwitch(".featured-c-t", map, loadData)
 })
 map.on("mousedown", hideDataTable)
