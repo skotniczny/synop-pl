@@ -1,4 +1,4 @@
-// tekstowe etykiety stacji pomiarowych
+// station name labels
 export const stationsNameLayer: maplibregl.AddLayerObject = {
   id: "stations-name",
   type: "symbol",

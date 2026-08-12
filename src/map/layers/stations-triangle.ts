@@ -1,4 +1,4 @@
-// Znacznik kierunku wiatru
+// wind direction marker
 export const stationsTriangleLayer: maplibregl.AddLayerObject = {
   id: "stations-triangle",
   type: "symbol",

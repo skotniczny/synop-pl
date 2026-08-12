@@ -1,5 +1,5 @@
-// Pulsująca kropka pod znalezioną stacją — rysunek dostarcza obrazek pulsing-dot
-// allow-overlap i ignore-placement, inaczej silnik etykiet chowa ikonę przy kolizji z podpisami
+// pulsing dot under the station found by search
+// allow-overlap and ignore-placement, otherwise the label engine hides it on collision
 export const searchPulseLayer: maplibregl.AddLayerObject = {
   id: "search-pulse",
   type: "symbol",

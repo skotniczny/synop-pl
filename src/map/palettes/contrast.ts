@@ -1,4 +1,4 @@
-// dobiera czerń albo biel do jasności koloru wyliczonego przez paletę
+// picks black or white against the palette colour brightness
 export const contrastTextColor = (color: unknown[]) => [
   "let",
   "rgba",

@@ -1,4 +1,4 @@
-// tekstowa ektykata pomiaru
+// measurement value label
 export const stationsTextLayer: maplibregl.AddLayerObject = {
   id: "stations-text",
   type: "symbol",

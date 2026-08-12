@@ -1,4 +1,4 @@
-// unfiltered station dots — visible where stations-circle has no data to show
+// unfiltered station dots — visible where stations-circle shows nothing
 export const stationsMarkerLayer: maplibregl.AddLayerObject = {
   id: "stations-marker",
   type: "circle",

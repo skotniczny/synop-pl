@@ -1,4 +1,4 @@
-// granice województw
+// voivodeship borders
 export const regionsPlLayer: maplibregl.AddLayerObject = {
   id: "regions",
   type: "line",
