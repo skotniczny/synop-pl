@@ -3,6 +3,7 @@ import { type SourceName, sourceConfigs } from "../map/config"
 type AppState = {
   selectedLayer: string
   labelsVisible: boolean
+  qualityControl: boolean
   datatableVisible: boolean
   source: SourceName
 }
@@ -10,6 +11,7 @@ type AppState = {
 const defaultState: AppState = {
   selectedLayer: "temperatura_format",
   labelsVisible: false,
+  qualityControl: true,
   datatableVisible: false,
   source: "synop",
 }

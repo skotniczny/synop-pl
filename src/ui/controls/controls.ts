@@ -1,6 +1,6 @@
 import { state, config } from "../../state/appState"
 import { elt } from "../dom"
-import { setParameter } from "../../map/layerSwitcher"
+import { renderData, setParameter } from "../../map/layerSwitcher"
 import { createSearch } from "../search/search"
 import { createCheckbox } from "../checkbox/checkbox"
 
@@ -9,7 +9,10 @@ let control: HTMLDivElement
 let buttons: HTMLButtonElement[] = []
 
 const showLabels = "show-labels"
-const checkbox = createCheckbox(showLabels, "Wyświetl nazwy stacji", state.labelsVisible)
+const filterData = "filter-data"
+const labelsCheckbox = createCheckbox(showLabels, "Wyświetl nazwy stacji", state.labelsVisible)
+const filterCheckbox = createCheckbox(filterData, "Ukryj przestarzałe pomiary", state.qualityControl)
+const checks = [labelsCheckbox, filterCheckbox]
 
 function updateButtons(): void {
   const layers = config.layers
@@ -25,7 +28,7 @@ function updateButtons(): void {
 export function updateControls() {
   if (!el) return
   updateButtons()
-  control.replaceChildren(...buttons, checkbox)
+  control.replaceChildren(...buttons, ...checks)
 }
 
 export function initControls(selector: string, map: maplibregl.Map) {
@@ -35,7 +38,7 @@ export function initControls(selector: string, map: maplibregl.Map) {
 
   const search = createSearch(map)
 
-  control = elt("div", { className: "form-group control" }, ...buttons, checkbox)
+  control = elt("div", { className: "form-group control" }, ...buttons, ...checks)
   control.addEventListener("click", (e) => {
     const target = e.target
 
@@ -55,6 +58,10 @@ export function initControls(selector: string, map: maplibregl.Map) {
       case showLabels:
         map.setLayoutProperty("stations-name", "visibility", input.checked ? "visible" : "none")
         state.labelsVisible = input.checked
+        return
+      case filterData:
+        state.qualityControl = input.checked
+        renderData(map, state.selectedLayer)
         return
     }
   })
