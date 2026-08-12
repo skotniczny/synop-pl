@@ -3,7 +3,12 @@ export const stationsTriangleLayer: maplibregl.AddLayerObject = {
   id: "stations-triangle",
   type: "symbol",
   source: "stations",
-  filter: ["all", ["!=", ["get", "predkosc_wiatru"], "0"], ["!=", ["get", "predkosc_wiatru"], null]],
+  filter: [
+    "all",
+    ["!=", ["get", "predkosc_wiatru"], "0"],
+    ["!=", ["get", "predkosc_wiatru"], null],
+    ["!=", ["get", "kierunek_wiatru"], null],
+  ],
   layout: {
     "text-field": "▼",
     "text-size": 30,
