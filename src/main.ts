@@ -10,22 +10,24 @@ import { initSourceSwitch } from "./ui/sourceswitch/sourceSwitch.ts"
 import type { DataRecord } from "./map/config.ts"
 import { setLayer, setParameter } from "./map/layerSwitcher.ts"
 
-function handleFetchError(e: unknown): DataRecord[] {
-  const message =
-    e instanceof Error
-      ? `Nie udało się pobrać danych: ${e.message}`
-      : "Wystąpił nieoczekiwany błąd podczas pobierania danych"
-  toastDanger(message)
-  return []
+function loadData(): Promise<DataRecord[]> {
+  return config.fetchData().catch((e) => {
+    const message =
+      e instanceof Error
+        ? `Nie udało się pobrać danych: ${e.message}`
+        : "Wystąpił nieoczekiwany błąd podczas pobierania danych"
+    toastDanger(message)
+    return []
+  })
 }
 
-const dataPromise = config.fetchData().catch(handleFetchError)
+const dataPromise = loadData()
 const map = initMap("map", config.toGeoJSON([]), async (map) => {
   setParameter(map, state.selectedLayer)
   initControls(".featured-l-t", map)
   const data = await dataPromise
   setLayer(map, state.selectedLayer, data)
-  initSourceSwitch(".featured-c-t", map, handleFetchError)
+  initSourceSwitch(".featured-c-t", map, loadData)
 })
 map.on("mousedown", hideDataTable)
 

@@ -1,11 +1,11 @@
 import { createRadioList } from "../radiolist/radioList"
-import { state, config } from "../../state/appState"
+import { state } from "../../state/appState"
 import { updateControls } from "../controls/controls"
 import { setLayer } from "../../map/layerSwitcher"
 import { type DataRecord, type SourceName } from "../../map/config"
 import "./sourceSwitch.css"
 
-export function initSourceSwitch(selector: string, map: maplibregl.Map, onError: (e: unknown) => DataRecord[]) {
+export function initSourceSwitch(selector: string, map: maplibregl.Map, loadData: () => Promise<DataRecord[]>) {
   const radioList = createRadioList(
     [
       { key: "synop", label: "Synop", checked: state.source === "synop" },
@@ -16,7 +16,7 @@ export function initSourceSwitch(selector: string, map: maplibregl.Map, onError:
         const requestedSource = e.target.value as SourceName
         state.source = requestedSource
         updateControls()
-        const data = await config.fetchData().catch(onError)
+        const data = await loadData()
         if (state.source !== requestedSource) return
         setLayer(map, state.selectedLayer, data)
       }
