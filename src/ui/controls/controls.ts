@@ -9,18 +9,23 @@ let control: HTMLDivElement
 let buttons: HTMLButtonElement[] = []
 
 const showLabels = "show-labels"
-const filterData = "filter-data"
+const qualityControl = "quality-control"
 const labelsCheckbox = createCheckbox(showLabels, "Wyświetl nazwy stacji", state.labelsVisible)
-const filterCheckbox = createCheckbox(filterData, "Ukryj przestarzałe pomiary", state.qualityControl)
-const checks = [labelsCheckbox, filterCheckbox]
+const qualityCheckbox = createCheckbox(qualityControl, "Ukryj nieaktualne pomiary", state.qualityControl)
+const checks = [labelsCheckbox, qualityCheckbox]
 
-function updateButtons(): void {
+function setPressed(btn: HTMLButtonElement, isPressed: boolean) {
+  btn.classList.toggle("active", isPressed)
+  btn.ariaPressed = `${isPressed}`
+}
+
+function updateButtons() {
   const layers = config.layers
   buttons = Object.entries(layers).map(([key, { label, unit }]) => {
     const btnLabel = `${label} [${unit.trim()}]`
     const btn = elt("button", { className: "btn", type: "button" }, btnLabel)
     btn.dataset.parameter = key
-    if (state.selectedLayer === key) btn.classList.add("active")
+    setPressed(btn, state.selectedLayer === key)
     return btn
   })
 }
@@ -47,7 +52,7 @@ export function initControls(selector: string, map: maplibregl.Map) {
     const btn = target.closest("button[data-parameter]")
     if (btn instanceof HTMLButtonElement && btn.dataset.parameter) {
       setLayer(map, btn.dataset.parameter)
-      buttons.forEach((b) => b.classList.toggle("active", b.dataset.parameter === state.selectedLayer))
+      buttons.forEach((b) => setPressed(b, b.dataset.parameter === state.selectedLayer))
     }
   })
   control.addEventListener("change", (e) => {
@@ -59,7 +64,7 @@ export function initControls(selector: string, map: maplibregl.Map) {
         map.setLayoutProperty("stations-name", "visibility", input.checked ? "visible" : "none")
         state.labelsVisible = input.checked
         return
-      case filterData:
+      case qualityControl:
         state.qualityControl = input.checked
         renderData(map)
         return
