@@ -1,6 +1,7 @@
 export function mostFrequent<T>(arr: T[]): T {
+  if (!arr.length) throw Error("Invalid array")
   const counts = new Map<T, number>()
-  let most: T | null = null
+  let most = arr[0]
   let max = 0
 
   for (const value of arr) {
@@ -12,6 +13,5 @@ export function mostFrequent<T>(arr: T[]): T {
       most = value
     }
   }
-  if (!most) throw Error("Invalid array")
   return most
 }
