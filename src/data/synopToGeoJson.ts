@@ -1,4 +1,4 @@
-import { type SynopRecord } from "../api/fetch"
+import type { SynopRecord } from "../api/fetch"
 import { synopStations } from "./imgw-stations"
 
 export function synopToGeoJSON(data: SynopRecord[]): maplibregl.GeoJSONSourceSpecification {

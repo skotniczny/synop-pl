@@ -1,4 +1,4 @@
-import { type MeteoRecord } from "../api/fetch"
+import type { MeteoRecord } from "../api/fetch"
 import { meteoStations } from "./imgw-stations"
 
 export function meteoToGeoJSON(data: MeteoRecord[]): maplibregl.GeoJSONSourceSpecification {

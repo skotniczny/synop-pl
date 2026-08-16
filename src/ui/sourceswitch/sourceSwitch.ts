@@ -2,7 +2,7 @@ import { createRadioList } from "../radiolist/radioList"
 import { state } from "../../state/appState"
 import { updateControls } from "../controls/controls"
 import { setData } from "../../map/layerSwitcher"
-import { type DataRecord, type SourceName } from "../../map/config"
+import type { DataRecord, SourceName } from "../../map/config"
 import "./sourceSwitch.css"
 
 export function initSourceSwitch(selector: string, map: maplibregl.Map, loadData: () => Promise<DataRecord[]>) {
