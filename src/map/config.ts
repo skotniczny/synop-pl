@@ -2,6 +2,7 @@ import { fetchImgwMeteoData, fetchImgwSynopData, type MeteoRecord, type SynopRec
 import { meteoToGeoJSON } from "../data/meteoToGeoJson"
 import { synopToGeoJSON } from "../data/synopToGeoJson"
 import { meteoStations, synopStations, type Station } from "../data/imgw-stations"
+import { meteoMeasurementTime, synopMeasurementTime } from "../data/measurementTime"
 import { temperatureColors } from "./palettes/temperature"
 import { humidityColors } from "./palettes/humidity"
 import { pressureColors } from "./palettes/pressure"
@@ -167,6 +168,7 @@ export type SourceConfig<T extends DataRecord = DataRecord> = {
   tableColumns: { data: string; title: string }[]
   fetchData(): Promise<T[]>
   toGeoJSON(data: T[]): maplibregl.GeoJSONSourceSpecification
+  measurementTime(record: DataRecord, measurementKey: string): string | null
 }
 
 const meteoSourceConfig: SourceConfig<MeteoRecord> = {
@@ -176,6 +178,7 @@ const meteoSourceConfig: SourceConfig<MeteoRecord> = {
   stations: meteoStations,
   tableColumns: meteoTableColumns,
   layers: meteoLayers,
+  measurementTime: meteoMeasurementTime,
 }
 
 const synopSourceConfig: SourceConfig<SynopRecord> = {
@@ -185,6 +188,7 @@ const synopSourceConfig: SourceConfig<SynopRecord> = {
   stations: synopStations,
   tableColumns: synopTableColumns,
   layers: synopLayers,
+  measurementTime: synopMeasurementTime,
 }
 
 export type SourceName = "meteo" | "synop"

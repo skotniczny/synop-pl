@@ -18,6 +18,7 @@ export function setLayer(map: maplibregl.Map, param: string) {
   const layerCfg = currentLayer()
   renderStations(map, state.selectedLayer, layerCfg)
   updateHighlightWidget(layerCfg)
+  updateDateTime(layerCfg)
 }
 
 export function setData(map: maplibregl.Map, data: DataRecord[]) {
@@ -33,6 +34,6 @@ export function renderData(map: maplibregl.Map) {
   const layerCfg = currentLayer()
   renderStations(map, state.selectedLayer, layerCfg)
   updateHighlightWidget(layerCfg, data)
-  updateDateTime(data)
+  updateDateTime(layerCfg, data)
   updateDataTable(data)
 }

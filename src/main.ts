@@ -32,5 +32,5 @@ const map = initMap("map", config.toGeoJSON([]), async (map) => {
 map.on("mousedown", hideDataTable)
 
 initDataTable(".data", [])
-initDateTime(".featured-r-t", [])
+initDateTime(".featured-r-t")
 initHighlightWidget(".featured-l-b", [])
