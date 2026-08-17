@@ -1,24 +1,24 @@
 import type { DataRecord } from "../map/config"
-import { makeMeteoISOString, makeSynopISOString } from "../utils/date"
+import { meteoMeasurementTime, synopMeasurementTime } from "./measurementTime"
 
 const HOUR = 60 * 60 * 1000
 const maxAgeHours = 24
 
+function isOutdated(time: string | null, now: number): boolean {
+  if (!time) return false
+  const age = now - Date.parse(time)
+  if (Number.isNaN(age)) return true
+  return age > maxAgeHours * HOUR
+}
+
 function isOutdatedMeteoMeasurement(key: string, record: DataRecord, now: number): boolean {
-  // gusts are events, not cyclic readings
+  // gusts are events
   if (key === "wiatr_poryw_10min") return false
-  const timestamp = record[`${key}_data`]
-  if (!timestamp) return false
-  const isFresh = now - Date.parse(makeMeteoISOString(timestamp)) <= maxAgeHours * HOUR
-  return !isFresh
+  return isOutdated(meteoMeasurementTime(record, key), now)
 }
 
 function isOutdatedSynopRecord(record: DataRecord, now: number): boolean {
-  const date = record.data_pomiaru
-  const time = record.godzina_pomiaru
-  if (!date || !time) return false
-  const isFresh = now - Date.parse(makeSynopISOString(date, time)) <= maxAgeHours * HOUR
-  return !isFresh
+  return isOutdated(synopMeasurementTime(record), now)
 }
 
 export function applyQualityControl(data: DataRecord[], now: number): DataRecord[] {
