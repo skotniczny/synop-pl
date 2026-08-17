@@ -1,5 +1,12 @@
-import { makeSynopISOString, makeMeteoISOString } from "../utils/date"
 import type { DataRecord } from "../map/config"
+
+function makeSynopISOString(date: string, time: string): string {
+  return `${date}T${time.padStart(2, "0")}:00:00.000Z`
+}
+
+function makeMeteoISOString(timestamp: string): string {
+  return `${timestamp.replace(" ", "T")}.000Z`
+}
 
 export function synopMeasurementTime(record: DataRecord): string | null {
   const date = record.data_pomiaru

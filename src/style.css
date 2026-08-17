@@ -134,6 +134,10 @@ p {
   text-align: right;
 }
 
+.text-nowrap {
+  white-space: nowrap;
+}
+
 .featured-c-t,
 .featured-l-b,
 .featured-r-b,

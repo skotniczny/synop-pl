@@ -1,6 +1,6 @@
 import { dateTimeFormat } from "../utils/formats"
-import { makeSynopISOString } from "../utils/date"
 import { config } from "../state/appState"
+import { synopMeasurementTime } from "../data/measurementTime"
 
 function row(label: string, value: string | number | null, unit: string) {
   return `<tr><td>${label}</td><td class="text-right"><strong>${value ?? "—"}</strong>${unit}</td></tr>`
@@ -10,7 +10,7 @@ function windRow(label: string, value: string | number | null, unit: string, win
   return `<tr>
     <td>${label}</td>
       <td class="text-right">
-        ${windDirection && windDirection != "0" ? `<span class="d-inline-block" title="${windDirection}°" style="transform: rotate(${windDirection}deg)">⮟</span>` : ""}
+        ${windDirection && windDirection !== "0" ? `<span class="d-inline-block" title="${windDirection}°" style="transform: rotate(${windDirection}deg)">⮟</span>` : ""}
       <strong>${value ?? "—"}</strong>${unit}
     </td>
   </tr>`
@@ -19,10 +19,7 @@ function windRow(label: string, value: string | number | null, unit: string, win
 export function createStationPopup(feature: maplibregl.GeoJSONFeature): string {
   const p = feature.properties
   const layers = config.layers
-  let date = new Date()
-  if (p.data_pomiaru && p.godzina_pomiaru) {
-    date = new Date(makeSynopISOString(p.data_pomiaru, p.godzina_pomiaru))
-  }
+  const iso = synopMeasurementTime(p)
   const rows = Object.entries(layers)
     .map(([key, { label, unit }]) => {
       const labelFormat = label.toLocaleLowerCase()
@@ -40,7 +37,7 @@ export function createStationPopup(feature: maplibregl.GeoJSONFeature): string {
       ${p.altitude ? `wysokość <em>${p.altitude}</em> m npm<br>` : ""}
     </div>
     <table>
-      ${p.data_pomiaru ? `<tr><td>data</td><td class="text-right"><time>${dateTimeFormat.format(date)}</time></td></tr>` : ""}
+      ${iso ? `<tr><td>data</td><td class="text-right text-nowrap"><time datetime="${iso}">${dateTimeFormat.format(new Date(iso))}</time></td></tr>` : ""}
       ${rows}
     </table>`
 }
